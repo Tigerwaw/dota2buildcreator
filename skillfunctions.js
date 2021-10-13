@@ -4,10 +4,10 @@ $(document).ready(function()
 	var charLevel = 1;
 	var heroData;
 	
-	createSkillBox('images/enchantress_impetus.png', 'one');
-	createSkillBox('images/enchantress_enchant.png', 'two');
-	createSkillBox('images/enchantress_natures_attendants.png', 'three');
-	createSkillBox('images/enchantress_untouchable.png', 'four');
+	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'one');
+	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'two');
+	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'three');
+	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'four');
 	
 	$("#skillTooltip").hide();
 	
