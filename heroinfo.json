@@ -2,6 +2,8 @@
 	"name":"Enchantress",
 	"skills":[
 		{"name":"Impetus", "description":"desc"},
-		{"name":"Enchant", "description":"desc"}
+		{"name":"Enchant", "description":"desc"},
+		{"name":"Nature's Attendants", "description":"desc"},
+		{"name":"Untouchable", "description":"desc"}
 	]
 }
