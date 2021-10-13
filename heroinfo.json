@@ -3,22 +3,22 @@
 	"skills":[
 		{"name":"Impetus", 
 		 "description":"Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is. The farther the target, the greater the damage dealt.",
-		 "cooldown":"",
-		 "manacost":""},
+		 "cooldown":"6/4/2/0",
+		 "manacost":"55"},
 		 
 		{"name":"Enchant", 
 		 "description":"Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control.",
-		 "cooldown":"",
-		 "manacost":""},
+		 "cooldown":"28/24/20/16",
+		 "manacost":"40/50/60/70"},
 		 
 		{"name":"Nature's Attendants", 
 		 "description":"A cloud of wisps heals Enchantress and any friendly units nearby. Lasts seconds.",
-		 "cooldown":"",
-		 "manacost":""},
+		 "cooldown":"35",
+		 "manacost":"170/160/150/140"},
 		 
 		{"name":"Untouchable", 
 		 "description":"Enchantress beguiles her enemies, slowing their attacks when she is attacked.",
-		 "cooldown":"",
-		 "manacost":""}
+		 "cooldown":"0",
+		 "manacost":"0"}
 	]
 }
