@@ -35,14 +35,6 @@ input[type="button"]:active
 	padding: 5px;
 }
 
-.placeholderimg
-{
-	width: 80px;
-	height: 80px;
-	background-color: gray;
-	margin-right: 3px;
-}
-
 .skillPoint
 {
 	display: inline;
@@ -107,6 +99,12 @@ input[type="button"]:active
 {
 	padding: 0;
 	margin: 0;
+}
+
+#heroImage
+{
+	width: 256px;
+	height: 144px;
 }
 
 #heroInfo
