@@ -2,6 +2,7 @@ $(document).ready(function()
 {
 	const skillsArray = [new Skill(), new Skill(), new Skill(), new UltSkill()];
 	var charLevel = 1;
+	var heroData;
 	
 	createSkillBox('images/enchantress_impetus.png', 'one');
 	createSkillBox('images/enchantress_enchant.png', 'two');
@@ -40,21 +41,29 @@ $(document).ready(function()
 		}
 	});
 	
-	// When hovering over the skill icon a pop-up window shows the details about the skill.
-	$(".iconImage").hover(function()
-	{
-		$("#skillTooltip").show();
-		$.getJSON("test.json", function(result)
+	$(".iconImage").on({
+    mouseenter: function() 
 		{
-			$.each(result, function(i, field)
-			{
-				$("div").append(field + " ");
-			});
-		});
-	}, function()
-	{
-		$("#skillTooltip").hide();
+      var index = $(this).closest(".skill").index();
+			updateToolTip(heroData, index);
+			$("#skillTooltip").show();
+    },
+    mouseleave: function() 
+		{
+      $("#skillTooltip").hide();
+		}
 	});
+	
+	
+	//Handles external json-data.
+	const xmlhttp = new XMLHttpRequest();
+	xmlhttp.onload = function()
+	{
+		heroData = JSON.parse(this.responseText);
+		applyHeroData(heroData);
+	}
+	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
+	xmlhttp.send();
 });
 
 function createSkillBox(image, id)
@@ -91,4 +100,30 @@ function createSkillBox(image, id)
 			<div class='skillPoint'></div> \
 			<div class='skillPoint'></div> \
 		</div>").appendTo("#skillsBox");
+}
+
+function applyHeroData(data)
+{
+	document.getElementById("heroName").innerHTML = data.name;
+	document.getElementById("heroImage").src = data.image;
+	
+	var childArray = $("#skillsBox").children();
+	console.log(childArray);
+	
+	for (var i = 0; i < 4; i++)
+	{
+		console.log(childArray[i]);
+		childArray[i].getElementsByTagName("img")[0].src = data.skills[i].image;
+		childArray[i].getElementsByTagName("img")[0].setAttribute("class", "iconImage");
+	}
+}
+
+function updateToolTip(data, index)
+{
+	document.getElementById("toolTipSkillName").innerHTML = data.skills[index].name;
+	document.getElementById("tooltipImage").src = data.skills[index].image;
+	document.getElementById("toolTipDesc").innerHTML = data.skills[index].description;
+	document.getElementById("toolTipSkillInfo").innerHTML = data.skills[index].skillinfo;
+	document.getElementById("toolTipSkillCooldown").innerHTML = "Cooldown: " + data.skills[index].cooldown;
+	document.getElementById("toolTipSkillMana").innerHTML = "Manacost: " + data.skills[index].manacost;
 }
