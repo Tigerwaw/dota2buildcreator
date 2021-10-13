@@ -108,11 +108,9 @@ function applyHeroData(data)
 	document.getElementById("heroImage").src = data.image;
 	
 	var childArray = $("#skillsBox").children();
-	console.log(childArray);
 	
 	for (var i = 0; i < 4; i++)
 	{
-		console.log(childArray[i]);
 		childArray[i].getElementsByTagName("img")[0].src = data.skills[i].image;
 		childArray[i].getElementsByTagName("img")[0].setAttribute("class", "iconImage");
 	}

@@ -16,10 +16,6 @@ class Skill
 		this.assignedPoints.push(charLevel);
 		this.level += 1;
 		
-		console.log("The level of this skill is " + this.level);
-		console.log("Character level is " + charLevel);
-		console.log(this.assignedPoints[this.level - 1]);
-		
 		return true;
 	}
 	

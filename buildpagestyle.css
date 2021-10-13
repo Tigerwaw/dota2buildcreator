@@ -70,7 +70,7 @@ input[type="button"]:active
 	margin-right: 3px;
 }
 
-.statText
+.statRow > p
 {
 	font-size: 18px;
 	margin: 4px;
