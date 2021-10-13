@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Dota 2 Build Creator</title>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="buildpagestyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="skillclasses.js"></script>
+		<script src="skillfunctions.js"></script>
+	</head>
+	<body>
+	
+		<h1 id="heroName">Enchantress</h1>
+		<div id="heroInfo">
+			<img src="images/enchantress.png" alt="Placeholder icon" id="heroImage">
+			<div id="stats">
+				<div class="statRow"><img src="images/hero_strength.png" alt="Placeholder icon"><p class="statText">17</p></div>
+				<div class="statRow"><img src="images/hero_agility.png" alt="Placeholder icon"><p class="statText">19</p></div>
+				<div class="statRow"><img src="images/hero_intelligence.png" alt="Placeholder icon"><p class="statText">22</p></div>
+			</div>
+		</div>
+		
+		<div id="skillsBox">
+		</div>
+		
+		<div id="skillTooltip">
+			<div id="tooltipTop">
+				<img src="images/enchantress_impetus.png" alt="Placeholder icon" id="tooltipImage">
+				<div id="container">
+					<h1>Skill Name</h1>
+					<p>Skill Description</p>
+				</div>
+			</div>
+			<div id="tooltipBot">
+				<p>Skill Info</p>
+				<p>Cooldown</p>
+				<p>Manacost</p>
+			</div>
+		</div>
+	</body>
+</html>

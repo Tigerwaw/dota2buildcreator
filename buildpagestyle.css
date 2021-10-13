@@ -1,0 +1,157 @@
+/* --- Elements --- */
+
+body
+{
+	font-family: arial;
+	background-color: #c8c8c8;
+	padding-left: 35%;
+}
+
+input[type="button"]
+{
+	margin-right: 3px;
+	background-color: #777777;
+	border: none;
+}
+
+input[type="button"]:hover
+{
+	background-color: #616161;
+}
+
+input[type="button"]:active
+{
+	background-color: #3f3f3f;
+}
+
+
+/* --- Classes --- */
+
+.skill
+{
+	display: flex;
+	border: 2px black solid;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.placeholderimg
+{
+	width: 80px;
+	height: 80px;
+	background-color: gray;
+	margin-right: 3px;
+}
+
+.skillPoint
+{
+	display: inline;
+	width: 10px;
+	margin-right: 3px;
+	padding: 4px;
+	background-color: #777777;
+}
+
+.skillButtons
+{
+	display: flex;
+	flex-direction: column;
+	width: 50px;
+}
+
+.levelUp
+{
+	margin-bottom: 2px;
+}
+
+.levelUp, .levelDown
+{
+	color: white;
+	font-size: 24px;
+	padding: 5px;
+}
+
+.iconImage
+{
+	width: 80px;
+	height: 80px;
+	margin-right: 3px;
+}
+
+.statText
+{
+	font-size: 18px;
+	margin: 4px;
+}
+
+.statRow
+{
+	display: flex;
+}
+
+.statRow > img
+{
+	width: 32px;
+	height: 32px;
+}
+
+
+/* --- IDs --- */
+
+#skillsBox
+{
+	display: inline-block;
+}
+
+#heroName
+{
+	padding: 0;
+	margin: 0;
+}
+
+#heroInfo
+{
+	display: flex;
+}
+
+#skillTooltip
+{
+	background-color: #3c3c3c;
+	display: inline-block;
+	color: #ebebeb;
+}
+
+#tooltipImage
+{
+	width: 80px;
+	height: 80px;
+}
+
+#stats
+{
+	padding: 20px;
+	padding-left: 5px;
+}
+
+#tooltipTop
+{
+	display: flex;
+	padding: 5px;
+}
+
+#tooltipTop > #container
+{
+	margin: 0;
+	display: block;
+}
+
+#tooltipTop > #container > h1, p
+{
+	text-align: top;
+	margin: 0;
+}
+
+#tooltipBot
+{
+	padding: 5px;
+}
