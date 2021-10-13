@@ -1,9 +1,13 @@
 {
 	"name":"Enchantress",
 	"skills":[
-		{"name":"Impetus", "description":"desc"},
-		{"name":"Enchant", "description":"desc"},
-		{"name":"Nature's Attendants", "description":"desc"},
-		{"name":"Untouchable", "description":"desc"}
+		{"name":"Impetus", 
+		"description":"Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is. The farther the target, the greater the damage dealt."},
+		{"name":"Enchant", 
+		"description":"Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control."},
+		{"name":"Nature's Attendants", 
+		"description":"A cloud of wisps heals Enchantress and any friendly units nearby. Lasts seconds."},
+		{"name":"Untouchable", 
+		"description":"Enchantress beguiles her enemies, slowing their attacks when she is attacked."}
 	]
 }
