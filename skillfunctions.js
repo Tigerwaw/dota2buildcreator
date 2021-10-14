@@ -67,7 +67,7 @@ $(document).ready(function()
 		heroData = JSON.parse(this.responseText);
 		applyHeroData(heroData.heroes[heroIndex]);
 	}
-	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
+	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo2.json", true);
 	xmlhttp.send();
 });
 
@@ -109,31 +109,31 @@ function createSkillBox(image, id)
 
 function applyHeroData(data)
 {
-	document.getElementById("heroName").innerHTML = data.name;
-	document.getElementById("heroImage").src = data.image;
-	document.getElementById("strText").innerHTML = data.stats.strength;
-	document.getElementById("agiText").innerHTML = data.stats.agility;
-	document.getElementById("intText").innerHTML = data.stats.intelligence;
-	document.getElementById("atkText").innerHTML = data.stats.damage;
-	document.getElementById("armorText").innerHTML = data.stats.armor;
-	document.getElementById("mSpeedText").innerHTML = data.stats.mSpeed;
+	document.getElementById("heroName").innerHTML = data.heroName;
+	document.getElementById("heroImage").src = data.heroIcon-src;
+	document.getElementById("strText").innerHTML = data.heroAttrBase[0] + data.heroAttrGrowth[0];
+	document.getElementById("agiText").innerHTML = data.heroAttrBase[1] + data.heroAttrGrowth[1];
+	document.getElementById("intText").innerHTML = data.heroAttrBase[2] + data.heroAttrGrowth[2];
+	document.getElementById("atkText").innerHTML = data.heroDamage;
+	document.getElementById("armorText").innerHTML = data.heroArmor;
+	document.getElementById("mSpeedText").innerHTML = data.heroSpeed;
 	
 	
 	var childArray = $("#skillsBox").children();
 	
 	for (var i = 0; i < 4; i++)
 	{
-		childArray[i].getElementsByTagName("img")[0].src = data.skills[i].image;
+		childArray[i].getElementsByTagName("img")[0].src = data.abilities[i].abilityIcon-src;
 		childArray[i].getElementsByTagName("img")[0].setAttribute("class", "iconImage");
 	}
 }
 
 function updateToolTip(data, index)
 {
-	document.getElementById("toolTipSkillName").innerHTML = data.skills[index].name;
-	document.getElementById("tooltipImage").src = data.skills[index].image;
-	document.getElementById("toolTipDesc").innerHTML = data.skills[index].description;
-	document.getElementById("toolTipSkillInfo").innerHTML = data.skills[index].skillinfo;
-	document.getElementById("toolTipSkillCooldown").innerHTML = "Cooldown: " + data.skills[index].cooldown;
-	document.getElementById("toolTipSkillMana").innerHTML = "Manacost: " + data.skills[index].manacost;
+	document.getElementById("toolTipSkillName").innerHTML = data.abilities[index].abilityName;
+	document.getElementById("tooltipImage").src = data.abilities[index].abilityIcon-src;
+	document.getElementById("toolTipDesc").innerHTML = data.abilities[index].abilityDesc;
+	document.getElementById("toolTipSkillCooldown").innerHTML = "Cooldown: " + data.abilities[index].abilityCooldown;
+	document.getElementById("toolTipSkillMana").innerHTML = "Manacost: " + data.abilities[index].abilityMana;
+	document.getElementById("toolTipSkillInfo").innerHTML = data.abilities[index].abilityInfo[0];
 }
