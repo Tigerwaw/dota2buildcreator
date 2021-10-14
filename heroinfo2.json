@@ -16,7 +16,7 @@
          "skillDesc": "Hurls a bolt of lightning that leaps through nearby enemy units.",
          "skillCooldown": "1.6",
          "skillMana": "80",
-         "skillInfo": [{\"skillInfo\":\"DAMAGE:75 / 100 / 125 / 150\"},{\"skillInfo\":\"JUMPS:5 / 7 / 9 / 15\"}]
+         "skillInfo": [{"skillInfo":"DAMAGE:75 / 100 / 125 / 150"},{"skillInfo":"JUMPS:5 / 7 / 9 / 15"}]
       },
       {
          "skillName": "Lightning Bolt",
@@ -24,7 +24,7 @@
          "skillDesc": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range.",
          "skillCooldown": "6.0 / 6.0 / 6.0 / 6.0",
          "skillMana": "120 / 125 / 130 / 135",
-         "skillInfo": [{\"skillInfo\":\"Damage:125 / 200 / 275 / 350\"},{\"skillInfo\":\"SIGHT RADIUS:750\"},{\"skillInfo\":\"SIGHT DURATION:5.0\"},{\"skillInfo\":\"CAST RANGE:700 / 750 / 800 / 850\"}]
+         "skillInfo": [{"skillInfo":"Damage:125 / 200 / 275 / 350"},{"skillInfo":"SIGHT RADIUS:750"},{"skillInfo":"SIGHT DURATION:5.0"},{"skillInfo":"CAST RANGE:700 / 750 / 800 / 850"}]
       },
       {
          "skillName": "Static Field",
@@ -32,7 +32,7 @@
          "skillDesc": "Zeus shocks any enemy hit by his abilities, causing damage proportional to their current health.",
          "skillCooldown": null,
          "skillMana": null,
-         "skillInfo": [{\"skillInfo\":\"HEALTH REDUCTION:4.0% / 6.0% / 8.0% / 10.0%\"}]
+         "skillInfo": [{"skillInfo":"HEALTH REDUCTION:4.0% / 6.0% / 8.0% / 10.0%"}]
       },
       {
          "skillName": "Thundergod's Wrath",
@@ -40,7 +40,7 @@
          "skillDesc": "Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.",
          "skillCooldown": "130.0 / 125.0 / 120.0",
          "skillMana": "300 / 400 / 500",
-         "skillInfo": [{\"skillInfo\":\"TRUE SIGHT RADIUS:500\"},{\"skillInfo\":\"DURATION:3.0\"},{\"skillInfo\":\"DAMAGE:300 / 425 / 550\"}]
+         "skillInfo": [{"skillInfo":"TRUE SIGHT RADIUS:500"},{"skillInfo":"DURATION:3.0"},{"skillInfo":"DAMAGE:300 / 425 / 550"}]
       }
    ]
 },
@@ -49,8 +49,8 @@
    "hero-href": "https://www.dota2.com/hero/wraithking",
    "heroName": "Wraith King",
    "heroIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png",
-   "heroAttrBase": [{\"heroAttrBase\":\"22\"},{\"heroAttrBase\":\"18\"},{\"heroAttrBase\":\"18\"}],
-   "heroAttrGrowth": [{\"heroAttrGrowth\":\"+3.0\"},{\"heroAttrGrowth\":\"+1.7\"},{\"heroAttrGrowth\":\"+1.6\"}],
+   "heroAttrBase": [{"heroAttrBase":"22"},{"heroAttrBase":"18"},{"heroAttrBase":"18"}],
+   "heroAttrGrowth": [{"heroAttrGrowth":"+3.0"},{"heroAttrGrowth":"+1.7"},{"heroAttrGrowth":"+1.6"}],
    "heroDamage": "60-62",
    "heroArmor": 2,
    "heroSpeed": 315,
@@ -61,7 +61,7 @@
          "skillDesc": "Wraith King sears an enemy unit with spectral fire, dealing damage and stunning, then dealing damage over time and slowing the target.",
          "skillCooldown": "17.0 / 14.0 / 11.0 / 8.0",
          "skillMana": "95 / 110 / 125 / 140",
-         "skillInfo": [{\"skillInfo\":\"Damage:60 / 80 / 100 / 120\"},{\"skillInfo\":\"STUN DURATION:1.1 / 1.4 / 1.7 / 2.0\"},{\"skillInfo\":\"SLOW DURATION:2.0\"},{\"skillInfo\":\"MOVEMENT SLOW:-20%\"},{\"skillInfo\":\"DAMAGE PER SECOND:20 / 40 / 60 / 80\"}]
+         "skillInfo": [{"skillInfo":"Damage:60 / 80 / 100 / 120"},{"skillInfo":"STUN DURATION:1.1 / 1.4 / 1.7 / 2.0"},{"skillInfo":"SLOW DURATION:2.0"},{"skillInfo":"MOVEMENT SLOW:-20%"},{"skillInfo":"DAMAGE PER SECOND:20 / 40 / 60 / 80"}]
       },
       {
          "skillName": "Vampiric Spirit",
@@ -69,7 +69,7 @@
          "skillDesc": "Restore health based on the damage Wraith King deals when attacking enemy units. Can be cast to summon skeletons with Vampiric Spirit. Every two kills on an enemy unit adds a skeleton charge. Skeletons respawn once when killed.",
          "skillCooldown": "50",
          "skillMana": "70 / 80 / 90 / 100",
-         "skillInfo": [{\"skillInfo\":\"LIFESTEAL:10% / 18% / 26% / 34%\"},{\"skillInfo\":\"SKELETON DURATION:60.0\"},{\"skillInfo\":\"MAX CHARGES:2 / 4 / 6 / 8\"}]
+         "skillInfo": [{"skillInfo":"LIFESTEAL:10% / 18% / 26% / 34%"},{"skillInfo":"SKELETON DURATION:60.0"},{"skillInfo":"MAX CHARGES:2 / 4 / 6 / 8"}]
       },
       {
          "skillName": "Mortal Strike",
@@ -77,7 +77,7 @@
          "skillDesc": "Wraith King passively deals bonus damage on an attack with a cooldown.",
          "skillCooldown": "5.5 / 5.0 / 4.5 / 4.0",
          "skillMana": "0 / 0 / 0 / 0",
-         "skillInfo": [{\"skillInfo\":\"CRITICAL DAMAGE:150% / 190% / 230% / 270%\"}]
+         "skillInfo": [{"skillInfo":"CRITICAL DAMAGE:150% / 190% / 230% / 270%"}]
       },
       {
          "skillName": "Reincarnation",
@@ -85,7 +85,7 @@
          "skillDesc": "Wraith King's form regroups after death, allowing him to resurrect when killed in battle.  Upon death, enemy units in a 900 radius will be slowed.",
          "skillCooldown": "200.0 / 130.0 / 60.0",
          "skillMana": "180",
-         "skillInfo": [{\"skillInfo\":\"REINCARNATION TIME:3.0\"},{\"skillInfo\":\"MOVEMENT SLOW:-75%\"},{\"skillInfo\":\"ATTACK SPEED SLOW:-75\"},{\"skillInfo\":\"SLOW DURATION:5.0\"},{\"skillInfo\":\"SCEPTER ALLY DEATH DELAY:7.0\"},{\"skillInfo\":\"SCEPTER DEATH DELAY RADIUS:1200\"}]
+         "skillInfo": [{"skillInfo":"REINCARNATION TIME:3.0"},{"skillInfo":"MOVEMENT SLOW:-75%"},{"skillInfo":"ATTACK SPEED SLOW:-75"},{"skillInfo":"SLOW DURATION:5.0"},{"skillInfo":"SCEPTER ALLY DEATH DELAY:7.0"},{"skillInfo":"SCEPTER DEATH DELAY RADIUS:1200"}]
       }
    ]
 	}
