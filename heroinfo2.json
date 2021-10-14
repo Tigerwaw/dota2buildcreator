@@ -1,7 +1,7 @@
 [
  {
 	"heroName": "Zeus",
-	"heroIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png",
+	"heroIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png",
 	"heroAttrBase": "[{\"heroAttrBase\":\"19\"},{\"heroAttrBase\":\"11\"},{\"heroAttrBase\":\"22\"}]",
 	"heroAttrGrowth": "[{\"heroAttrGrowth\":\"+2.1\"},{\"heroAttrGrowth\":\"+1.2\"},{\"heroAttrGrowth\":\"+3.3\"}]",
 	"heroDamage": "55-63",
@@ -10,7 +10,7 @@
 	"abilities":[
 	{
 		"abilityName": "Arc Lightning",
-		"abilityIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_arc_lightning.png",
+		"abilityIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_arc_lightning.png",
 		"abilityDesc": "Hurls a bolt of lightning that leaps through nearby enemy units.",
 		"abilityCooldown": "1.6",
 		"abilityMana": "80",
@@ -18,7 +18,7 @@
 	},
 	{
 		"abilityName": "Lightning Bolt",
-		"abilityIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_lightning_bolt.png",
+		"abilityIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_lightning_bolt.png",
 		"abilityDesc": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range.",
 		"abilityCooldown": "6.0 / 6.0 / 6.0 / 6.0",
 		"abilityMana": "120 / 125 / 130 / 135",
@@ -26,7 +26,7 @@
 	},
 	{
 		"abilityName": "Static Field",
-		"abilityIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_static_field.png",
+		"abilityIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_static_field.png",
 		"abilityDesc": "Zeus shocks any enemy hit by his abilities, causing damage proportional to their current health.",
 		"abilityCooldown": null,
 		"abilityMana": null,
@@ -34,7 +34,7 @@
 	},
 	{
 		"abilityName": "Thundergod's Wrath",
-		"abilityIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_thundergods_wrath.png",
+		"abilityIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_thundergods_wrath.png",
 		"abilityDesc": "Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.",
 		"abilityCooldown": "130.0 / 125.0 / 120.0",
 		"abilityMana": "300 / 400 / 500",
@@ -42,7 +42,7 @@
 	}]},
  {
 	 "heroName": "Wraith King",
-	 "heroIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png",
+	 "heroIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png",
 	 "heroAttrBase": "[{\"heroAttrBase\":\"22\"},{\"heroAttrBase\":\"18\"},{\"heroAttrBase\":\"18\"}]",
 	 "heroAttrGrowth": "[{\"heroAttrGrowth\":\"+3.0\"},{\"heroAttrGrowth\":\"+1.7\"},{\"heroAttrGrowth\":\"+1.6\"}]",
 	 "heroDamage": "60-62",
@@ -51,7 +51,7 @@
 	 "abilities":[
 		{
 		 "abilityName": "Wraithfire Blast",
-		 "abilityIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_hellfire_blast.png",
+		 "abilityIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_hellfire_blast.png",
 		 "abilityDesc": "Wraith King sears an enemy unit with spectral fire, dealing damage and stunning, then dealing damage over time and slowing the target.",
 		 "abilityCooldown": "17.0 / 14.0 / 11.0 / 8.0",
 		 "abilityMana": "95 / 110 / 125 / 140",
@@ -59,7 +59,7 @@
 		},
 		{
 		 "abilityName": "Vampiric Spirit",
-		 "abilityIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_vampiric_aura.png",
+		 "abilityIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_vampiric_aura.png",
 		 "abilityDesc": "Restore health based on the damage Wraith King deals when attacking enemy units. Can be cast to summon skeletons with Vampiric Spirit. Every two kills on an enemy unit adds a skeleton charge. Skeletons respawn once when killed.",
 		 "abilityCooldown": "50",
 		 "abilityMana": "70 / 80 / 90 / 100",
@@ -67,7 +67,7 @@
 		},
 		{
 		 "abilityName": "Mortal Strike",
-		 "abilityIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_mortal_strike.png",
+		 "abilityIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_mortal_strike.png",
 		 "abilityDesc": "Wraith King passively deals bonus damage on an attack with a cooldown.",
 		 "abilityCooldown": "5.5 / 5.0 / 4.5 / 4.0",
 		 "abilityMana": "0 / 0 / 0 / 0",
@@ -75,7 +75,7 @@
 		},
 		{
 		 "abilityName": "Reincarnation",
-		 "abilityIcon-src": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_reincarnation.png",
+		 "abilityIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/skeleton_king_reincarnation.png",
 		 "abilityDesc": "Wraith King's form regroups after death, allowing him to resurrect when killed in battle.  Upon death, enemy units in a 900 radius will be slowed.",
 		 "abilityCooldown": "200.0 / 130.0 / 60.0",
 		 "abilityMana": "180",

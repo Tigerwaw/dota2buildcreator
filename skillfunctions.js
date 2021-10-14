@@ -65,7 +65,7 @@ $(document).ready(function()
 	xmlhttp.onload = function()
 	{
 		heroData = JSON.parse(this.responseText);
-		applyHeroData(heroData.heroes[heroIndex]);
+		applyHeroData(heroData[heroIndex]);
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo2.json", true);
 	xmlhttp.send();
@@ -110,7 +110,7 @@ function createSkillBox(image, id)
 function applyHeroData(data)
 {
 	document.getElementById("heroName").innerHTML = data.heroName;
-	document.getElementById("heroImage").src = data.heroIcon-src;
+	document.getElementById("heroImage").src = data.heroIcon;
 	document.getElementById("strText").innerHTML = data.heroAttrBase[0] + data.heroAttrGrowth[0];
 	document.getElementById("agiText").innerHTML = data.heroAttrBase[1] + data.heroAttrGrowth[1];
 	document.getElementById("intText").innerHTML = data.heroAttrBase[2] + data.heroAttrGrowth[2];
@@ -123,7 +123,7 @@ function applyHeroData(data)
 	
 	for (var i = 0; i < 4; i++)
 	{
-		childArray[i].getElementsByTagName("img")[0].src = data.abilities[i].abilityIcon-src;
+		childArray[i].getElementsByTagName("img")[0].src = data.abilities[i].abilityIcon;
 		childArray[i].getElementsByTagName("img")[0].setAttribute("class", "iconImage");
 	}
 }
@@ -131,7 +131,7 @@ function applyHeroData(data)
 function updateToolTip(data, index)
 {
 	document.getElementById("toolTipSkillName").innerHTML = data.abilities[index].abilityName;
-	document.getElementById("tooltipImage").src = data.abilities[index].abilityIcon-src;
+	document.getElementById("tooltipImage").src = data.abilities[index].abilityIcon;
 	document.getElementById("toolTipDesc").innerHTML = data.abilities[index].abilityDesc;
 	document.getElementById("toolTipSkillCooldown").innerHTML = "Cooldown: " + data.abilities[index].abilityCooldown;
 	document.getElementById("toolTipSkillMana").innerHTML = "Manacost: " + data.abilities[index].abilityMana;
