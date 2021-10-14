@@ -67,7 +67,7 @@ $(document).ready(function()
 		heroData = JSON.parse(this.responseText);
 		applyHeroData(heroData[heroIndex]);
 	}
-	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo2.json", true);
+	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
 	xmlhttp.send();
 });
 
