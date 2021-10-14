@@ -3,6 +3,7 @@ $(document).ready(function()
 	const skillsArray = [new Skill(), new Skill(), new Skill(), new UltSkill()];
 	var charLevel = 1;
 	var heroData;
+	var heroIndex = 1;
 	
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'one');
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'two');
@@ -45,7 +46,7 @@ $(document).ready(function()
     mouseenter: function() 
 		{
       var index = $(this).closest(".skill").index();
-			updateToolTip(heroData, index);
+			updateToolTip(heroData.heroes[heroIndex], index);
 			$("#skillTooltip").show();
     },
     mouseleave: function() 
@@ -60,7 +61,7 @@ $(document).ready(function()
 	xmlhttp.onload = function()
 	{
 		heroData = JSON.parse(this.responseText);
-		applyHeroData(heroData);
+		applyHeroData(heroData.heroes[heroIndex]);
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
 	xmlhttp.send();
