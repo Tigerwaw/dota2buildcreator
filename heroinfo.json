@@ -3,7 +3,7 @@
 	{
 	"name":"Enchantress",
 	"image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/4/41/Enchantress_icon.png",
-	"stats":[
+	"stats":
 		{"strBase":"17",
 		 "agiBase":"19",
 		 "intBase":"22",
@@ -12,8 +12,7 @@
 		 "intGrowth":"3.8",
 		 "damage":"44-55",
 		 "armor":"4.17",
-		 "mSpeed":"320"}
-		 ],
+		 "mSpeed":"320"},
 	"skills":[
 		{"name":"Impetus",
 		 "image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png",
