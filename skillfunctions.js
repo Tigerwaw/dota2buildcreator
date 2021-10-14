@@ -50,7 +50,7 @@ $(document).ready(function()
     mouseenter: function() 
 		{
       var index = $(this).closest(".skill").index();
-			updateToolTip(heroData.heroes[heroIndex], index);
+			updateToolTip(heroData[heroIndex], index);
 			$("#skillTooltip").show();
     },
     mouseleave: function() 
@@ -123,17 +123,17 @@ function applyHeroData(data)
 	
 	for (var i = 0; i < 4; i++)
 	{
-		childArray[i].getElementsByTagName("img")[0].src = data.abilities[i].abilityIcon;
+		childArray[i].getElementsByTagName("img")[0].src = data.skills[i].skillIcon;
 		childArray[i].getElementsByTagName("img")[0].setAttribute("class", "iconImage");
 	}
 }
 
 function updateToolTip(data, index)
 {
-	document.getElementById("toolTipSkillName").innerHTML = data.abilities[index].abilityName;
-	document.getElementById("tooltipImage").src = data.abilities[index].abilityIcon;
-	document.getElementById("toolTipDesc").innerHTML = data.abilities[index].abilityDesc;
-	document.getElementById("toolTipSkillCooldown").innerHTML = "Cooldown: " + data.abilities[index].abilityCooldown;
-	document.getElementById("toolTipSkillMana").innerHTML = "Manacost: " + data.abilities[index].abilityMana;
-	document.getElementById("toolTipSkillInfo").innerHTML = data.abilities[index].abilityInfo[0];
+	document.getElementById("toolTipSkillName").innerHTML = data.skills[index].skillName;
+	document.getElementById("tooltipImage").src = data.skills[index].skillIcon;
+	document.getElementById("toolTipDesc").innerHTML = data.skills[index].skillDesc;
+	document.getElementById("toolTipSkillCooldown").innerHTML = "Cooldown: " + data.skills[index].skillCooldown;
+	document.getElementById("toolTipSkillMana").innerHTML = "Manacost: " + data.skills[index].skillMana;
+	document.getElementById("toolTipSkillInfo").innerHTML = data.skills[index].skillInfo[0];
 }
