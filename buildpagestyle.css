@@ -27,6 +27,11 @@ input[type="button"]:active
 
 /* --- Classes --- */
 
+.attributes
+{
+	margin-right: 20px;
+}
+
 .skill
 {
 	display: flex;
@@ -70,18 +75,18 @@ input[type="button"]:active
 	margin-right: 3px;
 }
 
-.statRow > p
+.attributeRow > p
 {
 	font-size: 18px;
 	margin: 4px;
 }
 
-.statRow
+.attributeRow
 {
 	display: flex;
 }
 
-.statRow > img
+.attributeRow > img
 {
 	width: 32px;
 	height: 32px;
@@ -130,6 +135,8 @@ input[type="button"]:active
 {
 	padding: 20px;
 	padding-left: 5px;
+	display: flex;
+	flex-direction: row;
 }
 
 #tooltipTop
