@@ -5082,5 +5082,5 @@
    "skillCooldown": "60.0 / 50.0 / 40.0",
    "skillMana": "0 / 0 / 0",
    "skillInfo": ["HEALTH THRESHOLD:400","DURATION:4.0 / 5.0 / 6.0","SCEPTER DURATION:7.0 / 8.0 / 9.0","SCEPTER DAMAGE THRESHOLD:525","SCEPTER RANGE:1600"]
- }}
+ }]}
 ]
