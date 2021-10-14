@@ -1,4 +1,5 @@
-{
+"heroes":[
+	{
 	"name":"Enchantress",
 	"image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/4/41/Enchantress_icon.png",
 	"skills":[
@@ -29,5 +30,37 @@
 		 "skillinfo":"Attack Speed Slow: 120/160/200",
 		 "cooldown":"0",
 		 "manacost":"0"}
-	]
-}
+	]},
+	{
+	"name":"Enchantress",
+	"image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/4/41/Enchantress_icon.png",
+	"skills":[
+		{"name":"Impetus",
+		 "image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png",
+		 "description":"Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is. The farther the target, the greater the damage dealt.",
+		 "skillinfo":"Distance as Damage: 8%/12%/16%/20%",
+		 "cooldown":"6/4/2/0",
+		 "manacost":"55"},
+		 
+		{"name":"Enchant", 
+		 "image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3a/Enchant_icon.png",
+		 "description":"Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control.",
+		 "skillinfo":"Hero Slow Duration: 3.75/4.5/5.25/6",
+		 "cooldown":"28/24/20/16",
+		 "manacost":"40/50/60/70"},
+		 
+		{"name":"Nature's Attendants",
+		 "image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/5/50/Nature%27s_Attendants_icon.png",
+		 "description":"A cloud of wisps heals Enchantress and any friendly units nearby. Lasts seconds.",
+		 "skillinfo":"Heal per Second per Wisp: 4/8/12/16",
+		 "cooldown":"35",
+		 "manacost":"170/160/150/140"},
+		 
+		{"name":"Untouchable",
+		 "image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/0/0d/Untouchable_icon.png",
+		 "description":"Enchantress beguiles her enemies, slowing their attacks when she is attacked.",
+		 "skillinfo":"Attack Speed Slow: 120/160/200",
+		 "cooldown":"0",
+		 "manacost":"0"}
+	]},
+]}
