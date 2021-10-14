@@ -45,7 +45,7 @@
 	{
 	"name":"Legion Commander",
 	"image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a2/Legion_Commander_icon.png",
-	"stats":[
+	"stats":
 		{"strBase":"25",
 		 "agiBase":"18",
 		 "intBase":"20",
@@ -54,8 +54,7 @@
 		 "intGrowth":"2.2",
 		 "damage":"60-64",
 		 "armor":"3",
-		 "mSpeed":"330"}
-		 ],
+		 "mSpeed":"330"},
 	"skills":[
 		{"name":"Overwhelming Odds",
 		 "image":"https://static.wikia.nocookie.net/dota2_gamepedia/images/4/49/Overwhelming_Odds_icon.png",
