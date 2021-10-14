@@ -40,7 +40,7 @@
 		 "skillCooldown": "130.0 / 125.0 / 120.0",
 		 "skillMana": "300 / 400 / 500",
 		 "skillInfo": ["TRUE SIGHT RADIUS:500","DURATION:3.0","DAMAGE:300 / 425 / 550"]
-	 }]},,
+	 }]},
  {
    "heroName": "Wraith King",
    "heroIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png",
