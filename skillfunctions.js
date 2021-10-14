@@ -3,7 +3,11 @@ $(document).ready(function()
 	const skillsArray = [new Skill(), new Skill(), new Skill(), new UltSkill()];
 	var charLevel = 1;
 	var heroData;
-	var heroIndex = 1;
+	var heroIndex = 0;
+	
+	// Gets the url parameter "hero" to figure out what hero the user clicked on the previous page.
+	var url = new URL(window.location.href);
+	heroIndex = url.searchParams.get("hero");
 	
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'one');
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'two');
@@ -110,9 +114,9 @@ function applyHeroData(data)
 	document.getElementById("strText_base").innerHTML = data.stats.strBase;
 	document.getElementById("agiText_base").innerHTML = data.stats.agiBase;
 	document.getElementById("intText_base").innerHTML = data.stats.intBase;
-	document.getElementById("strText_growth").innerHTML = data.stats.strGrowth;
-	document.getElementById("agiText_growth").innerHTML = data.stats.strGrowth;
-	document.getElementById("intText_growth").innerHTML = data.stats.strGrowth;
+	document.getElementById("strText_growth").innerHTML = " + " + data.stats.strGrowth;
+	document.getElementById("agiText_growth").innerHTML = " + " + data.stats.agiGrowth;
+	document.getElementById("intText_growth").innerHTML = " + " + data.stats.intGrowth;
 	document.getElementById("atkText").innerHTML = data.stats.damage;
 	document.getElementById("armorText").innerHTML = data.stats.armor;
 	document.getElementById("mSpeedText").innerHTML = data.stats.mSpeed;
