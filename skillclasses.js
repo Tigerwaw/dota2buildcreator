@@ -56,7 +56,7 @@ class StatSkill extends Skill
 	constructor()
 	{
 		super();
-		this.maxLevel = 7;
+		this.maxLevel = 6;
 		this.earliestPoint = [0, 0, 0, 0, 0, 0, 0];
 	}
 }

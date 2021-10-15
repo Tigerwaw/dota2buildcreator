@@ -134,6 +134,12 @@ input[type="button"]:active
 	margin: 0;
 }
 
+#heroImage
+{
+	width: 256px;
+	height: 144px;
+}
+
 #heroInfo
 {
 	display: flex;

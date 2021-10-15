@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-	const skillsArray = [new Skill(), new Skill(), new Skill(), new UltSkill()];
+	const skillsArray = [new Skill(), new Skill(), new Skill(), new UltSkill(), new TalentSkill(), new StatSkill()];
 	var charLevel = 1;
 	var heroData;
 	var heroIndex = 0;
@@ -13,6 +13,8 @@ $(document).ready(function()
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'two');
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'three');
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'four');
+	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'five');
+	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'six');
 	
 	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
 	const tooltipSkillInfoArr = document.getElementById("tooltipSkillInfo").children;
