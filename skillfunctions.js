@@ -14,6 +14,9 @@ $(document).ready(function()
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'three');
 	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'four');
 	
+	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
+	const tooltipSkillInfoArr = document.getElementById("tooltipSkillInfo").children;
+	
 	$("#skillTooltip").hide();
 	
 	$(".levelUp").click(function()
@@ -46,11 +49,12 @@ $(document).ready(function()
 		}
 	});
 	
+	// Toggles the visibility of the skill tooltip element, and calls a function to update the content of the tooltip.
 	$(".iconImage").on({
     mouseenter: function() 
 		{
       var index = $(this).closest(".skill").index();
-			updateToolTip(heroData[heroIndex], index);
+			updateToolTip(heroData[heroIndex], index, tooltipSkillInfoArr);
 			$("#skillTooltip").show();
     },
     mouseleave: function() 
@@ -128,12 +132,45 @@ function applyHeroData(data)
 	}
 }
 
-function updateToolTip(data, index)
+function updateToolTip(data, index, skillInfoArr)
 {
-	document.getElementById("toolTipSkillName").innerHTML = data.skills[index].skillName;
+	// Sets the name, icon, and description of the skill onto the tooltip.
+	document.getElementById("tooltipSkillName").innerHTML = data.skills[index].skillName;
 	document.getElementById("tooltipImage").src = data.skills[index].skillIcon;
-	document.getElementById("toolTipDesc").innerHTML = data.skills[index].skillDesc;
-	document.getElementById("toolTipSkillCooldown").innerHTML = "Cooldown: " + data.skills[index].skillCooldown;
-	document.getElementById("toolTipSkillMana").innerHTML = "Manacost: " + data.skills[index].skillMana;
-	document.getElementById("toolTipSkillInfo").innerHTML = data.skills[index].skillInfo[0];
+	document.getElementById("tooltipDesc").innerHTML = data.skills[index].skillDesc;
+	
+	// Hides the elements in skillInfoArr.
+	for (var i = 0; i < skillInfoArr.length; i++)
+	{
+		$(skillInfoArr[i]).hide();
+	}
+	
+	// Toggles the elements in skillInfoArr based on how many items are in the skills skillInfo-array.
+	for (var i = 0; i < data.skills[index].skillInfo.length; i++)
+	{
+		$(skillInfoArr[i]).text(data.skills[index].skillInfo[i]);
+		$(skillInfoArr[i]).show();
+	}
+	
+	// Hides the skills cooldown element if the value is null.
+	if (data.skills[index].skillCooldown == null)
+	{
+		$("#tooltipSkillCooldown").hide();
+	}
+	else
+	{
+		$("#tooltipSkillCooldown").show();
+		document.getElementById("tooltipSkillCooldown").innerHTML = "Cooldown: " + data.skills[index].skillCooldown;
+	}
+	
+	// Hides the skills mana element if the value is null.
+	if (data.skills[index].skillMana == null)
+	{
+		$("#tooltipSkillMana").hide();
+	}
+	else
+	{
+		$("#tooltipSkillMana").show();
+		document.getElementById("tooltipSkillMana").innerHTML = "Manacost: " + data.skills[index].skillMana;
+	}
 }

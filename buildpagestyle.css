@@ -4,7 +4,7 @@ body
 {
 	font-family: arial;
 	background-color: #c8c8c8;
-	padding-left: 35%;
+	margin: 0;
 }
 
 input[type="button"]
@@ -49,6 +49,12 @@ input[type="button"]:active
 	background-color: #777777;
 }
 
+.homeHeroIcon
+{
+	width: 128px;
+	height: 72px;
+}
+
 .skillButtons
 {
 	display: flex;
@@ -66,6 +72,11 @@ input[type="button"]:active
 	color: white;
 	font-size: 24px;
 	padding: 5px;
+}
+
+.indexTitle
+{
+	text-align: center;
 }
 
 .iconImage
@@ -95,6 +106,22 @@ input[type="button"]:active
 
 /* --- IDs --- */
 
+#main
+{
+	width: min-content;
+	margin: 0 auto 0;
+	padding: 0;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#heroes
+{
+	display: grid;
+  grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 3.5px;
+}
+
 #skillsBox
 {
 	display: inline-block;
@@ -102,14 +129,9 @@ input[type="button"]:active
 
 #heroName
 {
+	display: inline-block;
 	padding: 0;
 	margin: 0;
-}
-
-#heroImage
-{
-	width: 256px;
-	height: 144px;
 }
 
 #heroInfo
@@ -139,25 +161,29 @@ input[type="button"]:active
 	flex-direction: row;
 }
 
-#tooltipTop
+#tooltipTop, #tooltipTopInfo, #tooltipSkillInfo, #tooltipBot
 {
-	display: flex;
 	padding: 5px;
 }
 
-#tooltipTop > #container
+#tooltipTop
+{
+	display: flex;
+}
+
+#tooltipTop > div
 {
 	margin: 0;
 	display: block;
 }
 
-#tooltipTop > #container > h1, p
+#tooltipTop > div > h1, p
 {
 	text-align: top;
 	margin: 0;
 }
 
-#tooltipBot
+#tooltipSkillInfo
 {
-	padding: 5px;
+	font-size: 80%;
 }
