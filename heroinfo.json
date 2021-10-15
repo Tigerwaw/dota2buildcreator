@@ -2929,7 +2929,7 @@
    "heroSpeed": 320,
    "skills":[{"skillName": "Rage",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/life_stealer_rage.png",
-   "skillDesc": "Launch into a maddened rage, becoming Spell Immune, and gaining increased movement speed." \n\n + "DISPEL TYPE: Basic Dispel",
+   "skillDesc": "Launch into a maddened rage, becoming Spell Immune, and gaining increased movement speed.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "18",
    "skillMana": "75 / 100 / 125 / 150",
    "skillInfo": ["MOVE SPEED BONUS:15% / 16% / 17% / 18%","DURATION:3.0 / 4.0 / 5.0 / 6.0"]
