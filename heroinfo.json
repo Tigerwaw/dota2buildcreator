@@ -236,7 +236,7 @@
 	 {
 		 "skillName": "Time Lapse",
 		 "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/weaver_time_lapse.png",
-		 "skillDesc": "Weaver warps backward to whatever position it was in five seconds earlier--regaining the HP and mana from that time. No effect on cooldown, gold or experience.nnDISPEL TYPE: Strong Dispel",
+		 "skillDesc": "Weaver warps backward to whatever position it was in five seconds earlier--regaining the HP and mana from that time. No effect on cooldown, gold or experience.\n\nDISPEL TYPE: Strong Dispel",
 		 "skillCooldown": "70.0 / 55.0 / 40.0",
 		 "skillMana": "150 / 75 / 0",
 		 "skillInfo": ["SCEPTER COOLDOWN:20","SCEPTER ALLY CAST RANGE:600"]
@@ -518,7 +518,7 @@
 
    "skillName": "Enrage",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/ursa_enrage.png",
-   "skillDesc": "Ursa goes into a frenzy, providing damage reduction and status resistance. Removes any existing debuffs.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "Ursa goes into a frenzy, providing damage reduction and status resistance. Removes any existing debuffs.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": "70.0 / 50.0 / 30.0",
    "skillMana": "0 / 0 / 0",
    "skillInfo": ["DAMAGE REDUCTION:80%","STATUS RESISTANCE:50%","DURATION:4.0 / 4.5 / 5.0","SCEPTER COOLDOWN:30.0 / 24.0 / 18.0"]
@@ -905,7 +905,7 @@
 
    "skillName": "Kraken Shell",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tidehunter_kraken_shell.png",
-   "skillDesc": "Thickens Tidehunter's hide to passively block a portion of any incoming physical attack damage. The hide also removes negative status effects if the damage taken crosses a threshold.nnDoes not stack with items that provide Damage Block.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "Thickens Tidehunter's hide to passively block a portion of any incoming physical attack damage. The hide also removes negative status effects if the damage taken crosses a threshold.nnDoes not stack with items that provide Damage Block.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": null,
    "skillMana": null,
    "skillInfo": ["DAMAGE BLOCK:18 / 30 / 42 / 54","DAMAGE THRESHOLD:600 / 550 / 500 / 450","THRESHOLD TIMER:7.0"]
@@ -1311,7 +1311,7 @@
    "heroSpeed": 300,
    "skills":[{"skillName": "Dark Pact",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/slark_dark_pact.png",
-   "skillDesc": "After a short delay, Slark sacrifices some of his life blood, purging most negative debuffs and dealing damage to enemy units around him and to himself.  Slark only takes 30% of the damage.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "After a short delay, Slark sacrifices some of his life blood, purging most negative debuffs and dealing damage to enemy units around him and to himself.  Slark only takes 30% of the damage.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": "9.0 / 8.0 / 7.0 / 6.0",
    "skillMana": "75",
    "skillInfo": ["DELAY:1.5","RADIUS:325","DAMAGE:75 / 150 / 225 / 300"]
@@ -1578,7 +1578,7 @@
 
    "skillName": "Demonic Purge",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/shadow_demon_demonic_purge.png",
-   "skillDesc": "Purges the target enemy unit, removing positive buffs, and slowing the target for the duration.  The unit slowly regains its speed until the end of the duration, upon which damage is dealt.  Units under the effect of Disruption can still be affected by Demonic Purge.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Purges the target enemy unit, removing positive buffs, and slowing the target for the duration.  The unit slowly regains its speed until the end of the duration, upon which damage is dealt.  Units under the effect of Disruption can still be affected by Demonic Purge.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "60",
    "skillMana": "150 / 175 / 200",
    "skillInfo": ["PURGE DAMAGE:300 / 400 / 500","SCEPTER MAX CHARGES:3","SCEPTER CHARGE RESTORE TIME:60","DURATION:7.0"]
@@ -1938,7 +1938,7 @@
 
    "skillName": "Supernova",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phoenix_supernova.png",
-   "skillDesc": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6.0 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6.0 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": "120",
    "skillMana": "150 / 200 / 250",
    "skillInfo": ["RADIUS:1200","DAMAGE PER SECOND:60 / 90 / 120","STUN DURATION:2.0 / 2.5 / 3.0","ATTACKS TO DESTROY:6 / 8 / 10","SCEPTER ATTACKS TO DESTROY:7 / 10 / 13","SCEPTER CAST RANGE:500","DURATION:6.0"]
@@ -1960,7 +1960,7 @@
 
    "skillName": "Doppelganger",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phantom_lancer_doppelwalk.png",
-   "skillDesc": "Phantom Lancer briefly vanishes from the battlefield. After 1.0 second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. Extends duration of all illusions. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes 500% bonus damage and deals -80% less damage.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Phantom Lancer briefly vanishes from the battlefield. After 1.0 second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. Extends duration of all illusions. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes 500% bonus damage and deals -80% less damage.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "25.0 / 20.0 / 15.0 / 10.0",
    "skillMana": "50",
    "skillInfo": ["TARGET AREA SIZE:325","ILLUSION GATHER RANGE:900","REAPPEAR DELAY:1.0","DOPPELGANGER DURATION:8.0","ILLUSION DURATION EXTENSION:2.0"]
@@ -2058,7 +2058,7 @@
 
    "skillName": "Rolling Thunder",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pangolier_gyroshell.png",
-   "skillDesc": "Pangolier curls into a spell-immune ball and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage and stunning them when they land. nnColliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Pangolier curls into a spell-immune ball and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage and stunning them when they land. nnColliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "80.0 / 75.0 / 70.0",
    "skillMana": "100 / 150 / 200",
    "skillInfo": ["Damage:180 / 260 / 340","TRANSFORM TIME:1.2","ROLL SPEED:550.0","RADIUS:150","STUN DURATION:1.0 / 1.3 / 1.5","KNOCKBACK DISTANCE:150","DURATION:10.0"]
@@ -2111,7 +2111,7 @@
    "heroSpeed": 295,
    "skills":[{"skillName": "Fortune's End",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/oracle_fortunes_end.png",
-   "skillDesc": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge debuffs. The root duration is equal to the time spent channeling.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge debuffs. The root duration is equal to the time spent channeling.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "15.0 / 12.0 / 9.0 / 6.0",
    "skillMana": "100",
    "skillInfo": ["MAX CHANNEL TIME:2.5","DAMAGE:100 / 160 / 220 / 280","MIN ROOT DURATION:0.5","MAX ROOT DURATION:2.5","RADIUS:300"]
@@ -2138,7 +2138,7 @@
 
    "skillName": "False Promise",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/oracle_false_promise.png",
-   "skillDesc": "Temporarily alters an ally's destiny, delaying any healing or damage taken until False Promise ends. Any healing that is delayed by False Promise is doubled. Removes most negative status effects and disables on initial cast.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "Temporarily alters an ally's destiny, delaying any healing or damage taken until False Promise ends. Any healing that is delayed by False Promise is doubled. Removes most negative status effects and disables on initial cast.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": "120.0 / 90.0 / 60.0",
    "skillMana": "100 / 150 / 200",
    "skillInfo": ["DURATION:7.0 / 8.5 / 10.0"]
@@ -2160,7 +2160,7 @@
 
    "skillName": "Heavenly Grace",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/omniknight_repel.png",
-   "skillDesc": "Creates a divine barrier around an ally which grants them increased Status Resistance, Strength and Health Regeneration.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "Creates a divine barrier around an ally which grants them increased Status Resistance, Strength and Health Regeneration.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": "26.0 / 22.0 / 18.0 / 14.0",
    "skillMana": "80 / 90 / 100 / 110",
    "skillInfo": ["DURATION:10.0","STATUS RESISTANCE:50%","BONUS STRENGTH:8 / 18 / 28 / 38","HP REGEN:8 / 12 / 16 / 20"]
@@ -2391,7 +2391,7 @@
    "heroSpeed": 330,
    "skills":[{"skillName": "Mirror Image",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/naga_siren_mirror_image.png",
-   "skillDesc": "Creates multiple images of Naga Siren under her control.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Creates multiple images of Naga Siren under her control.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "40.0 / 35.0 / 30.0 / 25.0",
    "skillMana": "70 / 85 / 100 / 115",
    "skillInfo": ["IMAGE DURATION:26.0","IMAGE DAMAGE:25% / 30% / 35% / 40%","IMAGE DAMAGE TAKEN:350%","IMAGE COUNT:3"]
@@ -2956,7 +2956,7 @@
 
    "skillName": "Infest",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/life_stealer_infest.png",
-   "skillDesc": "Lifestealer infests the body of a target unit, becoming undetectable, and healing for a portion of his max hitpoints every second while inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack. Does not work on enemy heroes.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Lifestealer infests the body of a target unit, becoming undetectable, and healing for a portion of his max hitpoints every second while inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack. Does not work on enemy heroes.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "100.0 / 75.0 / 50.0",
    "skillMana": "100 / 125 / 150",
    "skillInfo": ["DAMAGE RADIUS:700","DAMAGE:150 / 275 / 400","MOVEMENT SPEED:15% / 20% / 25%","HEALTH BONUS:400 / 800 / 1200","SCEPTER COOLDOWN:20","SCEPTER CAST RANGE:500","SELF MAX HP REGEN:3.0% / 4.0% / 5.0%"]
@@ -3058,7 +3058,7 @@
 
    "skillName": "Press The Attack",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/legion_commander_press_the_attack.png",
-   "skillDesc": "Removes debuffs and disables from the target friendly unit, and grants bonus attack speed and health regen for a short time.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "Removes debuffs and disables from the target friendly unit, and grants bonus attack speed and health regen for a short time.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": "16.0 / 15.0 / 14.0 / 13.0",
    "skillMana": "110",
    "skillInfo": ["DURATION:5.0","BONUS ATTACK SPEED:65 / 90 / 115 / 140","HP REGEN:30 / 40 / 50 / 60"]
@@ -3187,7 +3187,7 @@
    "heroSpeed": 305,
    "skills":[{"skillName": "Blade Fury",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/juggernaut_blade_fury.png",
-   "skillDesc": "Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units. nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units. \n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "42.0 / 34.0 / 26.0 / 18.0",
    "skillMana": "120 / 110 / 100 / 90",
    "skillInfo": ["RADIUS:260","DAMAGE:90 / 115 / 140 / 165","DURATION:5.0"]
@@ -3379,7 +3379,7 @@
 
    "skillName": "Tornado",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/invoker_tornado.png",
-   "skillDesc": "Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. Travels further based on the level of Wex. Holds enemies in the air for a duration based on the level of Quas. Deals base damage plus added damage based on levels in Wex.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. Travels further based on the level of Wex. Holds enemies in the air for a duration based on the level of Quas. Deals base damage plus added damage based on levels in Wex.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "30",
    "skillMana": "150",
    "skillInfo": ["TRAVEL DISTANCE (WEX):n800 / 1200 / 1600 / 2000 / 2400 / 2800 / 3200 / 3600","RADIUS:200","LIFT TIME (QUAS):n0.9 / 1.1 / 1.4 / 1.6 / 1.9 / 2.1 / 2.3 / 2.6","BASE DAMAGE:70.0","ADDED DAMAGE (WEX):45.0 / 90.0 / 135.0 / 180.0 / 225.0 / 270.0 / 315.0 / 360.0"]
@@ -3482,7 +3482,7 @@
 
    "skillName": "Life Break",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/huskar_life_break.png",
-   "skillDesc": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "16.0 / 14.0 / 12.0",
    "skillMana": "0 / 0 / 0",
    "skillInfo": ["DAMAGE DEALT:32% / 38% / 44%","DAMAGE TAKEN:32% / 38% / 44%","MOVEMENT SLOW:-60%","SLOW DURATION:3.0 / 4.0 / 5.0","TAUNT DURATION:3.0"]
@@ -3704,7 +3704,7 @@
 
    "skillName": "Enchant",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/enchantress_enchant.png",
-   "skillDesc": "Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control, increasing it's attack damage and max health.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control, increasing it's attack damage and max health.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "28.0 / 24.0 / 20.0 / 16.0",
    "skillMana": "40 / 50 / 60 / 70",
    "skillInfo": ["CREEP ENCHANT DURATION:30.0 / 60.0 / 90.0 / 120.0","CREEP MAX HEALTH BONUS:200 / 300 / 400 / 500","CREEP ARMOR BONUS:2 / 4 / 6 / 8","CREEP ATTACK DAMAGE BONUS:10 / 30 / 50 / 70","HERO MOVE SLOW:-55%","HERO SLOW DURATION:3.8 / 4.5 / 5.3 / 6.0"]
@@ -4020,7 +4020,7 @@
 
    "skillName": "Doom",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/doom_bringer_doom.png",
-   "skillDesc": "Inflicts a curse that dispels an enemy Hero and prevents an them from casting spells or using items, while taking damage over time.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Inflicts a curse that dispels an enemy Hero and prevents an them from casting spells or using items, while taking damage over time.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "145",
    "skillMana": "150 / 200 / 250",
    "skillInfo": ["DURATION:16.0","DAMAGE PER SECOND:30 / 45 / 60"]
@@ -5038,7 +5038,7 @@
 
    "skillName": "Chemical Rage",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/alchemist_chemical_rage.png",
-   "skillDesc": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and health regeneration.nnDISPEL TYPE: Basic Dispel",
+   "skillDesc": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and health regeneration.\n\nDISPEL TYPE: Basic Dispel",
    "skillCooldown": "55",
    "skillMana": "50 / 75 / 100",
    "skillInfo": ["DURATION:25.0","BASE ATTACK TIME:1.2 / 1.1 / 1.0","BONUS HEALTH REGEN:50 / 75 / 100","BONUS MOVE SPEED:40 / 50 / 60","SCEPTER BONUS DAMAGE:20","SCEPTER SPELL AMP:5%"]
@@ -5060,7 +5060,7 @@
 
    "skillName": "Aphotic Shield",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_aphotic_shield.png",
-   "skillDesc": "Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": "12.0 / 10.0 / 8.0 / 6.0",
    "skillMana": "100 / 110 / 120 / 130",
    "skillInfo": ["DURATION:15.0","MAX DAMAGE ABSORBED:110.0 / 140.0 / 170.0 / 200.0","BURST RADIUS:675"]
@@ -5078,7 +5078,7 @@
 
    "skillName": "Borrowed Time",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_borrowed_time.png",
-   "skillDesc": "When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.nnDISPEL TYPE: Strong Dispel",
+   "skillDesc": "When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.\n\nDISPEL TYPE: Strong Dispel",
    "skillCooldown": "60.0 / 50.0 / 40.0",
    "skillMana": "0 / 0 / 0",
    "skillInfo": ["HEALTH THRESHOLD:400","DURATION:4.0 / 5.0 / 6.0","SCEPTER DURATION:7.0 / 8.0 / 9.0","SCEPTER DAMAGE THRESHOLD:525","SCEPTER RANGE:1600"]

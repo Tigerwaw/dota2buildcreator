@@ -181,6 +181,7 @@ input[type="button"]:active
 {
 	text-align: top;
 	margin: 0;
+	white-space: pre-wrap;
 }
 
 #tooltipSkillInfo
