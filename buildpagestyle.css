@@ -46,7 +46,7 @@ input[type="button"]:active
 	width: 10px;
 	margin-right: 3px;
 	padding: 4px;
-	background-color: #777777;
+	background-color: #3f3f3f;
 }
 
 .homeHeroIcon
@@ -150,7 +150,10 @@ input[type="button"]:active
 	background-color: #3c3c3c;
 	display: block;
 	color: #ebebeb;
-	position: absolute;
+	position: fixed;
+	top: 0;
+	right: 0;
+	max-width: 30%;
 }
 
 #tooltipImage

@@ -13,9 +13,6 @@ class Skill
 		if (this.level == this.maxLevel) { return false; }
 		if (charLevel < this.earliestPoint[this.level]) { return false; }
 		
-		this.assignedPoints.push(charLevel);
-		this.level += 1;
-		
 		return true;
 	}
 	
@@ -25,8 +22,6 @@ class Skill
 		// Checks if the latest skillpoint in this level was skilled at the previous level.
 		if (this.assignedPoints[this.level - 1] != charLevel - 1) { return false; }
 		
-		this.assignedPoints.pop();
-		this.level -= 1;
 		return true;
 	}
 }

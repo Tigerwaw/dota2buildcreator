@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-	const skillsArray = [new Skill(), new Skill(), new Skill(), new UltSkill(), new TalentSkill(), new StatSkill()];
+	const skillsArray = [];
 	var charLevel = 1;
 	var heroData;
 	var heroIndex = 0;
@@ -9,73 +9,126 @@ $(document).ready(function()
 	var url = new URL(window.location.href);
 	heroIndex = url.searchParams.get("hero");
 	
-	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'one');
-	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'two');
-	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'three');
-	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'four');
-	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'five');
-	createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', 'six');
-	
 	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
 	const tooltipSkillInfoArr = document.getElementById("tooltipSkillInfo").children;
-	
-	$("#skillTooltip").hide();
-	
-	$(".levelUp").click(function()
-	{
-		// Get the index of the parent skill-div within the skillBox-div.
-		// Its index corresponds to the same index in the skillsArray.
-		var skillIndex = $(this).closest(".skill").index();
-		var skill = skillsArray[skillIndex];
-		var id = $(this).closest(".skill").attr("id");
-		
-		if(skill.levelUp(charLevel))
-		{
-			charLevel += 1;
-			$("#" + id + " > .skillPoint:nth-of-type(" + (charLevel) + ")").css("background-color", "#3f3f3f");
-		}
-	});
-	
-	$(".levelDown").click(function()
-	{
-		// Get the index of the parent skill-div within the skillBox-div.
-		// Its index corresponds to the same index in the skillsArray.
-		var skillIndex = $(this).closest(".skill").index();
-		var skill = skillsArray[skillIndex];
-		var id = $(this).closest(".skill").attr("id");
-		
-		if(skill.levelDown(charLevel))
-		{
-			charLevel -= 1;
-			$("#" + id + " > .skillPoint:nth-of-type(" + (charLevel + 1) + ")").css("background-color", "#777777");
-		}
-	});
-	
-	// Toggles the visibility of the skill tooltip element, and calls a function to update the content of the tooltip.
-	$(".iconImage").on({
-    mouseenter: function() 
-		{
-      var index = $(this).closest(".skill").index();
-			updateToolTip(heroData[heroIndex], index, tooltipSkillInfoArr);
-			$("#skillTooltip").show();
-    },
-    mouseleave: function() 
-		{
-      $("#skillTooltip").hide();
-		}
-	});
-	
 	
 	//Handles external json-data.
 	const xmlhttp = new XMLHttpRequest();
 	xmlhttp.onload = function()
 	{
 		heroData = JSON.parse(this.responseText);
-		applyHeroData(heroData[heroIndex]);
+		createSkillBoxes(heroData[heroIndex]);
+		
+		createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/cd/Talent_tree_symbol.png', 'talentsID');
+		createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/e/e2/Attribute_Bonus_icon.png', 'attributesID');
+		
+		// Dynamically adds skill-objects to the skillsArray based on how many abilities the hero has.
+		for (var i = 0; i < heroData[heroIndex].skills.length - 1; i++)
+		{
+			skillsArray.push(new Skill());
+		}
+		skillsArray.push(new UltSkill());
+		skillsArray.push(new TalentSkill());
+		skillsArray.push(new StatSkill());
+		
+		
+		allowSkillLevelling(skillsArray, charLevel);
+	
+		// Beginning of jQuery functions.
+		// These functions are located inside the function that is called on xmlhttp.onload because otherwise the interactable elements won't be recognized by jQuery for some reason.
+		$(".levelUp").click(function()
+		{
+			// Get the index of the parent skill-div within the skillBox-div.
+			// Its index corresponds to the same index in the skillsArray.
+			var skillIndex = $(this).closest(".skill").index();
+			var skill = skillsArray[skillIndex];
+			var id = $(this).closest(".skill").attr("id");
+			
+			if(skill.levelUp(charLevel))
+			{
+				skill.assignedPoints.push(charLevel);
+				skill.level += 1;
+				charLevel += 1;
+				allowSkillLevelling(skillsArray, charLevel);
+			}
+		});
+		
+		$(".levelDown").click(function()
+		{
+			// Get the index of the parent skill-div within the skillBox-div.
+			// Its index corresponds to the same index in the skillsArray.
+			var skillIndex = $(this).closest(".skill").index();
+			var skill = skillsArray[skillIndex];
+			var id = $(this).closest(".skill").attr("id");
+			
+			if(skill.levelDown(charLevel))
+			{
+				skill.assignedPoints.pop();
+				skill.level -= 1;
+				charLevel -= 1;
+				allowSkillLevelling(skillsArray, charLevel);
+			}
+		});
+		
+		// Toggles the visibility of the skill tooltip element, and calls a function to update the content of the tooltip.
+		$(".iconImage").on({
+			mouseenter: function() 
+			{			
+				var skillID = $(this).closest(".skill").attr("id");
+				if (skillID != "attributesID" && skillID != "talentsID")
+				{
+					var index = $(this).closest(".skill").index();
+					updateToolTip(heroData[heroIndex], index, tooltipSkillInfoArr);
+					$("#skillTooltip").show();
+				}
+			},
+			mouseleave: function() 
+			{
+				$("#skillTooltip").hide();
+			}
+		});
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
-	xmlhttp.send();
+	xmlhttp.send();	
+	
+	$("#skillTooltip").hide();
 });
+
+// Colors the skill point boxes according to whether they have been used to level a skill and whether they can or can not be levelled at a certain level.
+function allowSkillLevelling(skillsArray, charLevel)
+{
+	for (var i = 0; i < skillsArray.length; i++)
+	{
+		var childArray = $("#skillsBox").children();
+		var id = $(childArray[i]).attr("id");
+		var skillPointArray = $(childArray[i].children);
+		
+		for (var y = 0; y < skillPointArray.length - 2; y++)
+		{
+			$("#" + id + " > .skillPoint:nth-of-type(" + (y) + ")").css("background-color", "#3f3f3f");
+		}
+		
+		for (var x = 0; x < skillsArray[i].assignedPoints.length; x++)
+		{
+			$("#" + id + " > .skillPoint:nth-of-type(" + (skillsArray[i].assignedPoints[x]+1) + ")").css("background-color", "#daaf2b");
+		}
+		
+		if (skillsArray[i].levelUp(charLevel))
+		{
+			$("#" + id + " > .skillPoint:nth-of-type(" + (charLevel + 1) + ")").css("background-color", "#777777");
+		}
+	}
+}
+
+function createSkillBoxes(heroData)
+{
+	for (var i = 0; i < heroData.skills.length; i++)
+	{
+		createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', i);
+	}
+	
+	applyHeroData(heroData);
+}
 
 function createSkillBox(image, id)
 {
@@ -127,7 +180,7 @@ function applyHeroData(data)
 	
 	var childArray = $("#skillsBox").children();
 	
-	for (var i = 0; i < 4; i++)
+	for (var i = 0; i < data.skills.length; i++)
 	{
 		childArray[i].getElementsByTagName("img")[0].src = data.skills[i].skillIcon;
 		childArray[i].getElementsByTagName("img")[0].setAttribute("class", "iconImage");
@@ -154,8 +207,11 @@ function updateToolTip(data, index, skillInfoArr)
 		$(skillInfoArr[i]).show();
 	}
 	
+	var cooldown = data.skills[index].skillCooldown;
+	var mana = data.skills[index].skillMana;
+	
 	// Hides the skills cooldown element if the value is null.
-	if (data.skills[index].skillCooldown == null)
+	if (cooldown == null)
 	{
 		$("#tooltipSkillCooldown").hide();
 	}
