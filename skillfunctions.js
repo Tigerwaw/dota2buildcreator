@@ -87,6 +87,8 @@ $(document).ready(function()
 				$("#skillTooltip").hide();
 			}
 		});
+
+		setTimeout(() => {$("#loadingScreen").hide()}, 300);
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
 	xmlhttp.send();	

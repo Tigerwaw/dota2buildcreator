@@ -13,6 +13,8 @@ $(document).ready(function()
 			heroIcons.push(heroData[i].heroIcon);
 			$("<a href='buildpage.html?hero=" + i + "'><img src=" + heroData[i].heroIcon + " alt='Hero Image' class='homeHeroIcon'></a>'").appendTo('#heroes');
 		}
+		
+		setTimeout(() => {$("#loadingScreen").hide()}, 1000);
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
 	xmlhttp.send();
