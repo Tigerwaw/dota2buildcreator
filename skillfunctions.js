@@ -79,12 +79,12 @@ $(document).ready(function()
 				{
 					var index = $(this).closest(".skill").index();
 					updateToolTip(heroData[heroIndex], index, tooltipSkillInfoArr);
-					$("#skillTooltip").show();
+					$("#skillTooltip").show("slide", 200);
 				}
 			},
 			mouseleave: function() 
 			{
-				$("#skillTooltip").hide();
+				$("#skillTooltip").hide("slide", 100);
 			}
 		});
 

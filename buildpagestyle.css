@@ -1,4 +1,6 @@
-/* --- Elements --- */
+/* --- */
+/* --- General Elements --- */
+/* --- */
 
 body
 {
@@ -11,6 +13,7 @@ input[type="button"]
 {
 	margin-right: 3px;
 	background-color: #777777;
+	color: white;
 	border: none;
 }
 
@@ -25,28 +28,13 @@ input[type="button"]:active
 }
 
 
+/* --- */
 /* --- Classes --- */
+/* --- */
 
-.attributes
+.indexTitle
 {
-	margin-right: 20px;
-}
-
-.skill
-{
-	display: flex;
-	border: 2px black solid;
-	margin-top: 5px;
-	padding: 5px;
-}
-
-.skillPoint
-{
-	display: inline;
-	width: 10px;
-	margin-right: 3px;
-	padding: 4px;
-	background-color: #3f3f3f;
+	text-align: center;
 }
 
 .homeHeroIcon
@@ -55,35 +43,11 @@ input[type="button"]:active
 	height: 72px;
 }
 
-.skillButtons
-{
-	display: flex;
-	flex-direction: column;
-	width: 50px;
-}
+/* - Hero Info - */
 
-.levelUp
+.attributes
 {
-	margin-bottom: 2px;
-}
-
-.levelUp, .levelDown
-{
-	color: white;
-	font-size: 24px;
-	padding: 5px;
-}
-
-.indexTitle
-{
-	text-align: center;
-}
-
-.iconImage
-{
-	width: 80px;
-	height: 80px;
-	margin-right: 3px;
+	margin-right: 20px;
 }
 
 .attributeRow > p
@@ -104,15 +68,67 @@ input[type="button"]:active
 }
 
 
-/* --- IDs --- */
+/* - Skill Info - */
 
-#main
+.skill
+{
+	display: flex;
+	border: 2px black solid;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.skillPoint
+{
+	display: inline;
+	width: 10px;
+	margin-right: 3px;
+	padding: 4px;
+	background-color: #3f3f3f;
+}
+
+.skillButtons
+{
+	display: flex;
+	flex-direction: column;
+	width: 50px;
+}
+
+.levelUp
+{
+	margin-bottom: 2px;
+}
+
+.levelUp, .levelDown
+{
+	font-size: 24px;
+	padding: 5px;
+}
+
+.iconImage
+{
+	width: 80px;
+	height: 80px;
+	margin-right: 3px;
+}
+
+
+/* --- */
+/* --- IDs --- */
+/* --- */
+
+#main, #itemMain
 {
 	width: min-content;
 	margin: 0 auto 0;
 	padding: 0;
 	padding-left: 5vw;
 	padding-right: 5vw;
+}
+
+#itemMain
+{
+	display: flex;
 }
 
 #heroes
@@ -126,6 +142,56 @@ input[type="button"]:active
 {
 	display: inline-block;
 }
+
+#buildColumn, #itemColumn
+{
+	border: 2px black solid;
+	padding: 10px;
+	margin: 5px;
+}
+
+#buildColumn
+{
+	width: 15vw;
+}
+
+#itemColumn, .itemGrid
+{
+	display: grid;
+  grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 3.5px;
+	height: min-content;
+}
+
+.itemGrid
+{
+	min-height: 46px;
+	height: min-content;
+	padding: 5px;
+	margin: 5px;
+	border: 2px black solid;
+}
+
+.itemDraggable > img
+{
+	width: 64px;
+	height: 46px;
+}
+
+.buildSegment
+{
+	margin-bottom: 20px;
+}
+
+.buildSegment > h3
+{
+	display: inline;
+	padding: 0;
+	margin: 5px;
+}
+
+
+/* - Hero Info - */
 
 #heroName
 {
@@ -145,22 +211,16 @@ input[type="button"]:active
 	display: flex;
 }
 
-#skillTooltip
+#stats
 {
-	background-color: #3c3c3c;
-	display: block;
-	color: #ebebeb;
-	position: fixed;
-	top: 0;
-	right: 0;
-	max-width: 30%;
+	padding: 20px;
+	padding-left: 5px;
+	display: flex;
+	flex-direction: row;
 }
 
-#tooltipImage
-{
-	width: 80px;
-	height: 80px;
-}
+
+/* - Loading Screen - */
 
 #loadingScreen
 {
@@ -179,12 +239,24 @@ input[type="button"]:active
 	font-size: 64px;
 }
 
-#stats
+
+/* - Tooltip - */
+
+#skillTooltip
 {
-	padding: 20px;
-	padding-left: 5px;
-	display: flex;
-	flex-direction: row;
+	background-color: #3c3c3c;
+	display: block;
+	color: #ebebeb;
+	position: fixed;
+	top: 0;
+	right: 0;
+	max-width: 30%;
+}
+
+#tooltipImage
+{
+	width: 80px;
+	height: 80px;
 }
 
 #tooltipTop, #tooltipTopInfo, #tooltipSkillInfo, #tooltipBot
