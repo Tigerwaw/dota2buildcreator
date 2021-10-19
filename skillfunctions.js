@@ -193,7 +193,7 @@ function updateToolTip(data, index, skillInfoArr)
 {
 	// Sets the name, icon, and description of the skill onto the tooltip.
 	document.getElementById("tooltipSkillName").innerHTML = data.skills[index].skillName;
-	document.getElementById("tooltipImage").src = data.skills[index].skillIcon;
+	document.getElementById("tooltipImageSkill").src = data.skills[index].skillIcon;
 	document.getElementById("tooltipDesc").innerHTML = data.skills[index].skillDesc;
 	
 	// Hides the elements in skillInfoArr.

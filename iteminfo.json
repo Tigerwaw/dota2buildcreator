@@ -680,12 +680,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_arcane_blink_buff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -744,12 +738,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_swift_blink_buff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -814,12 +802,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_overwhelming_blink_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -881,12 +863,6 @@
       },
       {
         "item_active_info": "Can be cast on spell immune allies.\nPierces spell immunity on the triggering enemy. Does not target spell immune secondary enemies."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_mjollnir_static: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -933,12 +909,6 @@
       },
       {
         "item_active_info": "Duration: 3"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_skadi_slow: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -1094,12 +1064,6 @@
       },
       {
         "item_active_info": "Disarm persists if debuff was placed before spell immunity."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_heavens_halberd_debuff: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -1134,12 +1098,6 @@
       },
       {
         "item_active_info": "Duration: 4"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_mage_slayer_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -1186,12 +1144,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_diffusal_blade_slow: Dispellable with any dispel. modifier_rooted: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -1245,12 +1197,6 @@
       },
       {
         "item_active_info": ""
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_maelstrom_chain: Dispellable with death only."
       }
     ],
     "item_components": [
@@ -1308,12 +1254,6 @@
       },
       {
         "item_active_info": "Can proc on spell immune enemies. Cannot slow spell immune enemies. Slow persists if debuff was placed before spell immunity and when not dispelled."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_echo_sabre_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -1530,12 +1470,6 @@
       },
       {
         "item_active_info": "75"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_bashed: Dispellable with strong dispels."
       }
     ],
     "item_components": [],
@@ -1594,12 +1528,6 @@
       },
       {
         "item_active_info": "Red critical numbers are before illusion and armor reduction."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_bloodthorn_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -1681,12 +1609,6 @@
       },
       {
         "item_active_info": "Applies damage on spell immune enemies. Does not apply debuff on spell immune enemies."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_silver_edge_windwalk: Dispellable with death only. modifier_silver_edge_debuff: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -1785,12 +1707,6 @@
       },
       {
         "item_active_info": "Illusions deal less damage with Burn around them.\nThe main hero's Burn always takes priority, if an enemy is within range of both the hero and its illusion."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_radiance_debuff: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -1918,12 +1834,6 @@
       },
       {
         "item_active_info": "Continuous dispel persists if debuff was placed before spell immunity."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_nullifier_mute: Dispellable with death only. modifier_item_nullifier_slow: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -1984,12 +1894,6 @@
       },
       {
         "item_active_info": "Can be disjointed by enemies and allies."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_ethereal_blade_ethereal: Dispellable with any dispel. modifier_item_ethereal_blade_slow: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -2061,12 +1965,6 @@
       },
       {
         "item_active_info": "Duration: 7"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_desolator_buff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -2113,12 +2011,6 @@
       },
       {
         "item_active_info": "75"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_invisibility_edge_windwalk: Dispellable with death only."
       }
     ],
     "item_components": [
@@ -2170,12 +2062,6 @@
       },
       {
         "item_active_info": ""
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_bashed: Dispellable with strong dispels."
       },
       {
         "item_active_info": "Ability Draft Notes:\nFully stacks with  Bash of the Deep,  Greater Bash and  Time Lock"
@@ -2251,12 +2137,6 @@
       },
       {
         "item_active_info": "Illusions do not benefit from the attack damage and armor and do not lose health per second. Illusions gain the strength over 0.6 seconds and copy the original's current health, resulting in them having 500 current health more than the hero if it was not at full health as the illusion was created."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_armlet_unholy_strength: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -2333,12 +2213,6 @@
       },
       {
         "item_active_info": "125"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_meteor_hammer_land: Undispellable. Persists death. modifier_item_meteor_hammer_burn: Dispellable with any dispel. modifier_stunned: Dispellable with strong dispels."
       }
     ],
     "item_components": [],
@@ -2469,12 +2343,6 @@
       },
       {
         "item_active_info": "30% of max mana"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_bloodstone_active: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -2524,12 +2392,6 @@
       },
       {
         "item_active_info": "Does not affect spell immune enemies.\nAffects spell immune allies."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_assault_positive_aura: Undispellable. Persists death. modifier_item_assault_positive: Undispellable. Persists death. modifier_item_assault_negative_armor_aura: Undispellable. Persists death. modifier_item_assault_negative_armor: Undispellable. Persists death."
       }
     ],
     "item_components": [],
@@ -2613,12 +2475,6 @@
       },
       {
         "item_active_info": "Slow persists if debuff was placed before spell immunity and when not dispelled."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_shivas_guard_thinker: Undispellable. Persists death. modifier_item_shivas_guard_blast: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -2705,12 +2561,6 @@
       },
       {
         "item_active_info": "125"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_manta_phase: Dispellable with death only. modifier_manta: Dispellable with death only. modifier_illusion: Dispellable with death only. modifier_invulnerable: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -2778,12 +2628,6 @@
       },
       {
         "item_active_info": "Can be cast on self while spell immune.\nCannot be cast on other spell immune units."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_hurricane_pike_active: Dispellable with any dispel. modifier_item_hurricane_pike_active_alternate: Dispellable with any dispel. modifier_item_hurricane_pike_range: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -2821,12 +2665,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_black_king_bar_immune: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -2867,12 +2705,6 @@
       },
       {
         "item_active_info": "175"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_lotus_orb_active: Dispellable with death only. modifier_lotus_orb_delay: Dispellable with death only. modifier_item_lotus_orb_channel_check: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -2922,12 +2754,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_crimson_guard_extra: Dispellable with any dispel. modifier_item_crimson_guard_nostack: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -2968,12 +2794,6 @@
       },
       {
         "item_active_info": "50"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_eternal_shroud_barrier: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -3088,12 +2908,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_aeon_disk_buff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -3134,12 +2948,6 @@
       },
       {
         "item_active_info": "25"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_blade_mail_reflect: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -3222,12 +3030,6 @@
       },
       {
         "item_active_info": "75"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_hood_of_defiance_barrier: Dispellable with death only."
       }
     ],
     "item_components": [
@@ -3292,12 +3094,6 @@
       },
       {
         "item_active_info": "Can be cast on self while spell immune.\nCannot be cast on spell immune allies or enemies."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_eul_wind_waker_thinker: Undispellable. Persists death. modifier_wind_waker: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -3350,12 +3146,6 @@
       },
       {
         "item_active_info": "Does not release projectiles for spell immune enemies. Already launched projectiles do nothing if their target turns spell immune."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_gungir_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -3405,12 +3195,6 @@
       },
       {
         "item_active_info": "Effects persist if debuff was placed before spell immunity and when not dispelled."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_sheepstick_debuff: Dispellable with strong dispels."
       }
     ],
     "item_components": [],
@@ -3575,12 +3359,6 @@
       },
       {
         "item_active_info": "Can be cast on spell immune allies.\nCannot be cast on spell immune enemies."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_solar_crest_armor_addition: Dispellable with any dispel. modifier_item_solar_crest_armor_reduction: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -3634,12 +3412,6 @@
       },
       {
         "item_active_info": "Effect persists and attempts to deal damage when expiring while spell immune if debuff was placed before spell immunity and when not dispelled."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_orchid_malevolence_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [
@@ -3697,12 +3469,6 @@
       },
       {
         "item_active_info": "Particles still visually appear."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_dagon: Dispellable with death only."
       }
     ],
     "item_components": [
@@ -3777,12 +3543,6 @@
       },
       {
         "item_active_info": "Blocked upon impact."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_rod_of_atos_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [
@@ -3844,12 +3604,6 @@
       },
       {
         "item_active_info": "Can be cast on self while spell immune.\nCannot be cast on spell immune enemies."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_eul_cyclone_thinker: Undispellable. Persists death. modifier_eul_cyclone: Dispellable with any dispel."
       }
     ],
     "item_components": [
@@ -3902,12 +3656,6 @@
       },
       {
         "item_active_info": ""
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_witch_blade_slow: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -4000,12 +3748,6 @@
       },
       {
         "item_active_info": "Can be cast on self while spell immune.\nCannot be cast on other spell immune units."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_forcestaff_active: Dispellable with any dispel."
       }
     ],
     "item_components": [
@@ -4060,12 +3802,6 @@
       },
       {
         "item_active_info": "90"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_glimmer_cape_fade: Dispellable with any dispel. modifier_invisible: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -4112,12 +3848,6 @@
       },
       {
         "item_active_info": "50"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_veil_of_discord_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -4164,12 +3894,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_mekansm_noheal: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -4217,12 +3941,6 @@
       },
       {
         "item_active_info": "100"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_pipe_barrier: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -4284,12 +4002,6 @@
       },
       {
         "item_active_info": "Can be cast on spell immune allies.\nCannot be cast on spell immune enemies. Attempts to damage if debuff was placed before spell immunity and when not dispelled."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_spirit_vessel_heal: Dispellable with any dispel. modifier_item_spirit_vessel_damage: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -4342,12 +4054,6 @@
       },
       {
         "item_active_info": "Illusions bestow the aura and benefit from all except the damage bonus."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_vladmir_aura: Undispellable. Persists death."
       }
     ],
     "item_components": [
@@ -4467,12 +4173,6 @@
       },
       {
         "item_active_info": "100"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_mekansm_noheal: Dispellable with death only."
       }
     ],
     "item_components": [
@@ -4524,12 +4224,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_ancient_janggo_active: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -4630,12 +4324,6 @@
       },
       {
         "item_active_info": "Can be cast on spell immune allies.\nCannot be cast on spell immune enemies."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_medallion_of_courage_armor_addition: Dispellable with any dispel. modifier_item_medallion_of_courage_armor_reduction: Dispellable with any dispel."
       }
     ],
     "item_components": [
@@ -4750,12 +4438,6 @@
       },
       {
         "item_active_info": "Can be cast on spell immune allies.\nCannot be cast on spell immune enemies. Attempts to damage if debuff was placed before spell immunity and when not dispelled."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_urn_heal: Dispellable with any dispel. modifier_item_urn_damage: Dispellable with any dispel."
       }
     ],
     "item_components": [
@@ -4802,12 +4484,6 @@
       },
       {
         "item_active_info": "Aura Linger Duration: 0.5"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_headdress_aura: Undispellable. Persists death."
       }
     ],
     "item_components": [
@@ -4854,12 +4530,6 @@
       },
       {
         "item_active_info": "Aura Linger Duration: 0.5"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_ring_of_basilius_effect: Undispellable. Persists death."
       }
     ],
     "item_components": [
@@ -4902,12 +4572,6 @@
       },
       {
         "item_active_info": "Aura Linger Duration: 0.5"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_buckler_effect: Undispellable. Persists death."
       }
     ],
     "item_components": [
@@ -4966,12 +4630,6 @@
       },
       {
         "item_active_info": "Illusions copy the Moon Shard buff. However, unlike the item itself, illusions are not granted the attack speed bonus. Only the bonus night vision is applied."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_moon_shard_consumed: Undispellable. Persists death."
       }
     ],
     "item_components": [],
@@ -5075,12 +4733,6 @@
       },
       {
         "item_active_info": "Can dominate spell immune units."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_dominated: Dispellable with death only. modifier_item_helm_of_the_dominator_bonushealth: Dispellable with death only."
       }
     ],
     "item_components": [
@@ -5181,12 +4833,6 @@
       },
       {
         "item_active_info": "Silence and armor reduction persists if debuff was placed before spell immunity and when not dispelled."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_mask_of_madness_berserk: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -5377,12 +5023,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_phase_boots_active: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -5510,12 +5150,6 @@
       },
       {
         "item_active_info": "Duration: 3"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_orb_of_corrosion_debuff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -5563,12 +5197,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_soul_ring_buff: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -5801,12 +5429,6 @@
       },
       {
         "item_active_info": "Can be cast while spell immune. However, the buff gets immediately removed if spell immunity is detected."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_ghost_state: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -5842,12 +5464,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_shadow_amulet_fade: Dispellable with death only."
       }
     ],
     "item_components": [
@@ -6010,12 +5626,6 @@
       },
       {
         "item_active_info": "Aura Linger Duration: 0.5"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_gem_of_true_sight: Undispellable. Persists death. modifier_truesight: Undispellable. Persists death."
       }
     ],
     "item_components": [],
@@ -6745,12 +6355,6 @@
       },
       {
         "item_active_info": "Duration: 8"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_blight_stone_buff: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -6791,12 +6395,6 @@
       },
       {
         "item_active_info": "Duration: 2"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_orb_of_venom_slow: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -7514,12 +7112,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_bottle_regeneration: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -7567,12 +7159,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_dustofappearance: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -7600,12 +7186,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_tome_of_knowledge_consumed: Undispellable. Persists death."
       }
     ],
     "item_components": [],
@@ -7642,12 +7222,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_tango_heal: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -7681,12 +7255,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_flask_healing: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -7750,12 +7318,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_buff_ward: Dispellable with death only. modifier_item_ward_true_sight: Undispellable. Persists death. modifier_truesight: Undispellable. Persists death."
       }
     ],
     "item_components": [],
@@ -7803,12 +7365,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_item_buff_ward: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -7850,12 +7406,6 @@
       },
       {
         "item_active_info": "0"
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_smoke_of_deceit: Dispellable with death only."
       }
     ],
     "item_components": [],
@@ -7913,12 +7463,6 @@
       },
       {
         "item_active_info": ""
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_clarity_potion: Dispellable with any dispel."
       }
     ],
     "item_components": [],
@@ -7976,12 +7520,6 @@
       },
       {
         "item_active_info": "Prevents casting, and cancels the teleport if already channeling."
-      },
-      {
-        "item_active_info": "Modifiers"
-      },
-      {
-        "item_active_info": "modifier_teleporting: Dispellable with death only. modifier_teleporting_root_logic: Dispellable with death only. modifier_boots_of_travel_incoming: Dispellable with death only."
       }
     ],
     "item_components": [],

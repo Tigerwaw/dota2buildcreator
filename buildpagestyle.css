@@ -164,7 +164,7 @@ input[type="button"]:active
 
 #itemColumn
 {
-	grid-template-rows: repeat(12, 1fr);
+	grid-template-rows: repeat(14, 1fr);
 	grid-auto-flow: column;
 }
 
@@ -180,8 +180,8 @@ input[type="button"]:active
 
 .itemDraggable > img
 {
-	width: 64px;
-	height: 46px;
+	width: 54px;
+	height: 38px;
 }
 
 .buildSegment
@@ -257,17 +257,40 @@ input[type="button"]:active
 	top: 0;
 	right: 0;
 	max-width: 30%;
+	min-width: 20%;
 }
 
-#tooltipImage
+#itemMain > #skillTooltip
+{
+	max-width: 23%;
+}
+
+#tooltipImageSkill
 {
 	width: 80px;
 	height: 80px;
 }
 
-#tooltipTop, #tooltipTopInfo, #tooltipSkillInfo, #tooltipBot
+#tooltipImageItem
+{
+	width: 88px;
+	height: 64px;
+}
+
+#tooltipTop, #tooltipTopInfo, #tooltipSkillInfo, #tooltipBot, #tooltipItemActive, #tooltipItemPassives, #tooltipItemActiveInfo
 {
 	padding: 5px;
+}
+
+#tooltipItemActive, #tooltipItemActiveInfo
+{
+	border: 2px black solid;
+	margin: 5px;
+}
+
+#tooltipItemActive > h3
+{
+	margin: 0;
 }
 
 #tooltipTop
@@ -288,7 +311,7 @@ input[type="button"]:active
 	white-space: pre-wrap;
 }
 
-#tooltipSkillInfo
+#tooltipSkillInfo, #tooltipItemActive
 {
 	font-size: 80%;
 }

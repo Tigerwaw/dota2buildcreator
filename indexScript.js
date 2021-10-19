@@ -8,7 +8,7 @@ $(document).ready(function()
 	xmlhttp.onload = function()
 	{
 		heroData = JSON.parse(this.responseText);
-		for (let i = heroData.length - 1; i > 0; i--)
+		for (let i = heroData.length - 1; i > -1; i--)
 		{
 			heroIcons.push(heroData[i].heroIcon);
 			$("<a href='buildpage.html?hero=" + i + "'><img src=" + heroData[i].heroIcon + " alt='Hero Image' class='homeHeroIcon'></a>'").appendTo('#heroes');

@@ -2,17 +2,20 @@ $(document).ready(function()
 {
 	var itemData;
 	
+	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
+	const tooltipSkillInfoArr = document.getElementById("tooltipItemActiveInfo").children;
+	
 	//Handles external json-data.
 	const xmlhttp = new XMLHttpRequest();
 	xmlhttp.onload = function()
 	{
 		itemData = JSON.parse(this.responseText);
-		for (let i = itemData.length - 1; i > 0; i--)
+		for (let i = itemData.length - 1; i > -1; i--)
 		{
-			$("<div class='itemDraggable'><img class='itemImage' src=" + itemData[i].item_image + "></div>").appendTo('#itemColumn').draggable({connectToSortable: ".itemGrid", helper: "clone"});
+			$("<div class='itemDraggable' alt=" + i + "><img class='itemImage' src=" + itemData[i].item_image + "></div>").appendTo('#itemColumn').draggable({connectToSortable: ".itemGrid", helper: "clone"});
 		}
 		
-		//setTimeout(() => {$("#loadingScreen").hide()}, 1000);
+		setTimeout(() => {$("#loadingScreen").hide()}, 1000);
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/iteminfo.json", true);
 	xmlhttp.send();
@@ -23,7 +26,7 @@ $(document).ready(function()
 		createSegment();
 	});
 	
-	$(".itemGrid").sortable(
+	$("#buildColumn > .buildSegment > .itemGrid").sortable(
 	{
 		connectWith: ".itemGrid"
 	});
@@ -34,11 +37,22 @@ $(document).ready(function()
 		helper: "clone"
 	});
 	
-	$("#itemColumn").on("click", ".itemDraggable", function()
+	$("#itemColumn, #buildColumn > .buildSegment > .itemGrid").on("mouseenter", ".itemDraggable", function()
 	{
-		console.log("tooltip");
+		// Checks whether the current .itemDraggable is currently being dragged by the user. If not then the tooltip will be displayed.
+		if ($(this).is(".ui-draggable-dragging") == false)
+		{
+			updateTooltip(itemData[$(this).attr("alt")], tooltipSkillInfoArr);
+			$("#skillTooltip").stop(true, true).delay(400).show("slide", 200, false);
+		}
 	});
 	
+	$("#itemColumn, #buildColumn > .buildSegment > .itemGrid").on("mouseleave", ".itemDraggable", function()
+	{
+		$("#skillTooltip").stop(true, true).hide("slide", 100, false);
+	});
+	
+	// When clicking the editSegment button the title will get hidden and a text input will appear for the user to change the title.
 	$("#buildColumn").on("click", ".buildSegment .editSegmentTitleButton", function()
 	{
 		var segmentTitle = $(this).parent().children("h3")[0];
@@ -51,10 +65,13 @@ $(document).ready(function()
 		$(segmentTitleInput).toggle();
 	});
 	
+	// When clicking the removeSegment button the segment gets removed from the build.
 	$("#buildColumn").on("click", ".buildSegment .removeSegmentButton", function()
 	{
 		$(this).parent().remove();
 	});
+	
+	$("#skillTooltip").hide();
 });
 
 
@@ -70,4 +87,40 @@ function createSegment()
 	{
 		connectWith: ".itemGrid"
 	});
+}
+
+function updateTooltip(data, skillInfoArr)
+{
+	// Sets the name, icon, and description of the skill onto the tooltip.
+	document.getElementById("tooltipSkillName").innerHTML = data.item_name;
+	document.getElementById("tooltipImageItem").src = data.item_image;
+	document.getElementById("tooltipDesc").innerHTML = data.item_cost;
+	
+	$("#tooltipItemPassives").text(data.item_passives);
+	$("#tooltipItemActive > h3").text(data.item_active_name);
+	$("#tooltipItemActive > p").text(data.item_active_desc);
+	
+	
+	// Hides the elements in skillInfoArr.
+	for (var i = 0; i < skillInfoArr.length; i++)
+	{
+		$(skillInfoArr[i]).hide();
+	}
+	
+	// Toggles the elements in skillInfoArr based on how many items are in the skills skillInfo-array.
+	for (var i = 0; i < data.item_active_info.length; i++)
+	{
+		$(skillInfoArr[i]).text(data.item_active_info[i].item_active_info);
+		$(skillInfoArr[i]).show();
+	}
+	
+	// Hides the items active ability element if the value is empty.
+	if (data.item_active_info == "")
+	{
+		$("#tooltipItemActive").hide();
+	}
+	else
+	{
+		$("#tooltipItemActive").show();
+	}
 }
