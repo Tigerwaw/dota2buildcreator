@@ -9,7 +9,7 @@ $(document).ready(function()
 		itemData = JSON.parse(this.responseText);
 		for (let i = itemData.length - 1; i > 0; i--)
 		{
-			$("<div class='itemDraggable'><img class='itemImage' src=" + item_image-src + "></div>").appendTo('#itemColumn');
+			$("<div class='itemDraggable'><img class='itemImage' src=" + itemData[i].item_image + "></div>").appendTo('#itemColumn').draggable({connectToSortable: ".itemGrid", helper: "clone"});
 		}
 		
 		//setTimeout(() => {$("#loadingScreen").hide()}, 1000);

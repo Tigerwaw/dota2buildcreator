@@ -7486,7 +7486,7 @@
   },
   {
     "item_name": "Bottle",
-    "item_cost": null,
+    "item_cost": 675,
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Consumes a charge to restore 110 health and 60 mana over 2.7 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.\n\nThe Bottle automatically refills at the fountain.\n\nHold Control to use on an allied hero.",
@@ -7545,45 +7545,6 @@
     "item_buildsinto-alt": "",
     "item_image": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fa/Bottle_%28Full%29_icon.png/revision/latest/scale-to-width-down/100?cb=20160530164631",
     "item_active_name": "Regenerate"
-  },
-  {
-    "item_name": "Animal Courier",
-    "item_cost": null,
-    "item_category": "Removed Item",
-    "item_passives": "",
-    "item_active_desc": "Deploys a creature to carry items to and from your team's base.",
-    "item_active_info": [
-      {
-        "item_active_info": "Number of Couriers: 1"
-      },
-      {
-        "item_active_info": "Courier Respawn Time: 120"
-      },
-      {
-        "item_active_info": "Courier Duration: Permanent"
-      },
-      {
-        "item_active_info": "0"
-      },
-      {
-        "item_active_info": ""
-      }
-    ],
-    "item_components": [],
-    "item_components-alt": "",
-    "item_buildsinto": [
-      {
-        "item_buildsinto": "",
-        "item_buildsinto-alt": "Animal Courier (Radiant) icon.png"
-      },
-      {
-        "item_buildsinto": "",
-        "item_buildsinto-alt": "Animal Courier (Dire) icon.png"
-      }
-    ],
-    "item_buildsinto-alt": "",
-    "item_image": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1c/Necronomicon_2_icon.png/revision/latest/scale-to-width-down/56?cb=20160530171719",
-    "item_active_name": "Deploy Courier"
   },
   {
     "item_name": "Dust of Appearance",
