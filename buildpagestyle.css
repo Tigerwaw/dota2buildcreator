@@ -196,6 +196,24 @@ input[type="button"]:active
 	margin: 5px;
 }
 
+#buildColumn > input[type="button"], .buildSegment > input[type="button"]
+{
+	background-color: #a1a1a1;
+	border: 0;
+	margin: 5px;
+}
+
+.buildSegment > input[type="text"]
+{
+	border: 0;
+	margin: 5px;
+}
+
+.buildSegment > input[type="button"]:hover
+{
+	background-color: #7d7d7d;
+}
+
 
 /* - Hero Info - */
 

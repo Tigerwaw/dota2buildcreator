@@ -20,13 +20,12 @@ $(document).ready(function()
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/iteminfo.json", true);
 	xmlhttp.send();
 	
-	
 	$("#newSegmentButton").click(function()
 	{
 		createSegment();
 	});
 	
-	$("#buildColumn > .buildSegment > .itemGrid").sortable(
+	$("#buildColumn .buildSegment .itemGrid").sortable(
 	{
 		connectWith: ".itemGrid"
 	});
@@ -37,7 +36,7 @@ $(document).ready(function()
 		helper: "clone"
 	});
 	
-	$("#itemColumn, #buildColumn > .buildSegment > .itemGrid").on("mouseenter", ".itemDraggable", function()
+	$("#itemColumn, #buildColumn").on("mouseenter", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function()
 	{
 		// Checks whether the current .itemDraggable is currently being dragged by the user. If not then the tooltip will be displayed.
 		if ($(this).is(".ui-draggable-dragging") == false)
@@ -47,7 +46,7 @@ $(document).ready(function()
 		}
 	});
 	
-	$("#itemColumn, #buildColumn > .buildSegment > .itemGrid").on("mouseleave", ".itemDraggable", function()
+	$("#itemColumn, #buildColumn").on("mouseleave", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function()
 	{
 		$("#skillTooltip").stop(true, true).hide("slide", 100, false);
 	});
@@ -78,10 +77,10 @@ $(document).ready(function()
 function createSegment()
 {
 	$("<div class='buildSegment'> \
-		<h3>Early Game</h3><input type='text' style='display:none'><input type='button' class='editSegmentTitleButton' value='edit'><input type='button' class='removeSegmentButton' value='X'> \
-		<div class='itemGrid'> \
-		</div> \
-	</div>").insertBefore("#newSegmentButton");
+			<h3>Early Game</h3><input type='text' style='display:none'><input type='button' class='editSegmentTitleButton ui-icon ui-icon-pencil'><input type='button' class='removeSegmentButton ui-icon ui-icon-closethick'> \
+			<div class='itemGrid'> \
+			</div> \
+		</div>").insertBefore("#newSegmentButton");
 	
 	$(".itemGrid").sortable(
 	{
