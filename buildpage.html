@@ -9,6 +9,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 		<script src="skillclasses.js"></script>
 		<script src="skillfunctions.js"></script>
+		<script src="itemBuildScript.js"></script>
 	</head>
 	<body>
 		
@@ -60,6 +61,53 @@
 				<div id="tooltipBot">
 					<p id="tooltipSkillCooldown">Cooldown</p>
 					<p id="tooltipSkillMana">Manacost</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="itemMain">
+			<div id="buildColumn">
+				<div class="buildSegment">
+					<h3>Early Game</h3><input type="text" style="display:none"><input type="button" class="editSegmentTitleButton ui-icon ui-icon-pencil">
+					<div class="itemGrid">
+					</div>
+				</div>
+				<input type="button" id="newSegmentButton" class="ui-icon ui-icon-plusthick">
+			</div>
+			
+			<div id="itemColumn">
+			</div>
+			
+			<div id="skillTooltipItem">
+				<div id="tooltipTop">
+					<img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png" alt="Placeholder icon" id="tooltipImageItem">
+					<div id="tooltipTopInfo">
+						<h1 id="tooltipSkillName">Item Name</h1>
+						<p id="tooltipDesc">Item Cost</p>
+					</div>
+				</div>
+				
+				<p id="tooltipItemPassives">Item Passives</p>
+				
+				<div id="tooltipItemActive">
+					<h3>Item Active Name</h3>
+					<p>Item Active Desc</p>
+					<div id="tooltipItemActiveInfo">
+						<p>Item Info</p>
+						<p>Item Info</p>
+						<p>Item Info</p>
+						<p>Item Info</p>
+						<p>Item Info</p>
+						<p>Item Info</p>
+						<p>Item Info</p>
+						<p>Item Info</p>
+						<p>Item Info</p>
+						<p>Item Info</p>
+					</div>
+				</div>
+				
+				<div id="tooltipBot">
+					
 				</div>
 			</div>
 		</div>

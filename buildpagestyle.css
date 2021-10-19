@@ -94,7 +94,7 @@ input[type="button"]:active
 	width: 50px;
 }
 
-.levelUp
+.levelUp, #newSegmentButton
 {
 	margin-bottom: 2px;
 }
@@ -266,7 +266,7 @@ input[type="button"]:active
 
 /* - Tooltip - */
 
-#skillTooltip
+#skillTooltip, #skillTooltipItem
 {
 	background-color: #3c3c3c;
 	display: block;
@@ -278,7 +278,7 @@ input[type="button"]:active
 	min-width: 20%;
 }
 
-#itemMain > #skillTooltip
+#skillTooltipItem
 {
 	max-width: 23%;
 }

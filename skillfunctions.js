@@ -79,12 +79,12 @@ $(document).ready(function()
 				{
 					var index = $(this).closest(".skill").index();
 					updateToolTip(heroData[heroIndex], index, tooltipSkillInfoArr);
-					$("#skillTooltip").show("slide", 200);
+					$("#main #skillTooltip").stop(true, true).delay(200).show("slide", 200);
 				}
 			},
 			mouseleave: function() 
 			{
-				$("#skillTooltip").hide("slide", 100);
+				$("#main #skillTooltip").stop(true, true).hide("slide", 100);
 			}
 		});
 
@@ -93,7 +93,7 @@ $(document).ready(function()
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
 	xmlhttp.send();	
 	
-	$("#skillTooltip").hide();
+	$("#main #skillTooltip").hide();
 });
 
 // Colors the skill point boxes according to whether they have been used to level a skill and whether they can or can not be levelled at a certain level.

@@ -15,7 +15,7 @@ $(document).ready(function()
 			$("<div class='itemDraggable' alt=" + i + "><img class='itemImage' src=" + itemData[i].item_image + "></div>").appendTo('#itemColumn').draggable({connectToSortable: ".itemGrid", helper: "clone"});
 		}
 		
-		setTimeout(() => {$("#loadingScreen").hide()}, 1000);
+		setTimeout(() => {$("#loadingScreen").hide()}, 500);
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/iteminfo.json", true);
 	xmlhttp.send();
@@ -42,13 +42,13 @@ $(document).ready(function()
 		if ($(this).is(".ui-draggable-dragging") == false)
 		{
 			updateTooltip(itemData[$(this).attr("alt")], tooltipSkillInfoArr);
-			$("#skillTooltip").stop(true, true).delay(400).show("slide", 200, false);
+			$("#skillTooltipItem").stop(true, true).delay(200).show("slide", 200, false);
 		}
 	});
 	
 	$("#itemColumn, #buildColumn").on("mouseleave", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function()
 	{
-		$("#skillTooltip").stop(true, true).hide("slide", 100, false);
+		$("#skillTooltipItem").stop(true, true).hide("slide", 100, false);
 	});
 	
 	// When clicking the editSegment button the title will get hidden and a text input will appear for the user to change the title.
@@ -70,7 +70,7 @@ $(document).ready(function()
 		$(this).parent().remove();
 	});
 	
-	$("#skillTooltip").hide();
+	$("#skillTooltipItem").hide();
 });
 
 
