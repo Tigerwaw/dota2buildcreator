@@ -1,11 +1,13 @@
 $(document).ready(function()
 {
+	var itemData;
+	
 	//Handles external json-data.
 	const xmlhttp = new XMLHttpRequest();
 	xmlhttp.onload = function()
 	{
 		itemData = JSON.parse(this.responseText);
-		for (let i = heroData.length - 1; i > 0; i--)
+		for (let i = itemData.length - 1; i > 0; i--)
 		{
 			$("<div class='itemDraggable'><img class='itemImage' src=" + item_image-src + "></div>").appendTo('#itemColumn');
 		}
