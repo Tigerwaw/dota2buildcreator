@@ -1,11 +1,20 @@
 $(document).ready(function()
 {
-	/*
-	for (let i = 0; i < 20; i++)
+	//Handles external json-data.
+	const xmlhttp = new XMLHttpRequest();
+	xmlhttp.onload = function()
 	{
-		$("<div class='itemDraggable'><img width='64px' height='46px' class='itemImage' src='https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fd/Tango_icon.png'></div>").appendTo('#itemColumn');
+		itemData = JSON.parse(this.responseText);
+		for (let i = heroData.length - 1; i > 0; i--)
+		{
+			$("<div class='itemDraggable'><img class='itemImage' src=" + item_image-src + "></div>").appendTo('#itemColumn');
+		}
+		
+		//setTimeout(() => {$("#loadingScreen").hide()}, 1000);
 	}
-	*/
+	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/iteminfo.json", true);
+	xmlhttp.send();
+	
 	
 	$("#newSegmentButton").click(function()
 	{
@@ -23,12 +32,12 @@ $(document).ready(function()
 		helper: "clone"
 	});
 	
-	$(".itemDraggable").on("click", function()
+	$("#itemColumn").on("click", ".itemDraggable", function()
 	{
 		console.log("tooltip");
 	});
 	
-	$("#buildColumn").on("click", "div input[type='button']", function()
+	$("#buildColumn").on("click", ".buildSegment .editSegmentTitleButton", function()
 	{
 		var segmentTitle = $(this).parent().children("h3")[0];
 		var segmentTitleInput = $(this).parent().children("input[type='text']")[0];
@@ -39,13 +48,18 @@ $(document).ready(function()
 		$(segmentTitle).toggle();
 		$(segmentTitleInput).toggle();
 	});
+	
+	$("#buildColumn").on("click", ".buildSegment .removeSegmentButton", function()
+	{
+		$(this).parent().remove();
+	});
 });
 
 
 function createSegment()
 {
 	$("<div class='buildSegment'> \
-		<h3>Early Game</h3><input type='text' style='display:none'><input type='button' class='editSegmentTitleButton' value='edit'> \
+		<h3>Early Game</h3><input type='text' style='display:none'><input type='button' class='editSegmentTitleButton' value='edit'><input type='button' class='removeSegmentButton' value='X'> \
 		<div class='itemGrid'> \
 		</div> \
 	</div>").insertBefore("#newSegmentButton");
