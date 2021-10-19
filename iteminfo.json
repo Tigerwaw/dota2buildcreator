@@ -1,7 +1,7 @@
 [
   {
     "item_name": "Sacred Relic",
-    "item_cost": "Cost\n3750",
+    "item_cost": "Cost 3750",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+60 Attack Damage",
     "item_active_desc": "",
@@ -45,7 +45,7 @@
   },
   {
     "item_name": "Eaglesong",
-    "item_cost": "Cost\n2800",
+    "item_cost": "Cost 2800",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+25 Agility",
     "item_active_desc": "",
@@ -101,7 +101,7 @@
   },
   {
     "item_name": "Reaver",
-    "item_cost": "Cost\n2800",
+    "item_cost": "Cost 2800",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+25 Strength",
     "item_active_desc": "",
@@ -153,7 +153,7 @@
   },
   {
     "item_name": "Mystic Staff",
-    "item_cost": "Cost\n2800",
+    "item_cost": "Cost 2800",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+25 Intelligence",
     "item_active_desc": "",
@@ -209,7 +209,7 @@
   },
   {
     "item_name": "Demon Edge",
-    "item_cost": "Cost\n2200",
+    "item_cost": "Cost 2200",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+40 Attack Damage",
     "item_active_desc": "",
@@ -245,7 +245,7 @@
   },
   {
     "item_name": "Ultimate Orb",
-    "item_cost": "Cost\n2050",
+    "item_cost": "Cost 2050",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+10 Strength\n+10 Agility\n+10 Intelligence",
     "item_active_desc": "",
@@ -289,7 +289,7 @@
   },
   {
     "item_name": "Hyperstone",
-    "item_cost": "Cost\n2000",
+    "item_cost": "Cost 2000",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+60 Attack Speed",
     "item_active_desc": "",
@@ -329,7 +329,7 @@
   },
   {
     "item_name": "Talisman of Evasion",
-    "item_cost": "Cost\n1300",
+    "item_cost": "Cost 1300",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+15% Evasion",
     "item_active_desc": "",
@@ -373,7 +373,7 @@
   },
   {
     "item_name": "Platemail",
-    "item_cost": "Cost\n1400",
+    "item_cost": "Cost 1400",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+10 Armor",
     "item_active_desc": "",
@@ -417,7 +417,7 @@
   },
   {
     "item_name": "Point Booster",
-    "item_cost": "Cost\n1200",
+    "item_cost": "Cost 1200",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+175 Health\n+175 Mana",
     "item_active_desc": "",
@@ -461,7 +461,7 @@
   },
   {
     "item_name": "Vitality Booster",
-    "item_cost": "Cost\n1000",
+    "item_cost": "Cost 1000",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+250 Health",
     "item_active_desc": "",
@@ -513,7 +513,7 @@
   },
   {
     "item_name": "Energy Booster",
-    "item_cost": "Cost\n800",
+    "item_cost": "Cost 800",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+250 Mana",
     "item_active_desc": "",
@@ -565,7 +565,7 @@
   },
   {
     "item_name": "Void Stone",
-    "item_cost": "Cost\n825",
+    "item_cost": "Cost 825",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+2.25 Mana Regeneration",
     "item_active_desc": "",
@@ -605,7 +605,7 @@
   },
   {
     "item_name": "Ring of Health",
-    "item_cost": "Cost\n825",
+    "item_cost": "Cost 825",
     "item_category": "Bought From\nSecret Shop",
     "item_passives": "+6.5 Health Regeneration",
     "item_active_desc": "",
@@ -649,7 +649,7 @@
   },
   {
     "item_name": "Arcane Blink",
-    "item_cost": "Cost\n6800 (1750)",
+    "item_cost": "Cost 6800 (1750)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+25 Intelligence",
     "item_active_desc": "Teleport to a target point up to 1200 units away.\n\nAfter teleportation, you gain 30% Ability Cooldown Reduction and 50% Cast Point reduction for 6 seconds. \n\nArcane Blink cannot be used for 3 seconds after taking damage from an enemy hero or Roshan.",
@@ -704,7 +704,7 @@
   },
   {
     "item_name": "Swift Blink",
-    "item_cost": "Cost\n6800 (1750)",
+    "item_cost": "Cost 6800 (1750)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+25 Agility",
     "item_active_desc": "Teleport to a target point up to 1200 units away.\n\nAfter teleportation, you gain 40% phased movement speed, +50 Attack Speed, and +50 Attack Damage for 6 seconds. \n\nSwift Blink cannot be used for 3 seconds after taking damage from an enemy hero or Roshan.",
@@ -762,7 +762,7 @@
   },
   {
     "item_name": "Overwhelming Blink",
-    "item_cost": "Cost\n6800 (1750)",
+    "item_cost": "Cost 6800 (1750)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+25 Strength",
     "item_active_desc": "Teleport to a target point up to 1200 units away.\n\nAfter teleportation, all enemies in a 800 AoE have 50% movement speed slow and 50 attack speed slow for 6 seconds, and take damage equal to 100 + 150% of your strength. \n\nOverwhelming Blink cannot be used for 3 seconds after taking damage from an enemy hero or Roshan.",
@@ -826,7 +826,7 @@
   },
   {
     "item_name": "Mjollnir",
-    "item_cost": "Cost\n5600 (900)",
+    "item_cost": "Cost 5600 (900)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+24 Attack Damage\n+65 Attack Speed",
     "item_active_desc": "Places a charged shield on a target unit for 15 seconds which has a 20% chance to release a 225 magical damage shocking bolt at a nearby attacker and 4 additional enemies.",
@@ -887,7 +887,7 @@
   },
   {
     "item_name": "Eye of Skadi",
-    "item_cost": "Cost\n5300",
+    "item_cost": "Cost 5300",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+25 Strength\n+25 Agility\n+25 Intelligence\n+200 Health\n+200 Mana",
     "item_active_desc": "Attacks lower enemy movement and attack speed and reduces heals, health regeneration and lifesteal by 40% for 3 seconds. Slows enemy ranged units by 50% movement speed and 50 attack speed. Slows enemy melee units by 25% movement speed and 25 attack speed.",
@@ -933,7 +933,7 @@
   },
   {
     "item_name": "Satanic",
-    "item_cost": "Cost\n5050",
+    "item_cost": "Cost 5050",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+25 Strength\n+55 Attack Damage",
     "item_active_desc": "Heals the attacker for 25% of attack damage dealt.",
@@ -970,7 +970,7 @@
   },
   {
     "item_name": "Yasha and Kaya",
-    "item_cost": "Cost\n4100",
+    "item_cost": "Cost 4100",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+16 Agility\n+16 Intelligence\n+10% Movement Speed\n+16% Spell Damage\n+12 Attack Speed\n+50% Mana Regen Amplification\n+30% Spell Lifesteal Amplification",
     "item_active_desc": "",
@@ -993,7 +993,7 @@
   },
   {
     "item_name": "Sange and Yasha",
-    "item_cost": "Cost\n4100",
+    "item_cost": "Cost 4100",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+16 Strength\n+16 Agility\n+22% Status Resistance\n+10% Movement Speed\n+12 Attack Speed\n+22% Health Regen Amplification\n+22% Lifesteal Amplification",
     "item_active_desc": "",
@@ -1016,7 +1016,7 @@
   },
   {
     "item_name": "Kaya and Sange",
-    "item_cost": "Cost\n4100",
+    "item_cost": "Cost 4100",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+16 Strength\n+16 Intelligence\n+22% Status Resistance\n+16% Spell Damage\n+22% Health Regen Amplification\n+50% Mana Regen Amplification\n+22% Lifesteal Amplification\n+30% Spell Lifesteal Amplification",
     "item_active_desc": "",
@@ -1039,7 +1039,7 @@
   },
   {
     "item_name": "Heaven's Halberd",
-    "item_cost": "Cost\n3550 (200)",
+    "item_cost": "Cost 3550 (200)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+20 Strength\n+20% Evasion\n+16% Status Resistance\n+20% Health Regen Amplification\n+20% Lifesteal Amplification",
     "item_active_desc": "Prevents a target from attacking for 3 seconds on melee targets, and 5 seconds on ranged targets.",
@@ -1088,7 +1088,7 @@
   },
   {
     "item_name": "Mage Slayer",
-    "item_cost": "Cost\n2400 (400)",
+    "item_cost": "Cost 2400 (400)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+10 Intelligence\n+2 Mana Regeneration\n+20% Magic Resistance\n+20 Attack Damage\n+15 Attack Speed",
     "item_active_desc": "Places a debuff when you attack enemies, causing them to do 35% less spell damage for 4 seconds.",
@@ -1122,7 +1122,7 @@
   },
   {
     "item_name": "Diffusal Blade",
-    "item_cost": "Cost\n3150 (700)",
+    "item_cost": "Cost 3150 (700)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+24 Agility\n+12 Intelligence",
     "item_active_desc": "Targets an enemy, slowing it for 4 seconds.",
@@ -1172,7 +1172,7 @@
   },
   {
     "item_name": "Maelstrom",
-    "item_cost": "Cost\n2700",
+    "item_cost": "Cost 2700",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+24 Attack Damage",
     "item_active_desc": "Grants a 30% chance on attack to release a bolt of electricity that leaps between 4 targets within a 650 radius, dealing 140 magical damage to each. Lightning proc pierces evasion.",
@@ -1226,7 +1226,7 @@
   },
   {
     "item_name": "Echo Sabre",
-    "item_cost": "Cost\n2500",
+    "item_cost": "Cost 2500",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+13 Strength\n+10 Intelligence\n+1.75 Mana Regeneration\n+15 Attack Damage\n+10 Attack Speed",
     "item_active_desc": "Causes melee attacks to attack twice in quick succession. The double attacks apply a 100% movement slow for 0.8 seconds on each strike.",
@@ -1274,7 +1274,7 @@
   },
   {
     "item_name": "Kaya",
-    "item_cost": "Cost\n2050 (600)",
+    "item_cost": "Cost 2050 (600)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+16 Intelligence\n+8% Spell Damage\n+50% Mana Regen Amplification\n+24% Spell Lifesteal Amplification",
     "item_active_desc": "",
@@ -1314,7 +1314,7 @@
   },
   {
     "item_name": "Yasha",
-    "item_cost": "Cost\n2050 (600)",
+    "item_cost": "Cost 2050 (600)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+16 Agility\n+8% Movement Speed\n+12 Attack Speed",
     "item_active_desc": "",
@@ -1362,7 +1362,7 @@
   },
   {
     "item_name": "Sange",
-    "item_cost": "Cost\n2050 (600)",
+    "item_cost": "Cost 2050 (600)",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+16 Strength\n+12% Status Resistance\n+20% Health Regen Amplification\n+20% Lifesteal Amplification",
     "item_active_desc": "",
@@ -1418,7 +1418,7 @@
   },
   {
     "item_name": "Dragon Lance",
-    "item_cost": "Cost\n1900",
+    "item_cost": "Cost 1900",
     "item_category": "Bought From\nArtifacts",
     "item_passives": "+12 Strength\n+16 Agility\n+140 Attack Range (Ranged)",
     "item_active_desc": "Increases attack range of ranged heroes by 140.",
@@ -1454,7 +1454,7 @@
   },
   {
     "item_name": "Abyssal Blade",
-    "item_cost": "Cost\n6325 (1550)",
+    "item_cost": "Cost 6325 (1550)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+10 Strength\n+250 Health\n+10 Health Regeneration\n+25 Attack Damage",
     "item_active_desc": "Stuns a target enemy unit for 2 seconds. \n\nPierces Spell Immunity.",
@@ -1494,7 +1494,7 @@
   },
   {
     "item_name": "Bloodthorn",
-    "item_cost": "Cost\n6275 (800)",
+    "item_cost": "Cost 6275 (800)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+25 Intelligence\n+5.5 Mana Regeneration\n+30 Attack Damage\n+90 Attack Speed",
     "item_active_desc": "Silences a target for 5 seconds. At the end of the silence, an additional 30% of all damage taken during the silence will be dealt to the target as magical damage.\n\nAll attacks on the silenced target will have True Strike and 100% chance to crit for 130% damage.",
@@ -1552,7 +1552,7 @@
   },
   {
     "item_name": "Divine Rapier",
-    "item_cost": "Cost\n5950",
+    "item_cost": "Cost 5950",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+350 Attack Damage",
     "item_active_desc": "",
@@ -1575,7 +1575,7 @@
   },
   {
     "item_name": "Silver Edge",
-    "item_cost": "Cost\n5450 (500)",
+    "item_cost": "Cost 5450 (500)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+60 Attack Damage\n+40 Attack Speed",
     "item_active_desc": "Makes you invisible for 14 seconds, or until you attack or cast a spell.  While invisible, you move 25% faster and can move through units. \n\nAttacking to end the invisibility will deal 175 bonus physical damage and a guaranteed 160% critical strike to the target, and disable their passive abilities for 4 seconds.",
@@ -1633,7 +1633,7 @@
   },
   {
     "item_name": "Daedalus",
-    "item_cost": "Cost\n5150 (1000)",
+    "item_cost": "Cost 5150 (1000)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+88 Attack Damage",
     "item_active_desc": "Grants each attack a 30% chance to deal 225% damage.",
@@ -1673,7 +1673,7 @@
   },
   {
     "item_name": "Radiance",
-    "item_cost": "Cost\n5100 (1350)",
+    "item_cost": "Cost 5100 (1350)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+60 Attack Damage",
     "item_active_desc": "When active, scorches enemies for 60 magical damage per second, and causes them to miss 17% of their attacks. Illusions deal 35 magical damage per second.",
@@ -1735,7 +1735,7 @@
   },
   {
     "item_name": "Butterfly",
-    "item_cost": "Cost\n4975",
+    "item_cost": "Cost 4975",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+30 Agility\n+35% Evasion\n+25 Attack Damage\n+30 Attack Speed",
     "item_active_desc": "",
@@ -1762,7 +1762,7 @@
   },
   {
     "item_name": "Monkey King Bar",
-    "item_cost": "Cost\n4975 (675)",
+    "item_cost": "Cost 4975 (675)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+40 Attack Damage\n+45 Attack Speed",
     "item_active_desc": "Grants each attack a 80% chance to pierce through evasion and deal 70 bonus magical damage.",
@@ -1806,7 +1806,7 @@
   },
   {
     "item_name": "Nullifier",
-    "item_cost": "Cost\n4700",
+    "item_cost": "Cost 4700",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+6 Health Regeneration\n+8 Armor\n+80 Attack Damage",
     "item_active_desc": "Dispels the target and applies a debuff for 5 seconds. Continuously dispels the target. Anytime the target is attacked, it will be slowed by 80% for 0.5 seconds.",
@@ -1854,7 +1854,7 @@
   },
   {
     "item_name": "Ethereal Blade",
-    "item_cost": "Cost\n4300",
+    "item_cost": "Cost 4300",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+10 Strength\n+40 Agility\n+10 Intelligence",
     "item_active_desc": "Converts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and 40% more vulnerable to magic damage. Lasts for 4 seconds on allies and 4 seconds on enemies.\n\nEnemy targets are also slowed by 80%, and take 1.5x your primary attribute + 125 as magical damage.",
@@ -1914,7 +1914,7 @@
   },
   {
     "item_name": "Battle Fury",
-    "item_cost": "Cost\n4130",
+    "item_cost": "Cost 4130",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+7.5 Health Regeneration\n+2.75 Mana Regeneration\n+55 Attack Damage",
     "item_active_desc": "Destroy a target tree.",
@@ -1955,7 +1955,7 @@
   },
   {
     "item_name": "Desolator",
-    "item_cost": "Cost\n3500",
+    "item_cost": "Cost 3500",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+55 Attack Damage",
     "item_active_desc": "Your attacks reduce the target's armor by 6 for 7 seconds.",
@@ -1989,7 +1989,7 @@
   },
   {
     "item_name": "Shadow Blade",
-    "item_cost": "Cost\n3000",
+    "item_cost": "Cost 3000",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+25 Attack Damage\n+35 Attack Speed",
     "item_active_desc": "Makes you invisible for 14 seconds, or until you attack or cast a spell. While Shadow Walk is active, you move 20% faster and can move through units.\n\nIf attacking to end the invisibility, you gain 175 bonus physical damage on that attack.",
@@ -2040,7 +2040,7 @@
   },
   {
     "item_name": "Skull Basher",
-    "item_cost": "Cost\n2950 (900)",
+    "item_cost": "Cost 2950 (900)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+10 Strength\n+25 Attack Damage",
     "item_active_desc": "Grants melee heroes a 25% chance on hit to stun the target for 1.5 seconds and deal 100 bonus physical damage. Bash chance for ranged heroes is 10%.",
@@ -2106,7 +2106,7 @@
   },
   {
     "item_name": "Armlet of Mordiggian",
-    "item_cost": "Cost\n2475 (625)",
+    "item_cost": "Cost 2475 (625)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+5 Health Regeneration\n+6 Armor\n+15 Attack Damage\n+25 Attack Speed",
     "item_active_desc": "When active, Unholy Strength grants +35 damage, +25 strength and +4 armor, but drains 40 health per second.\n\nYou cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.",
@@ -2173,7 +2173,7 @@
   },
   {
     "item_name": "Meteor Hammer",
-    "item_cost": "Cost\n2350 (250)",
+    "item_cost": "Cost 2350 (250)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+8 Strength\n+8 Agility\n+8 Intelligence\n+6.5 Health Regeneration\n+2.5 Mana Regeneration",
     "item_active_desc": "After a successful channel, summons a meteor that strikes a 315 AoE, stunning enemies for 1.5 seconds and dealing impact damage. Continues to deal damage over time to enemy units and buildings for 6 seconds.",
@@ -2237,7 +2237,7 @@
   },
   {
     "item_name": "Crystalys",
-    "item_cost": "Cost\n1950 (500)",
+    "item_cost": "Cost 1950 (500)",
     "item_category": "Bought From\nWeapons",
     "item_passives": "+32 Attack Damage",
     "item_active_desc": "Grants each attack a 30% chance to deal 160% damage.",
@@ -2330,7 +2330,7 @@
   },
   {
     "item_name": "Bloodstone",
-    "item_cost": "Cost\n5750",
+    "item_cost": "Cost 5750",
     "item_category": "Bought From\nArmor",
     "item_passives": "+16 Intelligence\n+425 Health\n+425 Mana\n+8% Spell Damage\n+15% Spell Lifesteal (Hero)\n+3% Spell Lifesteal (Creep)\n+100% Mana Regen Amplification\n+30% Spell Lifesteal Amplification",
     "item_active_desc": "Converts 30% of your max mana to health regeneration over 2 seconds.",
@@ -2367,7 +2367,7 @@
   },
   {
     "item_name": "Assault Cuirass",
-    "item_cost": "Cost\n5125 (1300)",
+    "item_cost": "Cost 5125 (1300)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+10 Armor\n+30 Attack Speed",
     "item_active_desc": "Grants 30 attack speed and 5 armor to nearby allied units and structures, and decreases nearby enemy unit and structure armor by 5.",
@@ -2420,7 +2420,7 @@
   },
   {
     "item_name": "Heart of Tarrasque",
-    "item_cost": "Cost\n5100 (1300)",
+    "item_cost": "Cost 5100 (1300)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+45 Strength\n+250 Health\n+1.6% Max HP Health Regen",
     "item_active_desc": "",
@@ -2447,7 +2447,7 @@
   },
   {
     "item_name": "Shiva's Guard",
-    "item_cost": "Cost\n4850 (650)",
+    "item_cost": "Cost 4850 (650)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+30 Intelligence\n+15 Armor",
     "item_active_desc": "Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by 40% for 4 seconds.",
@@ -2499,7 +2499,7 @@
   },
   {
     "item_name": "Linken's Sphere",
-    "item_cost": "Cost\n4600 (900)",
+    "item_cost": "Cost 4600 (900)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+14 Strength\n+14 Agility\n+14 Intelligence\n+7 Health Regeneration\n+5 Mana Regeneration",
     "item_active_desc": "Blocks most targeted spells once every 12 seconds.",
@@ -2533,7 +2533,7 @@
   },
   {
     "item_name": "Manta Style",
-    "item_cost": "Cost\n4600 (500)",
+    "item_cost": "Cost 4600 (500)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+10 Strength\n+26 Agility\n+10 Intelligence\n+8% Movement Speed\n+12 Attack Speed",
     "item_active_desc": "Creates 2 images of your hero that last 20 seconds.\n\nMelee images deal 33% damage, while Ranged images deal 28%. Illusions take 300% damage.",
@@ -2585,7 +2585,7 @@
   },
   {
     "item_name": "Hurricane Pike",
-    "item_cost": "Cost\n4550 (450)",
+    "item_cost": "Cost 4550 (450)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+15 Strength\n+20 Agility\n+15 Intelligence\n+200 Health\n+140 Attack Range (Ranged)",
     "item_active_desc": "Pushes you and target enemy 450 units away from each other, and for 6 seconds, allows you to make 5 attacks against the target without range restrictions and with +100 attack speed.\n\nWorks like Force Staff when used on self or allies.",
@@ -2652,7 +2652,7 @@
   },
   {
     "item_name": "Black King Bar",
-    "item_cost": "Cost\n4050 (1450)",
+    "item_cost": "Cost 4050 (1450)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+10 Strength\n+24 Attack Damage",
     "item_active_desc": "Grants Spell Immunity. Duration decreases with each use.",
@@ -2689,7 +2689,7 @@
   },
   {
     "item_name": "Lotus Orb",
-    "item_cost": "Cost\n3850",
+    "item_cost": "Cost 3850",
     "item_category": "Bought From\nArmor",
     "item_passives": "+6.5 Health Regeneration\n+250 Mana\n+4 Mana Regeneration\n+10 Armor",
     "item_active_desc": "Applies a shield to the target unit for 6 seconds which re-casts most targeted spells back to their caster.\n\nThe shielded unit will still take damage from the spell.",
@@ -2729,7 +2729,7 @@
   },
   {
     "item_name": "Crimson Guard",
-    "item_cost": "Cost\n3650 (875)",
+    "item_cost": "Cost 3650 (875)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+250 Health\n+12 Health Regeneration\n+6 Armor",
     "item_active_desc": "For 12 seconds, grant nearby allied heroes and buildings a 100% chance to block 70 damage from each incoming attack.\n\nUnits may only be affected by Guard once every 39 seconds.",
@@ -2778,7 +2778,7 @@
   },
   {
     "item_name": "Eternal Shroud",
-    "item_cost": "Cost\n3300 (1100)",
+    "item_cost": "Cost 3300 (1100)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+8.5 Health Regeneration\n+20% Magic Resistance\n+20% Spell Lifesteal (Hero)\n+4% Spell Lifesteal (Creep)",
     "item_active_desc": "Creates a spell shield that absorbs up to 400 magical damage, converting damage taken into mana. Lasts 12 seconds.",
@@ -2818,7 +2818,7 @@
   },
   {
     "item_name": "Soul Booster",
-    "item_cost": "Cost\n3000",
+    "item_cost": "Cost 3000",
     "item_category": "Bought From\nArmor",
     "item_passives": "+425 Health\n+425 Mana",
     "item_active_desc": "",
@@ -2886,7 +2886,7 @@
   },
   {
     "item_name": "Aeon Disk",
-    "item_cost": "Cost\n3000 (1200)",
+    "item_cost": "Cost 3000 (1200)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+250 Health\n+300 Mana",
     "item_active_desc": "When you take damage and your health falls below 70%, a strong dispel is applied and you gain a 2.5 second buff that provides +75% Status Resistance and causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage. Cooldown increases every time it triggers.",
@@ -2932,7 +2932,7 @@
   },
   {
     "item_name": "Blade Mail",
-    "item_cost": "Cost\n2125 (575)",
+    "item_cost": "Cost 2125 (575)",
     "item_category": "Bought From\nArmor",
     "item_passives": "+6 Armor\n+28 Attack Damage",
     "item_active_desc": "For 4.5 seconds, the damage returned from all sources is increased by 80%.",
@@ -2972,7 +2972,7 @@
   },
   {
     "item_name": "Vanguard",
-    "item_cost": "Cost\n1825",
+    "item_cost": "Cost 1825",
     "item_category": "Bought From\nArmor",
     "item_passives": "+250 Health\n+7 Health Regeneration",
     "item_active_desc": "Grants a 60% chance to block 64 damage from incoming attacks on melee heroes, and 32 damage on ranged.",
@@ -3014,7 +3014,7 @@
   },
   {
     "item_name": "Hood of Defiance",
-    "item_cost": "Cost\n1500",
+    "item_cost": "Cost 1500",
     "item_category": "Bought From\nArmor",
     "item_passives": "+8.5 Health Regeneration\n+20% Magic Resistance",
     "item_active_desc": "Creates a spell shield that absorbs up to 325 magical damage. Lasts 12 seconds.",
@@ -3063,7 +3063,7 @@
   },
   {
     "item_name": "Wind Waker",
-    "item_cost": "Cost\n6825 (1300)",
+    "item_cost": "Cost 6825 (1300)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+35 Intelligence\n+6 Mana Regeneration\n+50 Movement Speed",
     "item_active_desc": "Sweeps a target unit up into a cyclone, making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself, enemy units or allied units.\n\nEnemy units take 50 magical damage upon landing.",
@@ -3118,7 +3118,7 @@
   },
   {
     "item_name": "Gleipnir",
-    "item_cost": "Cost\n6150 (700)",
+    "item_cost": "Cost 6150 (700)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+14 Strength\n+14 Agility\n+24 Intelligence\n+30 Attack Damage",
     "item_active_desc": "Roots all enemies in a target 450 radius for 2 seconds and deals 220 damage.",
@@ -3170,7 +3170,7 @@
   },
   {
     "item_name": "Scythe of Vyse",
-    "item_cost": "Cost\n5675",
+    "item_cost": "Cost 5675",
     "item_category": "Bought From\nMagical",
     "item_passives": "+10 Strength\n+10 Agility\n+35 Intelligence\n+9 Mana Regeneration",
     "item_active_desc": "Turns a target unit into a harmless critter for 3.5 seconds. The target has a base movement speed of 140 and will be silenced, muted, and disarmed.\nInstantly destroys illusions.",
@@ -3219,7 +3219,7 @@
   },
   {
     "item_name": "Octarine Core",
-    "item_cost": "Cost\n5275",
+    "item_cost": "Cost 5275",
     "item_category": "Bought From\nMagical",
     "item_passives": "+425 Health\n+725 Mana\n+3 Mana Regeneration\n+225 Cast Range",
     "item_active_desc": "Reduces the cooldown time of all spells and items by 25%.",
@@ -3246,7 +3246,7 @@
   },
   {
     "item_name": "Refresher Orb",
-    "item_cost": "Cost\n5000 (1700)",
+    "item_cost": "Cost 5000 (1700)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+13 Health Regeneration\n+12 Mana Regeneration",
     "item_active_desc": "Resets the cooldowns of all your items and abilities.",
@@ -3280,7 +3280,7 @@
   },
   {
     "item_name": "Aghanim's Scepter",
-    "item_cost": "Cost\n4200",
+    "item_cost": "Cost 4200",
     "item_category": "Bought From\nMagical",
     "item_passives": "+10 Strength\n+10 Agility\n+10 Intelligence\n+175 Health\n+175 Mana",
     "item_active_desc": "Upgrades the ultimate, and some abilities, of all heroes.",
@@ -3316,7 +3316,7 @@
   },
   {
     "item_name": "Solar Crest",
-    "item_cost": "Cost\n2625 (900)",
+    "item_cost": "Cost 2625 (900)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+5 Strength\n+5 Agility\n+5 Intelligence\n+1.75 Mana Regeneration\n+6 Armor\n+20 Movement Speed",
     "item_active_desc": "When cast on an ally, grants them 6 armor, 50 attack speed, and 10% movement speed. When cast on an enemy, removes 6 armor, 50 attack speed, and 10% movement speed.\n\nRemoves the armor from the caster when used.\n\nCannot target spell immune enemies.",
@@ -3387,7 +3387,7 @@
   },
   {
     "item_name": "Orchid Malevolence",
-    "item_cost": "Cost\n3475 (475)",
+    "item_cost": "Cost 3475 (475)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+20 Intelligence\n+4 Mana Regeneration\n+30 Attack Damage\n+25 Attack Speed",
     "item_active_desc": "Silences the target unit for 5 seconds. At the end of the silence, 30% of the damage received while silenced is inflicted as bonus magical damage.",
@@ -3441,7 +3441,7 @@
   },
   {
     "item_name": "Dagon",
-    "item_cost": "Cost\n2700 (1250)",
+    "item_cost": "Cost 2700 (1250)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+6/8/10/12/14 Strength\n+6/8/10/12/14 Agility\n+14/16/18/20/22 Intelligence",
     "item_active_desc": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
@@ -3518,7 +3518,7 @@
   },
   {
     "item_name": "Rod of Atos",
-    "item_cost": "Cost\n2750 (850)",
+    "item_cost": "Cost 2750 (850)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+12 Strength\n+12 Agility\n+24 Intelligence",
     "item_active_desc": "Roots the target for 2 seconds.",
@@ -3576,7 +3576,7 @@
   },
   {
     "item_name": "Eul's Scepter of Divinity",
-    "item_cost": "Cost\n2725 (650)",
+    "item_cost": "Cost 2725 (650)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+10 Intelligence\n+2.5 Mana Regeneration\n+20 Movement Speed",
     "item_active_desc": "Sweeps a target unit up into a cyclone, making them invulnerable for 2.5 seconds. Cyclone can only be cast on enemy units or yourself.\n\nEnemy units take 50 magical damage upon landing.",
@@ -3637,7 +3637,7 @@
   },
   {
     "item_name": "Witch Blade",
-    "item_cost": "Cost\n2600 (600)",
+    "item_cost": "Cost 2600 (600)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+12 Intelligence\n+6 Armor\n+35 Attack Speed\n+300 Projectile Speed",
     "item_active_desc": "Causes your next attack to apply a poison for 4 seconds, slowing by 25% and dealing 0.75x your intelligence as damage every second. This attack has True Strike.",
@@ -3684,7 +3684,7 @@
   },
   {
     "item_name": "Aether Lens",
-    "item_cost": "Cost\n2275 (650)",
+    "item_cost": "Cost 2275 (650)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+300 Mana\n+2.5 Mana Regeneration",
     "item_active_desc": "Increases targeted spell and item cast range by 225.",
@@ -3720,7 +3720,7 @@
   },
   {
     "item_name": "Force Staff",
-    "item_cost": "Cost\n2200 (950)",
+    "item_cost": "Cost 2200 (950)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+10 Intelligence\n+150 Health",
     "item_active_desc": "Pushes any target unit 600 units in the direction it is facing.",
@@ -3777,7 +3777,7 @@
   },
   {
     "item_name": "Glimmer Cape",
-    "item_cost": "Cost\n1950 (450)",
+    "item_cost": "Cost 1950 (450)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+15% Magic Resistance",
     "item_active_desc": "After a 0.6 second delay, grants invisibility and 45% magic resistance to you or a target allied unit for 5 seconds.\n\nCan be cast while channelling.",
@@ -3826,7 +3826,7 @@
   },
   {
     "item_name": "Veil of Discord",
-    "item_cost": "Cost\n1525 (650)",
+    "item_cost": "Cost 1525 (650)",
     "item_category": "Bought From\nMagical",
     "item_passives": "+4 Strength\n+4 Agility\n+4 Intelligence",
     "item_active_desc": "Cast a 600 radius blast that causes enemies to take 18% increased damage from spells.",
@@ -3872,7 +3872,7 @@
   },
   {
     "item_name": "Guardian Greaves",
-    "item_cost": "Cost\n5200 (1600)",
+    "item_cost": "Cost 5200 (1600)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+250 Mana\n+4 Armor\n+50 Movement Speed",
     "item_active_desc": "Restores 300 health and 200 mana to nearby allies, and removes most negative effects from the caster.",
@@ -3922,7 +3922,7 @@
   },
   {
     "item_name": "Pipe of Insight",
-    "item_cost": "Cost\n3475 (1550)",
+    "item_cost": "Cost 3475 (1550)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+8.5 Health Regeneration\n+30% Magic Resistance",
     "item_active_desc": "Gives a shield that blocks 400 magic damage to all nearby allies. Lasts 12 seconds.",
@@ -3965,7 +3965,7 @@
   },
   {
     "item_name": "Spirit Vessel",
-    "item_cost": "Cost\n2840 (1000)",
+    "item_cost": "Cost 2840 (1000)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+2 Strength\n+2 Agility\n+2 Intelligence\n+250 Health\n+1.75 Mana Regeneration\n+2 Armor",
     "item_active_desc": "When used against enemies, it reduces health by 4% of current health per second, and reduces HP regeneration and healing by 45%. Deals 35 damage per second.\n\nWhen used on allies, it provides 40 health regeneration per second.\n\nLasts 8 seconds.\n\nGains charges every time an enemy hero dies within 1400 units. Only the closest Spirit Vessel to the dying hero will gain a charge.",
@@ -4026,7 +4026,7 @@
   },
   {
     "item_name": "Vladmir's Offering",
-    "item_cost": "Cost\n2700 (500)",
+    "item_cost": "Cost 2700 (500)",
     "item_category": "Bought From\nSupport",
     "item_passives": "",
     "item_active_desc": "Grants 15% lifesteal, 18% bonus damage, 1.75 mana regeneration, and 3 armor to nearby allies.",
@@ -4091,7 +4091,7 @@
   },
   {
     "item_name": "Holy Locket",
-    "item_cost": "Cost\n2400 (475)",
+    "item_cost": "Cost 2400 (475)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+3 Strength\n+3 Agility\n+3 Intelligence\n+250 Health\n+325 Mana",
     "item_active_desc": "Target an allied unit to instantly restore 15 health and mana per charge stored.\n\nMax 20 charges. Automatically gains a charge every 10 seconds and whenever a visible enemy within 1200 range uses an ability.",
@@ -4154,7 +4154,7 @@
   },
   {
     "item_name": "Mekansm",
-    "item_cost": "Cost\n1875 (900)",
+    "item_cost": "Cost 1875 (900)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+4 Armor",
     "item_active_desc": "Heals 275 health to allied units in a 1200 radius.",
@@ -4202,7 +4202,7 @@
   },
   {
     "item_name": "Drum of Endurance",
-    "item_cost": "Cost\n1700 (550)",
+    "item_cost": "Cost 1700 (550)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+7 Strength\n+7 Intelligence",
     "item_active_desc": "Gives +45 attack speed and +13% movement speed to nearby allies for 6 seconds.",
@@ -4252,7 +4252,7 @@
   },
   {
     "item_name": "Arcane Boots",
-    "item_cost": "Cost\n1300",
+    "item_cost": "Cost 1300",
     "item_category": "Bought From\nSupport",
     "item_passives": "+250 Mana\n+45 Movement Speed",
     "item_active_desc": "Restores 175 mana to all nearby allies.",
@@ -4293,7 +4293,7 @@
   },
   {
     "item_name": "Medallion of Courage",
-    "item_cost": "Cost\n1025",
+    "item_cost": "Cost 1025",
     "item_category": "Bought From\nSupport",
     "item_passives": "+1.5 Mana Regeneration\n+5 Armor",
     "item_active_desc": "If cast on an ally, grants them the 5 armor, and removing it from the caster.\n\nIf cast on an enemy, reduces 5 armor on both the enemy and the caster.\n\nCannot target spell immune enemies.",
@@ -4353,7 +4353,7 @@
   },
   {
     "item_name": "Tranquil Boots",
-    "item_cost": "Cost\n925",
+    "item_cost": "Cost 925",
     "item_category": "Bought From\nSupport",
     "item_passives": "+14 Health Regeneration\n+65 Movement Speed",
     "item_active_desc": "Whenever you attack a hero or are attacked by any unit, the bonus 14 HP regen is lost and the movement speed bonus is reduced to 40 for 13 seconds.",
@@ -4407,7 +4407,7 @@
   },
   {
     "item_name": "Urn of Shadows",
-    "item_cost": "Cost\n840 (335)",
+    "item_cost": "Cost 840 (335)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+2 Strength\n+2 Agility\n+2 Intelligence\n+1.4 Mana Regeneration\n+2 Armor",
     "item_active_desc": "Provides 30 health regeneration when cast on allies, and deals 25 damage per second when cast on enemies.\n\nLasts 8 seconds.\n\nGains charges every time an enemy hero dies within 1400 units. Only the closest Urn to the dying hero will gain a charge.",
@@ -4471,7 +4471,7 @@
   },
   {
     "item_name": "Headdress",
-    "item_cost": "Cost\n425 (250)",
+    "item_cost": "Cost 425 (250)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+0.5 Health Regeneration",
     "item_active_desc": "Grants 2 health regeneration to allies.",
@@ -4517,7 +4517,7 @@
   },
   {
     "item_name": "Ring of Basilius",
-    "item_cost": "Cost\n425 (250)",
+    "item_cost": "Cost 425 (250)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+0.5 Mana Regeneration",
     "item_active_desc": "Grants 1 mana regeneration to allies.",
@@ -4559,7 +4559,7 @@
   },
   {
     "item_name": "Buckler",
-    "item_cost": "Cost\n425 (250)",
+    "item_cost": "Cost 425 (250)",
     "item_category": "Bought From\nSupport",
     "item_passives": "+1 Armor",
     "item_active_desc": "Grants 2 armor to player units.",
@@ -4605,7 +4605,7 @@
   },
   {
     "item_name": "Moon Shard",
-    "item_cost": "Cost\n4000",
+    "item_cost": "Cost 4000",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+140 Attack Speed",
     "item_active_desc": "Consume the Moon Shard to permanently gain 60 attack speed and 200 bonus night vision. Max 1 use.",
@@ -4650,7 +4650,7 @@
   },
   {
     "item_name": "Boots of Travel",
-    "item_cost": "Cost\n2500 (2000)",
+    "item_cost": "Cost 2500 (2000)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+100/120 Movement Speed",
     "item_active_desc": "Upgrades your Town Portal Scroll, allowing it to target units, reduces cooldown and does not consume a charge on usage.",
@@ -4690,7 +4690,7 @@
   },
   {
     "item_name": "Helm of the Dominator",
-    "item_cost": "Cost\n2375 (975)",
+    "item_cost": "Cost 2375 (975)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+6 Strength\n+6 Agility\n+6 Intelligence\n+6 Health Regeneration\n+6 Armor",
     "item_active_desc": "Takes control of one neutral target unit and sets its movement speed to 380 and max health to a minimum of 1000. Also provides the unit with +25 base attack damage, +12 health regen, +4 mana regen and +4 armor. \n\nDominated units with a max health of greater than 1000 retain their original max health.  Dominated unit's bounty is set to 100 gold.",
@@ -4766,7 +4766,7 @@
   },
   {
     "item_name": "Hand of Midas",
-    "item_cost": "Cost\n2200 (1750)",
+    "item_cost": "Cost 2200 (1750)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+40 Attack Speed",
     "item_active_desc": "Kills a non-hero target for 160 gold and 2.1x experience.\n\n Cannot be used on Ancient Creeps.",
@@ -4805,7 +4805,7 @@
   },
   {
     "item_name": "Mask of Madness",
-    "item_cost": "Cost\n1775",
+    "item_cost": "Cost 1775",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+10 Attack Damage\n+10 Attack Speed",
     "item_active_desc": "Gives 110 attack speed and 30 movement speed, but reduces your armor by 8 and silences you. Lasts 6 seconds.",
@@ -4853,7 +4853,7 @@
   },
   {
     "item_name": "Perseverance",
-    "item_cost": "Cost\n1650",
+    "item_cost": "Cost 1650",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+6.5 Health Regeneration\n+2.25 Mana Regeneration",
     "item_active_desc": "",
@@ -4933,7 +4933,7 @@
   },
   {
     "item_name": "Oblivion Staff",
-    "item_cost": "Cost\n1500",
+    "item_cost": "Cost 1500",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+10 Intelligence\n+1.25 Mana Regeneration\n+15 Attack Damage\n+10 Attack Speed",
     "item_active_desc": "",
@@ -5001,7 +5001,7 @@
   },
   {
     "item_name": "Phase Boots",
-    "item_cost": "Cost\n1500",
+    "item_cost": "Cost 1500",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+4 Armor\n+45 Movement Speed\n+18 Attack Damage (Melee)\n+12 Attack Damage (Ranged)",
     "item_active_desc": "Gives 20% increased movement speed on melee heroes, and 10% on ranged heroes, and lets you move through units and turn more quickly for 3 seconds.",
@@ -5100,7 +5100,7 @@
   },
   {
     "item_name": "Falcon Blade",
-    "item_cost": "Cost\n1100 (225)",
+    "item_cost": "Cost 1100 (225)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+200 Health\n+1.8 Mana Regeneration\n+12 Attack Damage",
     "item_active_desc": "",
@@ -5131,7 +5131,7 @@
   },
   {
     "item_name": "Orb of Corrosion",
-    "item_cost": "Cost\n925 (100)",
+    "item_cost": "Cost 925 (100)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+150 Health",
     "item_active_desc": "Dealing 3 damage per second, reducing armor by 3, and slowing movement speed by 13% if the equipped hero is melee, or by 4% if they are ranged.\n\nLasts 3 seconds.",
@@ -5178,7 +5178,7 @@
   },
   {
     "item_name": "Soul Ring",
-    "item_cost": "Cost\n680 (225)",
+    "item_cost": "Cost 680 (225)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+6 Strength\n+2 Armor",
     "item_active_desc": "Consume 170 health to temporarily gain 150 mana. Lasts 10 seconds.\n\nIf the mana gained cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool.",
@@ -5225,7 +5225,7 @@
   },
   {
     "item_name": "Bracer",
-    "item_cost": "Cost\n505 (210)",
+    "item_cost": "Cost 505 (210)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+5 Strength\n+2 Agility\n+2 Intelligence\n+1 Health Regeneration\n+3 Attack Damage",
     "item_active_desc": "",
@@ -5252,7 +5252,7 @@
   },
   {
     "item_name": "Wraith Band",
-    "item_cost": "Cost\n505 (210)",
+    "item_cost": "Cost 505 (210)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+2 Strength\n+5 Agility\n+2 Intelligence\n+1.5 Armor\n+5 Attack Speed",
     "item_active_desc": "",
@@ -5279,7 +5279,7 @@
   },
   {
     "item_name": "Null Talisman",
-    "item_cost": "Cost\n505 (210)",
+    "item_cost": "Cost 505 (210)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+2 Strength\n+2 Agility\n+5 Intelligence\n+0.6 Mana Regeneration\n+3% Spell Damage",
     "item_active_desc": "",
@@ -5306,7 +5306,7 @@
   },
   {
     "item_name": "Magic Wand",
-    "item_cost": "Cost\n450 (150)",
+    "item_cost": "Cost 450 (150)",
     "item_category": "Bought From\nAccessories",
     "item_passives": "+3 Strength\n+3 Agility\n+3 Intelligence",
     "item_active_desc": "Instantly restores 15 health and mana per charge stored.\n\nMax 20 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability.",
@@ -5361,7 +5361,7 @@
   },
   {
     "item_name": "Blink Dagger",
-    "item_cost": "Cost\n2250",
+    "item_cost": "Cost 2250",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "",
     "item_active_desc": "Teleport to a target point up to 1200 units away. \n\nBlink Dagger cannot be used for 3 seconds after taking damage from an enemy hero or Roshan.",
@@ -5407,7 +5407,7 @@
   },
   {
     "item_name": "Ghost Scepter",
-    "item_cost": "Cost\n1500",
+    "item_cost": "Cost 1500",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "+5 Strength\n+5 Agility\n+5 Intelligence",
     "item_active_desc": "You enter ghost form for 4 seconds, becoming immune to physical damage, but are unable to attack and 40% more vulnerable to magic damage.",
@@ -5445,7 +5445,7 @@
   },
   {
     "item_name": "Shadow Amulet",
-    "item_cost": "Cost\n1000",
+    "item_cost": "Cost 1000",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "",
     "item_active_desc": "Grants invisibility to you or a target allied hero as long as the target unit remains still.\n\nHas a 1.25 second fade time, and breaks instantly upon moving. \n\nThere is no cooldown when using this item on yourself.",
@@ -5501,7 +5501,7 @@
   },
   {
     "item_name": "Voodoo Mask",
-    "item_cost": "Cost\n700",
+    "item_cost": "Cost 700",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "",
     "item_active_desc": "10% of spell damage dealt to enemy heroes is returned to the caster as health, regardless of spell damage type.\n\nLifesteal reduced to 2% against creeps.",
@@ -5531,7 +5531,7 @@
   },
   {
     "item_name": "Morbid Mask",
-    "item_cost": "Cost\n900",
+    "item_cost": "Cost 900",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "",
     "item_active_desc": "Heals the attacker for 15% of attack damage dealt",
@@ -5568,7 +5568,7 @@
   },
   {
     "item_name": "Gloves of Haste",
-    "item_cost": "Cost\n450",
+    "item_cost": "Cost 450",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+20 Attack Speed",
     "item_active_desc": "",
@@ -5616,7 +5616,7 @@
   },
   {
     "item_name": "Gem of True Sight",
-    "item_cost": "Cost\n900",
+    "item_cost": "Cost 900",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "",
     "item_active_desc": "Grants the ability to see invisible units and wards to any allied vision within 900 range of its carrier.",
@@ -5637,7 +5637,7 @@
   },
   {
     "item_name": "Boots of Speed",
-    "item_cost": "Cost\n500",
+    "item_cost": "Cost 500",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "+45 Movement Speed",
     "item_active_desc": "",
@@ -5672,7 +5672,7 @@
   },
   {
     "item_name": "Cloak",
-    "item_cost": "Cost\n500",
+    "item_cost": "Cost 500",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "+15% Magic Resistance",
     "item_active_desc": "",
@@ -5720,7 +5720,7 @@
   },
   {
     "item_name": "Wind Lace",
-    "item_cost": "Cost\n250",
+    "item_cost": "Cost 250",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "+20 Movement Speed",
     "item_active_desc": "",
@@ -5751,7 +5751,7 @@
   },
   {
     "item_name": "Fluffy Hat",
-    "item_cost": "Cost\n250",
+    "item_cost": "Cost 250",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "+125 Health",
     "item_active_desc": "",
@@ -5799,7 +5799,7 @@
   },
   {
     "item_name": "Magic Stick",
-    "item_cost": "Cost\n200",
+    "item_cost": "Cost 200",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "",
     "item_active_desc": "Instantly restores 15 health and mana per charge stored.\n\n Max 10 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability.",
@@ -5837,7 +5837,7 @@
   },
   {
     "item_name": "Sage's Mask",
-    "item_cost": "Cost\n175",
+    "item_cost": "Cost 175",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "+0.7 Mana Regeneration",
     "item_active_desc": "",
@@ -5901,7 +5901,7 @@
   },
   {
     "item_name": "Ring of Regen",
-    "item_cost": "Cost\n175",
+    "item_cost": "Cost 175",
     "item_category": "Bought From\nMiscellaneous",
     "item_passives": "+1.25 Health Regeneration",
     "item_active_desc": "",
@@ -5945,7 +5945,7 @@
   },
   {
     "item_name": "Mithril Hammer",
-    "item_cost": "Cost\n1600",
+    "item_cost": "Cost 1600",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+24 Attack Damage",
     "item_active_desc": "",
@@ -5976,7 +5976,7 @@
   },
   {
     "item_name": "Claymore",
-    "item_cost": "Cost\n1350",
+    "item_cost": "Cost 1350",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+20 Attack Damage",
     "item_active_desc": "",
@@ -6024,7 +6024,7 @@
   },
   {
     "item_name": "Javelin",
-    "item_cost": "Cost\n1100",
+    "item_cost": "Cost 1100",
     "item_category": "Bought From\nEquipment",
     "item_passives": "",
     "item_active_desc": "Grants each attack a 30% chance to pierce through evasion and deal 70 bonus magical damage.",
@@ -6073,7 +6073,7 @@
   },
   {
     "item_name": "Blitz Knuckles",
-    "item_cost": "Cost\n1000",
+    "item_cost": "Cost 1000",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+35 Attack Speed",
     "item_active_desc": "",
@@ -6117,7 +6117,7 @@
   },
   {
     "item_name": "Broadsword",
-    "item_cost": "Cost\n1000",
+    "item_cost": "Cost 1000",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+15 Attack Damage",
     "item_active_desc": "",
@@ -6169,7 +6169,7 @@
   },
   {
     "item_name": "Helm of Iron Will",
-    "item_cost": "Cost\n950",
+    "item_cost": "Cost 950",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+5 Health Regeneration\n+6 Armor",
     "item_active_desc": "",
@@ -6213,7 +6213,7 @@
   },
   {
     "item_name": "Quarterstaff",
-    "item_cost": "Cost\n875",
+    "item_cost": "Cost 875",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+10 Attack Damage\n+10 Attack Speed",
     "item_active_desc": "",
@@ -6249,7 +6249,7 @@
   },
   {
     "item_name": "Chainmail",
-    "item_cost": "Cost\n550",
+    "item_cost": "Cost 550",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+4 Armor",
     "item_active_desc": "",
@@ -6297,7 +6297,7 @@
   },
   {
     "item_name": "Blades of Attack",
-    "item_cost": "Cost\n450",
+    "item_cost": "Cost 450",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+9 Attack Damage",
     "item_active_desc": "",
@@ -6345,7 +6345,7 @@
   },
   {
     "item_name": "Blight Stone",
-    "item_cost": "Cost\n300",
+    "item_cost": "Cost 300",
     "item_category": "Bought From\nEquipment",
     "item_passives": "",
     "item_active_desc": "Your attacks reduce the target's armor by 2 for 8 seconds.",
@@ -6379,7 +6379,7 @@
   },
   {
     "item_name": "Orb of Venom",
-    "item_cost": "Cost\n275",
+    "item_cost": "Cost 275",
     "item_category": "Bought From\nEquipment",
     "item_passives": "",
     "item_active_desc": "Poisons the target, dealing 2 magical damage per second and slowing movement by 13% if the equipped hero is melee, or by 4% if they are ranged. Lasts for 2 seconds.",
@@ -6411,7 +6411,7 @@
   },
   {
     "item_name": "Infused Raindrops",
-    "item_cost": "Cost\n225",
+    "item_cost": "Cost 225",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+0.8 Mana Regeneration",
     "item_active_desc": "Consumes a charge to block 120 magic damage from damage instances over 75 damage.\n\nComes with 6 charges. When the charges are gone, the item disappears.",
@@ -6447,7 +6447,7 @@
   },
   {
     "item_name": "Ring of Protection",
-    "item_cost": "Cost\n175",
+    "item_cost": "Cost 175",
     "item_category": "Bought From\nEquipment",
     "item_passives": "+2 Armor",
     "item_active_desc": "",
@@ -6503,7 +6503,7 @@
   },
   {
     "item_name": "Quelling Blade",
-    "item_cost": "Cost\n130",
+    "item_cost": "Cost 130",
     "item_category": "Bought From\nEquipment",
     "item_passives": "",
     "item_active_desc": "Destroy a target tree.",
@@ -6532,7 +6532,7 @@
   },
   {
     "item_name": "Staff of Wizardry",
-    "item_cost": "Cost\n1000",
+    "item_cost": "Cost 1000",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+10 Intelligence",
     "item_active_desc": "",
@@ -6571,7 +6571,7 @@
   },
   {
     "item_name": "Blade of Alacrity",
-    "item_cost": "Cost\n1000",
+    "item_cost": "Cost 1000",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+10 Agility",
     "item_active_desc": "",
@@ -6598,7 +6598,7 @@
   },
   {
     "item_name": "Ogre Axe",
-    "item_cost": "Cost\n1000",
+    "item_cost": "Cost 1000",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+10 Strength",
     "item_active_desc": "",
@@ -6646,7 +6646,7 @@
   },
   {
     "item_name": "Crown",
-    "item_cost": "Cost\n450",
+    "item_cost": "Cost 450",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+4 Strength\n+4 Agility\n+4 Intelligence",
     "item_active_desc": "",
@@ -6706,7 +6706,7 @@
   },
   {
     "item_name": "Robe of the Magi",
-    "item_cost": "Cost\n450",
+    "item_cost": "Cost 450",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+6 Intelligence",
     "item_active_desc": "",
@@ -6766,7 +6766,7 @@
   },
   {
     "item_name": "Band of Elvenskin",
-    "item_cost": "Cost\n450",
+    "item_cost": "Cost 450",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+6 Agility",
     "item_active_desc": "",
@@ -6798,7 +6798,7 @@
   },
   {
     "item_name": "Belt of Strength",
-    "item_cost": "Cost\n450",
+    "item_cost": "Cost 450",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+6 Strength",
     "item_active_desc": "",
@@ -6846,7 +6846,7 @@
   },
   {
     "item_name": "Circlet",
-    "item_cost": "Cost\n155",
+    "item_cost": "Cost 155",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+2 Strength\n+2 Agility\n+2 Intelligence",
     "item_active_desc": "",
@@ -6894,7 +6894,7 @@
   },
   {
     "item_name": "Mantle of Intelligence",
-    "item_cost": "Cost\n140",
+    "item_cost": "Cost 140",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+3 Intelligence",
     "item_active_desc": "",
@@ -6938,7 +6938,7 @@
   },
   {
     "item_name": "Slippers of Agility",
-    "item_cost": "Cost\n140",
+    "item_cost": "Cost 140",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+3 Agility",
     "item_active_desc": "",
@@ -6986,7 +6986,7 @@
   },
   {
     "item_name": "Gauntlets of Strength",
-    "item_cost": "Cost\n140",
+    "item_cost": "Cost 140",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+3 Strength",
     "item_active_desc": "",
@@ -7038,7 +7038,7 @@
   },
   {
     "item_name": "Iron Branch",
-    "item_cost": "Cost\n50",
+    "item_cost": "Cost 50",
     "item_category": "Bought From\nAttributes",
     "item_passives": "+1 Strength\n+1 Agility\n+1 Intelligence",
     "item_active_desc": "Targets the ground to plant a happy little tree that lasts for 20 seconds.",
@@ -7070,7 +7070,7 @@
   },
   {
     "item_name": "Aghanim's Shard",
-    "item_cost": "Cost\n1400",
+    "item_cost": "Cost 1400",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Upgrades an existing ability or adds a new ability to your hero.",
@@ -7140,7 +7140,7 @@
   },
   {
     "item_name": "Dust of Appearance",
-    "item_cost": "Cost\n80",
+    "item_cost": "Cost 80",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Reveals and slows invisible heroes by 20% in a 1050 radius around the caster for 12 seconds.",
@@ -7170,7 +7170,7 @@
   },
   {
     "item_name": "Tome of Knowledge",
-    "item_cost": "Cost\n75",
+    "item_cost": "Cost 75",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Grants you 700 experience plus 135 per tome consumed by your team after the first two.",
@@ -7197,7 +7197,7 @@
   },
   {
     "item_name": "Tango",
-    "item_cost": "Cost\n90",
+    "item_cost": "Cost 90",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming an Ironwood Tree doubles the heal amount.\n\nComes with 3 charges. Can be used on an allied hero to give them one Tango.",
@@ -7233,7 +7233,7 @@
   },
   {
     "item_name": "Healing Salve",
-    "item_cost": "Cost\n110",
+    "item_cost": "Cost 110",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Grants 40 health regeneration to the target for 10 seconds.\n\nIf the unit is attacked by an enemy hero or Roshan, the effect is lost.",
@@ -7266,7 +7266,7 @@
   },
   {
     "item_name": "Enchanted Mango",
-    "item_cost": "Cost\n65",
+    "item_cost": "Cost 65",
     "item_category": "Bought From\nConsumables",
     "item_passives": "+0.6 Health Regeneration",
     "item_active_desc": "Instantly restores 100 mana.",
@@ -7296,7 +7296,7 @@
   },
   {
     "item_name": "Sentry Ward",
-    "item_cost": "Cost\n50",
+    "item_cost": "Cost 50",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within a  radius.\nLasts 7 minutes.\n\nDoes not grant ground vision.\nHold Control to give one Sentry Ward to an allied hero.",
@@ -7334,7 +7334,7 @@
   },
   {
     "item_name": "Observer Ward",
-    "item_cost": "Cost\n0",
+    "item_cost": "Cost 0",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Plants an Observer Ward, an invisible watcher that gives ground vision in a 1400 radius to your team. Lasts 6 minutes.\n\nHold Control to give one Observer Ward to an allied hero.",
@@ -7381,7 +7381,7 @@
   },
   {
     "item_name": "Smoke of Deceit",
-    "item_cost": "Cost\n50",
+    "item_cost": "Cost 50",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Turns the caster and all allied player-controlled units in a 1200 radius invisible, and grants 15% bonus movement speed for 35 seconds.\n\nAttacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility.\n\nDisguise grants invisibility that is immune to True Sight.",
@@ -7417,7 +7417,7 @@
   },
   {
     "item_name": "Faerie Fire",
-    "item_cost": "Cost\n70",
+    "item_cost": "Cost 70",
     "item_category": "Bought From\nConsumables",
     "item_passives": "+2 Attack Damage",
     "item_active_desc": "Instantly restores 85 health.",
@@ -7441,7 +7441,7 @@
   },
   {
     "item_name": "Clarity",
-    "item_cost": "Cost\n50",
+    "item_cost": "Cost 50",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "Grants 6 mana regeneration to the target for 25 seconds.\n\nIf the unit is attacked by an enemy hero or Roshan, the effect is lost.",
@@ -7474,7 +7474,7 @@
   },
   {
     "item_name": "Town Portal Scroll",
-    "item_cost": "Cost\n100",
+    "item_cost": "Cost 100",
     "item_category": "Bought From\nConsumables",
     "item_passives": "",
     "item_active_desc": "After channeling for 3 seconds, teleports you to a target friendly building. \n\nDouble-click to teleport to your team's base fountain.",

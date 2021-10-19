@@ -89,7 +89,7 @@ function createSegment()
 	});
 }
 
-function updateTooltip(data, skillInfoArr)
+function updateTooltip(data, itemInfoArr)
 {
 	// Sets the name, icon, and description of the skill onto the tooltip.
 	document.getElementById("tooltipSkillName").innerHTML = data.item_name;
@@ -101,18 +101,45 @@ function updateTooltip(data, skillInfoArr)
 	$("#tooltipItemActive > p").text(data.item_active_desc);
 	
 	
-	// Hides the elements in skillInfoArr.
-	for (var i = 0; i < skillInfoArr.length; i++)
+	// Hides the elements in itemInfoArr.
+	for (var i = 0; i < itemInfoArr.length; i++)
 	{
-		$(skillInfoArr[i]).hide();
+		$(itemInfoArr[i]).hide();
 	}
 	
-	// Toggles the elements in skillInfoArr based on how many items are in the skills skillInfo-array.
+	var cooldownSet = false;
+	
+	// Toggles the elements in itemInfoArr based on how many objects are in the items item_active_info-array.
 	for (var i = 0; i < data.item_active_info.length; i++)
 	{
-		$(skillInfoArr[i]).text(data.item_active_info[i].item_active_info);
-		$(skillInfoArr[i]).show();
+		// RegExp that checks to see if the string contains alphabetical letters. If it doesn't that means it is the cooldown and manacost for our items active ability.
+		if (/[a-zA-Z]/i.test(data.item_active_info[i].item_active_info))
+		{
+			$(itemInfoArr[i]).text(data.item_active_info[i].item_active_info);
+		}
+		else
+		{
+			if (cooldownSet)
+			{
+				$(itemInfoArr[i]).text("Manacost: " + data.item_active_info[i].item_active_info);
+			}
+			else
+			{
+				$(itemInfoArr[i]).text("Cooldown: " + data.item_active_info[i].item_active_info);
+				cooldownSet = true;
+			}
+		}
+		
+		$(itemInfoArr[i]).show();
+		
+		// Hides the 
+		if (data.item_active_info[i].item_active_info == "")
+		{
+			$(itemInfoArr[i]).hide();
+		}
 	}
+	
+	
 	
 	// Hides the items active ability element if the value is empty.
 	if (data.item_active_info == "")
