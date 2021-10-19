@@ -91,9 +91,9 @@ function createSegment()
 function updateTooltip(data, itemInfoArr)
 {
 	// Sets the name, icon, and description of the skill onto the tooltip.
-	document.getElementById("#itemMain tooltipSkillName").innerHTML = data.item_name;
-	document.getElementById("#itemMain tooltipImageItem").src = data.item_image;
-	document.getElementById("#itemMain tooltipDesc").innerHTML = data.item_cost;
+	document.getElementById("#itemMain > tooltipSkillName").innerHTML = data.item_name;
+	document.getElementById("#itemMain > tooltipImageItem").src = data.item_image;
+	document.getElementById("#itemMain > tooltipDesc").innerHTML = data.item_cost;
 	
 	$("#tooltipItemPassives").text(data.item_passives);
 	$("#tooltipItemActive > h3").text(data.item_active_name);
