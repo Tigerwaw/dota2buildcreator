@@ -295,7 +295,12 @@ input[type="button"]:active
 	height: 64px;
 }
 
-#tooltipTop, #tooltipTopInfo, #tooltipSkillInfo, #tooltipBot, #tooltipItemActive, #tooltipItemPassives, #tooltipItemActiveInfo
+#tooltipTop, #tooltipTopInfo, #tooltipSkillInfo, #tooltipBot
+{
+	padding: 5px;
+}
+
+#tooltipTopItem, #tooltipTopInfoItem, #tooltipSkillInfoItem, #tooltipBotItem, #tooltipItemActive, #tooltipItemPassives, #tooltipItemActiveInfo
 {
 	padding: 5px;
 }
@@ -311,18 +316,25 @@ input[type="button"]:active
 	margin: 0;
 }
 
-#tooltipTop
+#tooltipTop, #tooltipTopItem
 {
 	display: flex;
 }
 
-#tooltipTop > div
+#tooltipTop > div, #tooltipTopItem > div
 {
 	margin: 0;
 	display: block;
 }
 
 #tooltipTop > div > h1, p
+{
+	text-align: top;
+	margin: 0;
+	white-space: pre-wrap;
+}
+
+tooltipTopItem > div > p, h1
 {
 	text-align: top;
 	margin: 0;
