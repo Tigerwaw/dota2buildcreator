@@ -214,6 +214,13 @@ input[type="button"]:active
 	background-color: #7d7d7d;
 }
 
+#goldCost
+{
+	padding: 0;
+	margin: 5px;
+	font-weight: bold;
+}
+
 
 /* - Hero Info - */
 

@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
 	var itemData;
-	
+
 	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
 	const tooltipSkillInfoArr = document.getElementById("tooltipItemActiveInfo").children;
 	
@@ -25,9 +25,13 @@ $(document).ready(function()
 		createSegment();
 	});
 	
-	$("#buildColumn .buildSegment .itemGrid").sortable(
+	$(".itemGrid").sortable(
 	{
-		connectWith: ".itemGrid"
+		connectWith: ".itemGrid",
+		update: function(event, ui)
+		{
+			calculateStartingGold(itemData, $(this).children());
+		}
 	});
 	
 	$(".itemDraggable").draggable(
@@ -74,6 +78,28 @@ $(document).ready(function()
 });
 
 
+function calculateStartingGold(itemData, itemArray)
+{
+	var itemCostSum = 0;
+	const regexGoldcostRecipe = new RegExp(/\w+ (\d+) \(\d+\)/);
+	const regexGoldcost = new RegExp(/\w+ (\d+)/);
+	
+	for (var i = 0; i < itemArray.length; i++)
+	{
+		var itemID = $(itemArray[i]).attr("alt");
+		var cost = regexGoldcostRecipe.exec(itemData[itemID].item_cost);
+		
+		if (cost == null)
+		{
+			cost = regexGoldcost.exec(itemData[itemID].item_cost);
+		}
+		
+		itemCostSum += Number(cost[1]);
+	}
+	
+	$("#goldCost").text(600 - itemCostSum);
+}
+
 function createSegment()
 {
 	$("<div class='buildSegment'> \
@@ -84,7 +110,7 @@ function createSegment()
 	
 	$(".itemGrid").sortable(
 	{
-		connectWith: ".itemGrid"
+		connectWith: ".itemGrid",
 	});
 }
 
