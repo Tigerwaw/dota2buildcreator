@@ -80,6 +80,7 @@ $(document).ready(function()
 
 function calculateStartingGold(itemData, itemArray)
 {
+	// the goldcost of items are formatted as either "Cost x (y)" or "Cost x". The for-loop goes through all items in the grid and adds together the x from their goldcost-strings.
 	var itemCostSum = 0;
 	const regexGoldcostRecipe = new RegExp(/\w+ (\d+) \(\d+\)/);
 	const regexGoldcost = new RegExp(/\w+ (\d+)/);

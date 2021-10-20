@@ -105,16 +105,19 @@ function allowSkillLevelling(skillsArray, charLevel)
 		var id = $(childArray[i]).attr("id");
 		var skillPointArray = $(childArray[i].children);
 		
-		for (var y = 0; y < skillPointArray.length - 2; y++)
+		// Make skillpoint dark (Not skillable).
+		for (var y = 0; y < skillPointArray.length; y++)
 		{
-			$("#" + id + " > .skillPoint:nth-of-type(" + (y) + ")").css("background-color", "#3f3f3f");
+			$("#" + id + " > .skillPoint:nth-of-type(" + (y) + ")").css("background-color", "#313131");
 		}
 		
+		// Make skillpoint golden (Has been skilled).
 		for (var x = 0; x < skillsArray[i].assignedPoints.length; x++)
 		{
 			$("#" + id + " > .skillPoint:nth-of-type(" + (skillsArray[i].assignedPoints[x]+1) + ")").css("background-color", "#daaf2b");
 		}
 		
+		// Make skillpoint grey (Can be skilled).
 		if (skillsArray[i].levelUp(charLevel))
 		{
 			$("#" + id + " > .skillPoint:nth-of-type(" + (charLevel + 1) + ")").css("background-color", "#777777");
