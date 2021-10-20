@@ -136,7 +136,6 @@ input[type="button"]:active
 	margin: auto;
 	padding: 2vh 8vw 4vh;
 	width: min-content;
-	border: 2px solid black;
 }
 
 #itemMain
