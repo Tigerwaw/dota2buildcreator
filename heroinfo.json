@@ -780,7 +780,7 @@
    "skillCooldown": null,
    "skillMana": null,
    "skillInfo": ["CAST RANGE:1200","SPLASH RADIUS:275","SPLASH DAMAGE:200%"]
- }
+ },
  {
 
    "skillName": "Grow",
