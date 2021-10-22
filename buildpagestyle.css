@@ -11,6 +11,23 @@ body
 	text-shadow: 2px 2px 4px #000000;
 }
 
+a, a:visited
+{
+	color: #f2f2f2;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #999999;
+}
+
+a:active
+{
+	color: #4d4d4d;
+}
+
 input[type="button"]
 {
 	margin-right: 3px;
@@ -139,7 +156,7 @@ input[type="button"]:active
 {
 	width: min-content;
 	margin: 0 auto 0;
-	padding: 0 3vw 0;
+	padding: 0;
 	background-color: #231F20;
 	background-image: linear-gradient(#5A5758, #231F20);
 }
@@ -155,7 +172,15 @@ input[type="button"]:active
 {
 	margin: auto;
 	width: min-content;
-	padding-top: 5vh;
+	padding: 5vh;
+}
+
+#header
+{
+	display: flex;
+	margin: auto;
+	padding: 5px;
+	background-image: linear-gradient(#777777, #313131 90%);
 }
 
 #itemMain > h1
