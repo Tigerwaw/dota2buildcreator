@@ -159,7 +159,7 @@ input[type="button"]:active
 #heroes
 {
 	display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(11, 1fr);
 	grid-column-gap: 3.5px;
 }
 
