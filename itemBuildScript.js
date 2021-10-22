@@ -128,7 +128,7 @@ function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
 	
 	
 	// Set gold cost for item.
-	$("#tooltipDescItem").text("Cost: " + splitCostString(data));
+	$("#tooltipDescItem").text(splitCostString(data));
 	
 	// Hides the elements in itemInfoArr.
 	for (var i = 0; i < itemInfoArr.length; i++)

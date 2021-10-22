@@ -247,12 +247,16 @@ input[type="button"]:active
 	background-color: #7d7d7d;
 }
 
+#goldCost, #tooltipDescItem
+{
+	font-weight: bold;
+	color: #daaf2b;
+}
+
 #goldCost
 {
 	padding: 0;
 	margin: 5px;
-	font-weight: bold;
-	color: #daaf2b;
 }
 
 

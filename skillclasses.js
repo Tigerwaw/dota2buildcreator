@@ -6,10 +6,12 @@ class Skill
 		this.maxLevel = 4;
 		this.assignedPoints = [];
 		this.earliestPoint = [1, 3, 5, 7];
+		this.isSubSkill = false;
 	}
 	
 	levelUp(charLevel)
 	{
+		if (this.isSubSkill) { return false; }
 		if (this.level == this.maxLevel) { return false; }
 		if (charLevel < this.earliestPoint[this.level]) { return false; }
 		
@@ -18,6 +20,7 @@ class Skill
 	
 	levelDown(charLevel)
 	{
+		if (this.isSubSkill) { return false; }
 		if (this.level == 0) { return false; }
 		// Checks if the latest skillpoint in this level was skilled at the previous level.
 		if (this.assignedPoints[this.level - 1] != charLevel - 1) { return false; }

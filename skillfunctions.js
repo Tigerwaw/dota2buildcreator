@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-	const skillsArray = [];
+	let skillsArray = [];
 	var charLevel = 1;
 	var heroData;
 	var heroIndex = 0;
@@ -22,14 +22,7 @@ $(document).ready(function()
 		createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/cd/Talent_tree_symbol.png', 'talentsID');
 		createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/e/e2/Attribute_Bonus_icon.png', 'attributesID');
 		
-		// Dynamically adds skill-objects to the skillsArray based on how many abilities the hero has.
-		for (var i = 0; i < heroData[heroIndex].skills.length - 1; i++)
-		{
-			skillsArray.push(new Skill());
-		}
-		skillsArray.push(new UltSkill());
-		skillsArray.push(new TalentSkill());
-		skillsArray.push(new StatSkill());
+		skillsArray = setSkillsArray(heroData[heroIndex].skills);
 		
 		allowSkillLevelling(skillsArray, charLevel);
 		
@@ -246,4 +239,54 @@ function updateToolTip(data, index, skillInfoArr)
 		$("#tooltipSkillMana").show();
 		document.getElementById("tooltipSkillMana").innerHTML = "Manacost: " + data.skills[index].skillMana;
 	}
+}
+
+function setSkillsArray(heroSkillsData)
+{
+	const heroSkills = []
+	
+	// Dynamically adds skill-objects to the heroSkills based on how many abilities the hero has.
+	for (var i = 0; i < heroSkillsData.length - 1; i++)
+	{
+		let newSkill = new Skill();
+		
+		if (isSubSkill(heroSkillsData[i]))
+		{
+			newSkill.isSubSkill = true;
+		}
+		
+		heroSkills.push(newSkill);
+	}
+	
+	heroSkills.push(new UltSkill());
+	heroSkills.push(new TalentSkill());
+	heroSkills.push(new StatSkill());
+	
+	return heroSkills;
+}
+
+function isSubSkill(skill)
+{
+	const subSkillsNames = 
+	["Call of the Wild Hawk", 
+	"Bedlam", 
+	"Adaptive Strike (Strength)", "Attribute Shift (Strength Gain)", 
+	"Stone Remnant", 
+	"Activate Fire Remnant", 
+	"Invoke", "Cold Snap", "Ghost Walk", "Tornado", "E.M.P.", "Alacrity", "Chaos Meteor", "Sun Strike", "Forge Spirit", "Ice Wall", "Deafening Blast",
+	"Focused Detonate", "Minefield Sign",
+	"Keen Conveyance",
+	"Tree Throw",
+	"Nature's Guise",
+	"Whirling Axes (Melee)"]
+	
+	for (let i = 0; i < subSkillsNames.length; i++)
+	{
+		if (skill.skillName == subSkillsNames[i])
+		{
+			return true;
+		}
+	}
+	
+	return false;
 }

@@ -636,15 +636,6 @@
  },
  {
 
-   "skillName": "Frozen Sigil",
-   "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tusk_frozen_sigil.png",
-   "skillDesc": "Summons a flying Sigil that slows movement speed by -40% for enemies within 650 radius. Lasts 25 seconds. Cooldown: 30",
-   "skillCooldown": "30",
-   "skillMana": "70",
-   "skillInfo": ["AURA RADIUS:650","DURATION:25.0","MOVEMENT SLOW:40%","ATTACK SLOW:0"]
- },
- {
-
    "skillName": "Walrus PUNCH!",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tusk_walrus_punch.png",
    "skillDesc": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.",
@@ -783,21 +774,21 @@
  },
  {
 
-   "skillName": "Grow",
-   "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_grow.png",
-   "skillDesc": "Tiny gains craggy mass, increasing his attack damage, and armor, while slowing his attack speed.",
-   "skillCooldown": null,
-   "skillMana": null,
-   "skillInfo": ["BONUS ARMOR:12 / 18 / 24","BONUS DAMAGE:30 / 70 / 110","ATTACK SPEED REDUCTION:20 / 30 / 40"]
- },
- {
-
    "skillName": "Tree Throw",
    "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_toss_tree.png",
    "skillDesc": "Throws the tree at the target unit, proccing your attack on it and splashing damage around the target.",
    "skillCooldown": null,
    "skillMana": null,
    "skillInfo": ["CAST RANGE:1200","SPLASH RADIUS:275","SPLASH DAMAGE:200%"]
+ }
+ {
+
+   "skillName": "Grow",
+   "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_grow.png",
+   "skillDesc": "Tiny gains craggy mass, increasing his attack damage, and armor, while slowing his attack speed.",
+   "skillCooldown": null,
+   "skillMana": null,
+   "skillInfo": ["BONUS ARMOR:12 / 18 / 24","BONUS DAMAGE:30 / 70 / 110","ATTACK SPEED REDUCTION:20 / 30 / 40"]
  }]},{"heroName": "Tinker",
    "heroIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png",
    "heroAttrBase": ["18","13","30"],
@@ -3169,15 +3160,6 @@
    "skillCooldown": "70",
    "skillMana": "75 / 125 / 175",
    "skillInfo": ["DURATION:40.0","MOVEMENT SPEED:15% / 20% / 25%","CAST RANGE BONUS:125 / 250 / 375","ILLUMINATE HEAL:30% / 45% / 60%"]
- },
- {
-
-   "skillName": "Illuminate",
-   "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/keeper_of_the_light_spirit_form_illuminate.png",
-   "skillDesc": "Channels light energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals damage and gives vision in its path.  The longer it is channeled, the more damage is dealt.",
-   "skillCooldown": "13",
-   "skillMana": "100 / 125 / 150 / 175",
-   "skillInfo": ["MAX DAMAGE:200 / 300 / 400 / 500","MAX CHANNEL TIME:3.0","WIDTH:375","RANGE:1550"]
  }]},{"heroName": "Juggernaut",
    "heroIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png",
    "heroAttrBase": ["20","34","14"],
@@ -3289,24 +3271,6 @@
    "skillCooldown": "22.0 / 20.0 / 18.0 / 16.0",
    "skillMana": "40 / 60 / 80 / 100",
    "skillInfo": ["ATTACK SPEED:50 / 70 / 90 / 110","SPELL AMPLIFICATION:10% / 12% / 14% / 16%","MAX HEALTH REGEN:0.5% / 0.6% / 0.7% / 0.8%","DURATION:8.0"]
- },
- {
-
-   "skillName": "Spirits Movement",
-   "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/wisp_spirits_in.png",
-   "skillDesc": "Sends the spirits closer to you. Can be toggled on and off.",
-   "skillCooldown": null,
-   "skillMana": null,
-   "skillInfo": []
- },
- {
-
-   "skillName": "Spirits Out",
-   "skillIcon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/wisp_spirits_out.png",
-   "skillDesc": "Sends the spirits farther away from you. Can be toggled on and off.",
-   "skillCooldown": null,
-   "skillMana": null,
-   "skillInfo": []
  },
  {
 
