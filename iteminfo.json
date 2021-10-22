@@ -4990,7 +4990,7 @@
   },
   {
     "item_name": "Power Treads",
-    "item_cost": null,
+    "item_cost": "Cost 1400",
     "item_category": "Accessories",
     "item_passives": "+45 Movement Speed\n+25 Attack Speed",
     "item_active_desc": "Switches between +10 Strength, +10 Agility, or +10 Intelligence.",
@@ -7027,7 +7027,7 @@
   },
   {
     "item_name": "Bottle",
-    "item_cost": 675,
+    "item_cost": "Cost 675",
     "item_category": "Consumables",
     "item_passives": "",
     "item_active_desc": "Consumes a charge to restore 110 health and 60 mana over 2.7 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.\n\nThe Bottle automatically refills at the fountain.\n\nHold Control to use on an allied hero.",

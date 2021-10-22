@@ -95,14 +95,9 @@ function calculateStartingGold(itemData, itemArray)
 	for (var i = 0; i < itemArray.length; i++)
 	{
 		var itemID = $(itemArray[i]).attr("alt");
-		var cost = regexGoldcostRecipe.exec(itemData[itemID].item_cost);
+		var cost = splitCostString(itemData[itemID]);
 		
-		if (cost == null)
-		{
-			cost = regexGoldcost.exec(itemData[itemID].item_cost);
-		}
-		
-		itemCostSum += Number(cost[1]);
+		itemCostSum += Number(cost);
 	}
 	
 	$("#goldCost").text(600 - itemCostSum);
@@ -125,14 +120,15 @@ function createSegment()
 function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
 {
 	// Sets the name, icon, and description of the skill onto the tooltip.
-	document.getElementById("tooltipSkillNameItem").innerHTML = data.item_name;
-	document.getElementById("tooltipImageItem").src = data.item_image;
-	document.getElementById("tooltipDescItem").innerHTML = data.item_cost;
-	
+	$("#tooltipImageItem").attr("src", data.item_image);
+	$("#tooltipSkillNameItem").text(data.item_name);
 	$("#tooltipItemPassives").text(data.item_passives);
 	$("#tooltipItemActive > h3").text(data.item_active_name);
 	$("#tooltipItemActive > p").text(data.item_active_desc);
 	
+	
+	// Set gold cost for item.
+	$("#tooltipDescItem").text("Cost: " + splitCostString(data));
 	
 	// Hides the elements in itemInfoArr.
 	for (var i = 0; i < itemInfoArr.length; i++)
@@ -163,12 +159,9 @@ function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
 			}
 		}
 		
-		$(itemInfoArr[i]).show();
-		
-		// Hides the 
-		if (data.item_active_info[i].item_active_info == "")
+		if (data.item_active_info[i].item_active_info != "")
 		{
-			$(itemInfoArr[i]).hide();
+			$(itemInfoArr[i]).show();
 		}
 	}
 	
@@ -181,4 +174,38 @@ function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
 	{
 		$("#tooltipItemActive").show();
 	}
+
+	
+	/*
+	// Hides the elements in itemComponentsArr.
+	for (var i = 0; i < itemComponentsArr.length; i++)
+	{
+		$(itemComponentsArr[i]).hide();
+	}
+	
+	if (data.item_components.length > 0)
+	{
+		for (var i = 0; i < data.item_components.length; i++)
+		{
+			$(itemComponentsArr[i]).text(data.item_components[i]['item_components-alt']);
+			$(itemComponentsArr[i]).show();
+			console.log(itemComponentsArr[i]);
+		}
+	}
+	*/
+}
+
+function splitCostString(itemData)
+{
+	const regexGoldcostRecipe = new RegExp(/\w+ (\d+) \(\d+\)/);
+	const regexGoldcost = new RegExp(/\w+ (\d+)/);
+	
+	var cost = regexGoldcostRecipe.exec(itemData.item_cost);
+	
+	if (cost == null)
+	{
+		cost = regexGoldcost.exec(itemData.item_cost);
+	}
+	
+	return cost[1];
 }

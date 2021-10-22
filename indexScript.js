@@ -18,4 +18,17 @@ $(document).ready(function()
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
 	xmlhttp.send();
+	
+	// Creates an effect when a hero icon is hovered over.
+	$("#heroes").on("mouseenter", ".homeHeroIcon", function()
+	{
+		$(this).css("filter", "brightness(130%)");
+		$(this).css("outline", "2px solid gold");
+	});
+	
+	$("#heroes").on("mouseleave", ".homeHeroIcon", function()
+	{
+		$(this).css("filter", "brightness(100%)");
+		$(this).css("outline", "none");
+	});
 });

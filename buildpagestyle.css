@@ -45,6 +45,7 @@ input[type="button"]:active
 {
 	width: 128px;
 	height: 72px;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* - Hero Info - */
@@ -96,6 +97,7 @@ input[type="button"]:active
 	display: flex;
 	flex-direction: column;
 	width: 50px;
+	margin-right: 2px;
 }
 
 .levelUp, #newSegmentButton
@@ -108,6 +110,7 @@ input[type="button"]:active
 	font-size: 24px;
 	padding: 5px;
 	background-image: radial-gradient(circle, #777777, #313131 90%);
+	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.8);
 }
 
 .levelUp:hover, .levelDown:hover
@@ -204,8 +207,8 @@ input[type="button"]:active
 	height: min-content;
 	padding: 5px;
 	margin: 5px;
-	border: 2px black solid;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 2px black inset;
+	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2) inset;
 }
 
 .itemDraggable > img

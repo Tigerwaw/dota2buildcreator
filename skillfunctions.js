@@ -39,10 +39,10 @@ $(document).ready(function()
 	xmlhttp.send();	
 	
 	
+	// Beginning of jQuery functions.
+	
 	$("#main #skillTooltip").hide();
 	
-	// Beginning of jQuery functions.
-	// These functions are located inside the function that is called on xmlhttp.onload because otherwise the interactable elements won't be recognized by jQuery for some reason.
 	$("#skillsBox").on("click", ".skill .skillButtons .levelUp", function()
 	{
 		// Get the index of the parent skill-div within the skillBox-div.
