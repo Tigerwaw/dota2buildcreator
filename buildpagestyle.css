@@ -107,6 +107,17 @@ input[type="button"]:active
 {
 	font-size: 24px;
 	padding: 5px;
+	background-image: radial-gradient(circle, #777777, #313131 90%);
+}
+
+.levelUp:hover, .levelDown:hover
+{
+	background-color: grey;
+}
+
+.levelUp:hover
+{
+	background-color: #blue;
 }
 
 .iconImage
@@ -228,7 +239,7 @@ input[type="button"]:active
 	margin: 5px;
 }
 
-.buildSegment > input[type="button"]:hover
+#buildColumn > input[type="button"]:hover, .buildSegment > input[type="button"]:hover
 {
 	background-color: #7d7d7d;
 }

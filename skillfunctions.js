@@ -31,69 +31,79 @@ $(document).ready(function()
 		skillsArray.push(new TalentSkill());
 		skillsArray.push(new StatSkill());
 		
-		
 		allowSkillLevelling(skillsArray, charLevel);
-	
-		// Beginning of jQuery functions.
-		// These functions are located inside the function that is called on xmlhttp.onload because otherwise the interactable elements won't be recognized by jQuery for some reason.
-		$(".levelUp").click(function()
-		{
-			// Get the index of the parent skill-div within the skillBox-div.
-			// Its index corresponds to the same index in the skillsArray.
-			var skillIndex = $(this).closest(".skill").index();
-			var skill = skillsArray[skillIndex];
-			var id = $(this).closest(".skill").attr("id");
-			
-			if(skill.levelUp(charLevel))
-			{
-				skill.assignedPoints.push(charLevel);
-				skill.level += 1;
-				charLevel += 1;
-				allowSkillLevelling(skillsArray, charLevel);
-			}
-		});
 		
-		$(".levelDown").click(function()
-		{
-			// Get the index of the parent skill-div within the skillBox-div.
-			// Its index corresponds to the same index in the skillsArray.
-			var skillIndex = $(this).closest(".skill").index();
-			var skill = skillsArray[skillIndex];
-			var id = $(this).closest(".skill").attr("id");
-			
-			if(skill.levelDown(charLevel))
-			{
-				skill.assignedPoints.pop();
-				skill.level -= 1;
-				charLevel -= 1;
-				allowSkillLevelling(skillsArray, charLevel);
-			}
-		});
-		
-		// Toggles the visibility of the skill tooltip element, and calls a function to update the content of the tooltip.
-		$(".iconImage").on({
-			mouseenter: function() 
-			{			
-				var skillID = $(this).closest(".skill").attr("id");
-				if (skillID != "attributesID" && skillID != "talentsID")
-				{
-					var index = $(this).closest(".skill").index();
-					updateToolTip(heroData[heroIndex], index, tooltipSkillInfoArr);
-					$("#main #skillTooltip").stop(true, true).delay(200).show("slide", 200);
-				}
-			},
-			mouseleave: function() 
-			{
-				$("#main #skillTooltip").stop(true, true).hide("slide", 100);
-			}
-		});
-
 		setTimeout(() => {$("#loadingScreen").hide()}, 300);
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/heroinfo.json", true);
 	xmlhttp.send();	
 	
+	
 	$("#main #skillTooltip").hide();
+	
+	// Beginning of jQuery functions.
+	// These functions are located inside the function that is called on xmlhttp.onload because otherwise the interactable elements won't be recognized by jQuery for some reason.
+	$("#skillsBox").on("click", ".skill .skillButtons .levelUp", function()
+	{
+		// Get the index of the parent skill-div within the skillBox-div.
+		// Its index corresponds to the same index in the skillsArray.
+		var skillIndex = $(this).closest(".skill").index();
+		var skill = skillsArray[skillIndex];
+		var id = $(this).closest(".skill").attr("id");
+		
+		if(skill.levelUp(charLevel))
+		{
+			skill.assignedPoints.push(charLevel);
+			skill.level += 1;
+			charLevel += 1;
+			allowSkillLevelling(skillsArray, charLevel);
+		}
+	});
+	
+	$("#skillsBox").on("click", ".skill .skillButtons .levelDown", function()
+	{
+		// Get the index of the parent skill-div within the skillBox-div.
+		// Its index corresponds to the same index in the skillsArray.
+		var skillIndex = $(this).closest(".skill").index();
+		var skill = skillsArray[skillIndex];
+		var id = $(this).closest(".skill").attr("id");
+		
+		if(skill.levelDown(charLevel))
+		{
+			skill.assignedPoints.pop();
+			skill.level -= 1;
+			charLevel -= 1;
+			allowSkillLevelling(skillsArray, charLevel);
+		}
+	});
+	
+	$("#skillsBox").on("mouseenter", ".skill .iconImage", function()
+	{			
+		var skillID = $(this).closest(".skill").attr("id");
+		if (skillID != "attributesID" && skillID != "talentsID")
+		{
+			var index = $(this).closest(".skill").index();
+			updateToolTip(heroData[heroIndex], index, tooltipSkillInfoArr);
+			$("#main #skillTooltip").stop(true, true).delay(200).show("slide", 200);
+			$(this).css("filter", "brightness(120%)");
+		}
+	});
+	
+	$("#skillsBox").on("mouseleave", ".skill .iconImage", function()
+	{			
+		$("#main #skillTooltip").stop(true, true).hide("slide", 100);
+		$(this).css("filter", "brightness(100%)");
+	});
+	
+	$("#skillsBox").on("mouseenter", ".skill .skillButtons input", function()
+	{
+		$(this).css("background-image", "radial-gradient(circle, #777777, #313131 70%)");
+	});
+	
+	$("#skillsBox").on("mouseleave", ".skill .skillButtons input", function()
+	{
+		$(this).css("background-image", "radial-gradient(circle, #777777, #313131 90%)");
+	});
 });
 
 // Colors the skill point boxes according to whether they have been used to level a skill and whether they can or can not be levelled at a certain level.

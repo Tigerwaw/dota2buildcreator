@@ -5,6 +5,9 @@ $(document).ready(function()
 	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
 	const tooltipSkillInfoArr = document.getElementById("tooltipItemActiveInfo").children;
 	
+	const itemComponentsArr = document.getElementById("buildsFrom").children;
+	const itemBuildsIntoArr = document.getElementById("buildsInto").children;
+	
 	//Handles external json-data.
 	const xmlhttp = new XMLHttpRequest();
 	xmlhttp.onload = function()
@@ -19,6 +22,8 @@ $(document).ready(function()
 	}
 	xmlhttp.open("GET", "https://tigerwaw.github.io/dota2buildcreator/iteminfo.json", true);
 	xmlhttp.send();
+
+
 	
 	$("#newSegmentButton").click(function()
 	{
@@ -45,14 +50,16 @@ $(document).ready(function()
 		// Checks whether the current .itemDraggable is currently being dragged by the user. If not then the tooltip will be displayed.
 		if ($(this).is(".ui-draggable-dragging") == false)
 		{
-			updateTooltip(itemData[$(this).attr("alt")], tooltipSkillInfoArr);
+			updateTooltip(itemData[$(this).attr("alt")], tooltipSkillInfoArr, itemComponentsArr, itemBuildsIntoArr);
 			$("#skillTooltipItem").stop(true, true).delay(200).show("slide", 200, false);
+			$(this).css("filter", "brightness(130%)");
 		}
 	});
 	
 	$("#itemColumn, #buildColumn").on("mouseleave", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function()
 	{
 		$("#skillTooltipItem").stop(true, true).hide("slide", 100, false);
+		$(this).css("filter", "brightness(100%)");
 	});
 	
 	// When clicking the editSegment button the title will get hidden and a text input will appear for the user to change the title.
@@ -115,7 +122,7 @@ function createSegment()
 	});
 }
 
-function updateTooltip(data, itemInfoArr)
+function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
 {
 	// Sets the name, icon, and description of the skill onto the tooltip.
 	document.getElementById("tooltipSkillNameItem").innerHTML = data.item_name;
@@ -164,8 +171,6 @@ function updateTooltip(data, itemInfoArr)
 			$(itemInfoArr[i]).hide();
 		}
 	}
-	
-	
 	
 	// Hides the items active ability element if the value is empty.
 	if (data.item_active_info == "")
