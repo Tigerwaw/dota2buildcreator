@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
-	var heroData;
-	var heroIcons = [];
+	let heroData;
+	const heroIcons = [];
 	
 	//Handles external json-data.
 	const xmlhttp = new XMLHttpRequest();

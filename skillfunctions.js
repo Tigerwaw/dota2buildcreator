@@ -1,12 +1,12 @@
 $(document).ready(function()
 {
 	let skillsArray = [];
-	var charLevel = 1;
-	var heroData;
-	var heroIndex = 0;
+	let charLevel = 1;
+	let heroData;
+	let heroIndex = 0;
 	
 	// Gets the url parameter "hero" to figure out what hero the user clicked on the previous page.
-	var url = new URL(window.location.href);
+	const url = new URL(window.location.href);
 	heroIndex = url.searchParams.get("hero");
 	
 	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
@@ -40,9 +40,9 @@ $(document).ready(function()
 	{
 		// Get the index of the parent skill-div within the skillBox-div.
 		// Its index corresponds to the same index in the skillsArray.
-		var skillIndex = $(this).closest(".skill").index();
-		var skill = skillsArray[skillIndex];
-		var id = $(this).closest(".skill").attr("id");
+		const skillIndex = $(this).closest(".skill").index();
+		const skill = skillsArray[skillIndex];
+		const id = $(this).closest(".skill").attr("id");
 		
 		if(skill.levelUp(charLevel))
 		{
@@ -57,9 +57,9 @@ $(document).ready(function()
 	{
 		// Get the index of the parent skill-div within the skillBox-div.
 		// Its index corresponds to the same index in the skillsArray.
-		var skillIndex = $(this).closest(".skill").index();
-		var skill = skillsArray[skillIndex];
-		var id = $(this).closest(".skill").attr("id");
+		const skillIndex = $(this).closest(".skill").index();
+		const skill = skillsArray[skillIndex];
+		const id = $(this).closest(".skill").attr("id");
 		
 		if(skill.levelDown(charLevel))
 		{
@@ -72,7 +72,7 @@ $(document).ready(function()
 	
 	$("#skillsBox").on("mouseenter", ".skill .iconImage", function()
 	{			
-		var skillID = $(this).closest(".skill").attr("id");
+		const skillID = $(this).closest(".skill").attr("id");
 		if (skillID != "attributesID" && skillID != "talentsID")
 		{
 			var index = $(this).closest(".skill").index();
@@ -102,20 +102,20 @@ $(document).ready(function()
 // Colors the skill point boxes according to whether they have been used to level a skill and whether they can or can not be levelled at a certain level.
 function allowSkillLevelling(skillsArray, charLevel)
 {
-	for (var i = 0; i < skillsArray.length; i++)
+	for (let i = 0; i < skillsArray.length; i++)
 	{
-		var childArray = $("#skillsBox").children();
-		var id = $(childArray[i]).attr("id");
-		var skillPointArray = $(childArray[i].children);
+		const childArray = $("#skillsBox").children();
+		const id = $(childArray[i]).attr("id");
+		const skillPointArray = $(childArray[i].children);
 		
 		// Make skillpoint dark (Not skillable).
-		for (var y = 0; y < skillPointArray.length; y++)
+		for (let y = 0; y < skillPointArray.length; y++)
 		{
 			$("#" + id + " > .skillPoint:nth-of-type(" + (y) + ")").css("background-color", "#313131");
 		}
 		
 		// Make skillpoint golden (Has been skilled).
-		for (var x = 0; x < skillsArray[i].assignedPoints.length; x++)
+		for (let x = 0; x < skillsArray[i].assignedPoints.length; x++)
 		{
 			$("#" + id + " > .skillPoint:nth-of-type(" + (skillsArray[i].assignedPoints[x]+1) + ")").css("background-color", "#daaf2b");
 		}
@@ -130,7 +130,7 @@ function allowSkillLevelling(skillsArray, charLevel)
 
 function createSkillBoxes(heroData)
 {
-	for (var i = 0; i < heroData.skills.length; i++)
+	for (let i = 0; i < heroData.skills.length; i++)
 	{
 		createSkillBox('https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Impetus_icon.png', i);
 	}
@@ -186,9 +186,9 @@ function applyHeroData(data)
 	document.getElementById("mSpeedText").innerHTML = data.heroSpeed;
 	
 	
-	var childArray = $("#skillsBox").children();
+	const childArray = $("#skillsBox").children();
 	
-	for (var i = 0; i < data.skills.length; i++)
+	for (let i = 0; i < data.skills.length; i++)
 	{
 		childArray[i].getElementsByTagName("img")[0].src = data.skills[i].skillIcon;
 		childArray[i].getElementsByTagName("img")[0].setAttribute("class", "iconImage");
@@ -203,23 +203,20 @@ function updateToolTip(data, index, skillInfoArr)
 	document.getElementById("tooltipDesc").innerHTML = data.skills[index].skillDesc;
 	
 	// Hides the elements in skillInfoArr.
-	for (var i = 0; i < skillInfoArr.length; i++)
+	for (let i = 0; i < skillInfoArr.length; i++)
 	{
 		$(skillInfoArr[i]).hide();
 	}
 	
 	// Toggles the elements in skillInfoArr based on how many items are in the skills skillInfo-array.
-	for (var i = 0; i < data.skills[index].skillInfo.length; i++)
+	for (let i = 0; i < data.skills[index].skillInfo.length; i++)
 	{
 		$(skillInfoArr[i]).text(data.skills[index].skillInfo[i]);
 		$(skillInfoArr[i]).show();
 	}
 	
-	var cooldown = data.skills[index].skillCooldown;
-	var mana = data.skills[index].skillMana;
-	
 	// Hides the skills cooldown element if the value is null.
-	if (cooldown == null)
+	if (data.skills[index].skillCooldown == null)
 	{
 		$("#tooltipSkillCooldown").hide();
 	}
@@ -246,7 +243,7 @@ function setSkillsArray(heroSkillsData)
 	const heroSkills = []
 	
 	// Dynamically adds skill-objects to the heroSkills based on how many abilities the hero has.
-	for (var i = 0; i < heroSkillsData.length - 1; i++)
+	for (let i = 0; i < heroSkillsData.length - 1; i++)
 	{
 		let newSkill = new Skill();
 		

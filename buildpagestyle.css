@@ -209,7 +209,7 @@ input[type="button"]:active
 
 #buildColumn
 {
-	width: 15vw;
+	width: min-content;
 }
 
 #itemColumn, .itemGrid
@@ -230,6 +230,7 @@ input[type="button"]:active
 	grid-template-columns: repeat(4, 1fr);
 	min-height: 46px;
 	height: min-content;
+	width: 230px;
 	padding: 5px;
 	margin: 5px;
 	border: 2px black inset;

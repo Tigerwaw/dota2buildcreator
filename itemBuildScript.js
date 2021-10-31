@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-	var itemData;
+	let itemData;
 
 	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
 	const tooltipSkillInfoArr = document.getElementById("tooltipItemActiveInfo").children;
@@ -65,8 +65,8 @@ $(document).ready(function()
 	// When clicking the editSegment button the title will get hidden and a text input will appear for the user to change the title.
 	$("#buildColumn").on("click", ".buildSegment .editSegmentTitleButton", function()
 	{
-		var segmentTitle = $(this).parent().children("h3")[0];
-		var segmentTitleInput = $(this).parent().children("input[type='text']")[0];
+		const segmentTitle = $(this).parent().children("h3")[0];
+		const segmentTitleInput = $(this).parent().children("input[type='text']")[0];
 
 		$(segmentTitleInput).attr("value", segmentTitle.textContent);
 		$(segmentTitle).text(segmentTitleInput.value);
@@ -88,14 +88,14 @@ $(document).ready(function()
 function calculateStartingGold(itemData, itemArray)
 {
 	// the goldcost of items are formatted as either "Cost x (y)" or "Cost x". The for-loop goes through all items in the grid and adds together the x from their goldcost-strings.
-	var itemCostSum = 0;
+	let itemCostSum = 0;
 	const regexGoldcostRecipe = new RegExp(/\w+ (\d+) \(\d+\)/);
 	const regexGoldcost = new RegExp(/\w+ (\d+)/);
 	
-	for (var i = 0; i < itemArray.length; i++)
+	for (let i = 0; i < itemArray.length; i++)
 	{
-		var itemID = $(itemArray[i]).attr("alt");
-		var cost = splitCostString(itemData[itemID]);
+		const itemID = $(itemArray[i]).attr("alt");
+		const cost = splitCostString(itemData[itemID]);
 		
 		itemCostSum += Number(cost);
 	}
@@ -131,15 +131,15 @@ function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
 	$("#tooltipDescItem").text(splitCostString(data));
 	
 	// Hides the elements in itemInfoArr.
-	for (var i = 0; i < itemInfoArr.length; i++)
+	for (let i = 0; i < itemInfoArr.length; i++)
 	{
 		$(itemInfoArr[i]).hide();
 	}
 	
-	var cooldownSet = false;
+	let cooldownSet = false;
 	
 	// Toggles the elements in itemInfoArr based on how many objects are in the items item_active_info-array.
-	for (var i = 0; i < data.item_active_info.length; i++)
+	for (let i = 0; i < data.item_active_info.length; i++)
 	{
 		// RegExp that checks to see if the string contains alphabetical letters. If it doesn't that means it is the cooldown and manacost for our items active ability.
 		if (/[a-zA-Z]/i.test(data.item_active_info[i].item_active_info))
@@ -178,14 +178,14 @@ function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
 	
 	/*
 	// Hides the elements in itemComponentsArr.
-	for (var i = 0; i < itemComponentsArr.length; i++)
+	for (let i = 0; i < itemComponentsArr.length; i++)
 	{
 		$(itemComponentsArr[i]).hide();
 	}
 	
 	if (data.item_components.length > 0)
 	{
-		for (var i = 0; i < data.item_components.length; i++)
+		for (let i = 0; i < data.item_components.length; i++)
 		{
 			$(itemComponentsArr[i]).text(data.item_components[i]['item_components-alt']);
 			$(itemComponentsArr[i]).show();
@@ -200,7 +200,7 @@ function splitCostString(itemData)
 	const regexGoldcostRecipe = new RegExp(/\w+ (\d+) \(\d+\)/);
 	const regexGoldcost = new RegExp(/\w+ (\d+)/);
 	
-	var cost = regexGoldcostRecipe.exec(itemData.item_cost);
+	let cost = regexGoldcostRecipe.exec(itemData.item_cost);
 	
 	if (cost == null)
 	{
