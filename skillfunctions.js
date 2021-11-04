@@ -243,9 +243,18 @@ function setSkillsArray(heroSkillsData)
 	const heroSkills = []
 	
 	// Dynamically adds skill-objects to the heroSkills based on how many abilities the hero has.
-	for (let i = 0; i < heroSkillsData.length - 1; i++)
+	for (let i = 0; i < heroSkillsData.length; i++)
 	{
-		let newSkill = new Skill();
+		let newSkill;
+		
+		if (heroSkillsData[i].skillType == "ultimate")
+		{
+			newSkill = new UltSkill();
+		}
+		else
+		{
+			newSkill = new Skill();
+		}
 		
 		if (isSubSkill(heroSkillsData[i]))
 		{
@@ -254,8 +263,6 @@ function setSkillsArray(heroSkillsData)
 		
 		heroSkills.push(newSkill);
 	}
-	
-	heroSkills.push(new UltSkill());
 	heroSkills.push(new TalentSkill());
 	heroSkills.push(new StatSkill());
 	
@@ -267,15 +274,18 @@ function isSubSkill(skill)
 	const subSkillsNames = 
 	["Call of the Wild Hawk", 
 	"Bedlam", 
-	"Adaptive Strike (Strength)", "Attribute Shift (Strength Gain)", 
-	"Stone Remnant", 
+	"Adaptive Strike (Strength)", "Attribute Shift (Strength Gain)",
 	"Activate Fire Remnant", 
-	"Invoke", "Cold Snap", "Ghost Walk", "Tornado", "E.M.P.", "Alacrity", "Chaos Meteor", "Sun Strike", "Forge Spirit", "Ice Wall", "Deafening Blast",
-	"Focused Detonate", "Minefield Sign",
+	"Cold Snap", "Ghost Walk", "Tornado", "E.M.P.", "Alacrity", "Chaos Meteor", "Sun Strike", "Forge Spirit", "Ice Wall", "Deafening Blast",
+	"Focused Detonate",
 	"Keen Conveyance",
 	"Tree Throw",
-	"Nature's Guise",
 	"Whirling Axes (Melee)"]
+	
+	if (skill.skillType == "innate")
+	{
+		return true;
+	}
 	
 	for (let i = 0; i < subSkillsNames.length; i++)
 	{

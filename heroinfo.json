@@ -96,6 +96,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -191,23 +194,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Berserk Potion",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b2\/Berserk_Potion_icon.png",
-    "skillDesc":"Alchemist throws a potion at an ally, applying a basic dispel and giving them 50 Attack Speed, 30 Movement Speed and 40 HP regen.Lasts 10 seconds.",
-    "skillCooldown":" 35",
-    "skillMana":" 125\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.63",
-     "Cast Range: 800",
-     "Move Speed Bonus: 30",
-     "Attack Speed Bonus: 50",
-     "Health Regen Bonus: 40",
-     "Buff Duration: 10",
-     "Projectile Speed: 900"
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Chemical Rage",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/24\/Chemical_Rage_icon.png",
@@ -236,6 +222,25 @@
      "Attack Damage Bonus per Infused Scepter: 20",
      "Spell Damage Amplification Bonus per Infused Scepter: 5%",
      ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Berserk Potion",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b2\/Berserk_Potion_icon.png",
+    "skillDesc":"Alchemist throws a potion at an ally, applying a basic dispel and giving them 50 Attack Speed, 30 Movement Speed and 40 HP regen.Lasts 10 seconds.",
+    "skillCooldown":" 35",
+    "skillMana":" 125\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.63",
+     "Cast Range: 800",
+     "Move Speed Bonus: 30",
+     "Attack Speed Bonus: 50",
+     "Health Regen Bonus: 40",
+     "Buff Duration: 10",
+     "Projectile Speed: 900"
     ]
    }
   ]
@@ -353,6 +358,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -431,6 +439,24 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Mana Void",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/fe\/Mana_Void_icon.png",
+    "skillDesc":"For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies. The main target is also mini-stunned.",
+    "skillCooldown":" 70 ( 20)",
+    "skillMana":" 100\/200\/300\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+0.63",
+     "Cast Range: 600",
+     "Radius: 500",
+     "Damage per Missing Mana: 0.8\/0.95\/1.1 (0.9\/1.05\/1.2)",
+     "Stun Duration: 0.3 (1)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Blink Fragment",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/5f\/Blink_Fragment_icon.png",
@@ -448,22 +474,6 @@
      "",
      "",
      "Requires drafting  Mana Void to be unlocked."
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Mana Void",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/fe\/Mana_Void_icon.png",
-    "skillDesc":"For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies. The main target is also mini-stunned.",
-    "skillCooldown":" 70 ( 20)",
-    "skillMana":" 100\/200\/300\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+0.63",
-     "Cast Range: 600",
-     "Radius: 500",
-     "Damage per Missing Mana: 0.8\/0.95\/1.1 (0.9\/1.05\/1.2)",
-     "Stun Duration: 0.3 (1)",
-     ""
     ]
    }
   ]
@@ -570,6 +580,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -670,6 +683,9 @@
      "Kill Bonus Buff Duration: 6"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -779,6 +795,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -884,6 +903,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -996,7 +1018,9 @@
      "Stun Duration: 3\/3.5\/4",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"talent",
     "skillName":"Health Aura   \n",
@@ -1144,6 +1168,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -1245,6 +1272,9 @@
      "Vision Radius: 600"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -1342,7 +1372,9 @@
      "Charge Replenish Time: 140\/130\/120",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"aghs",
     "skillName":"Primal Split Cancel",
@@ -1548,6 +1580,23 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Warpath",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/25\/Warpath_icon.png",
+    "skillDesc":"Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage.",
+    "skillCooldown":null,
+    "skillMana":null,
+    "skillInfo":[
+     "Max Stacks: 5\/7\/9",
+     "Attack Damage Bonus per Stack: 25\/30\/35 (49\/54\/59)",
+     "Move Speed Bonus per Stack: 3%\/4%\/5%",
+     "Stack Duration: 16\/18\/20",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Hairball",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/06\/Hairball_icon.png",
@@ -1561,21 +1610,6 @@
      "Number of Viscous Nasal Goo: 1",
      "Number of Quill Sprays: 2",
      "Quill Spray Interval: 0.1",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Warpath",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/25\/Warpath_icon.png",
-    "skillDesc":"Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage.",
-    "skillCooldown":null,
-    "skillMana":null,
-    "skillInfo":[
-     "Max Stacks: 5\/7\/9",
-     "Attack Damage Bonus per Stack: 25\/30\/35 (49\/54\/59)",
-     "Move Speed Bonus per Stack: 3%\/4%\/5%",
-     "Stack Duration: 16\/18\/20",
      ""
     ]
    }
@@ -1662,6 +1696,26 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Spawn Spiderlings",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d5\/Spawn_Spiderlings_icon.png",
+    "skillDesc":"Broodmother injects her young into an enemy unit, dealing damage. The spiderlings will hatch if the target is killed while under this influence.",
+    "skillCooldown":" 9\/8\/7",
+    "skillMana":" 120\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.5",
+     "Cast Range: 900",
+     "Damage: 260\/340\/420 (340\/420\/500)",
+     "Number of Spiderlings: 4\/5\/6",
+     "Debuff Duration: 20",
+     "Spiderling Duration: 60",
+     "Spiders Building Damage Bonus: 50%",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Spinner's Snare",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/8d\/Spinner%27s_Snare_icon.png",
@@ -1681,24 +1735,6 @@
      "Debuff Duration: 4",
      "Number of Charges: 2",
      "Charge Replenish Time: 20"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Spawn Spiderlings",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d5\/Spawn_Spiderlings_icon.png",
-    "skillDesc":"Broodmother injects her young into an enemy unit, dealing damage. The spiderlings will hatch if the target is killed while under this influence.",
-    "skillCooldown":" 9\/8\/7",
-    "skillMana":" 120\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.5",
-     "Cast Range: 900",
-     "Damage: 260\/340\/420 (340\/420\/500)",
-     "Number of Spiderlings: 4\/5\/6",
-     "Debuff Duration: 20",
-     "Spiderling Duration: 60",
-     "Spiders Building Damage Bonus: 50%",
-     ""
     ]
    },
    {
@@ -1840,6 +1876,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -1940,6 +1979,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -2039,6 +2081,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -2118,6 +2163,24 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Death Pact",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b4\/Death_Pact_icon.png",
+    "skillDesc":"Clinkz consumes the target enemy unit or friendly unit, gaining max health and damage based on its current health. Does not take Clinkz out of Skeleton Walk.",
+    "skillCooldown":" 80\/70\/60",
+    "skillMana":" 100\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.47",
+     "Cast Range: 900",
+     "Target Max Health as Health Bonus: 30%\/55%\/80% (80%\/105%\/130%)",
+     "Target Max Health as Attack Damage Bonus: 4%\/8%\/12% (9%\/13%\/17%)",
+     "Duration: 65",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Burning Army",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/60\/Burning_Army_icon.png",
@@ -2137,22 +2200,6 @@
      "Duration: 30",
      "",
      "Requires drafting  Death Pact to be unlocked."
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Death Pact",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b4\/Death_Pact_icon.png",
-    "skillDesc":"Clinkz consumes the target enemy unit or friendly unit, gaining max health and damage based on its current health. Does not take Clinkz out of Skeleton Walk.",
-    "skillCooldown":" 80\/70\/60",
-    "skillMana":" 100\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.47",
-     "Cast Range: 900",
-     "Target Max Health as Health Bonus: 30%\/55%\/80% (80%\/105%\/130%)",
-     "Target Max Health as Attack Damage Bonus: 4%\/8%\/12% (9%\/13%\/17%)",
-     "Duration: 65",
-     ""
     ]
    }
   ]
@@ -2241,6 +2288,26 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Hookshot",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d9\/Hookshot_icon.png",
+    "skillDesc":"Fires a grappling device rapidly at the target location. If the hook hits a unit, Clockwerk launches himself into the target, stunning and dealing damage. Any enemies Clockwerk collides with along the way are damaged and stunned.",
+    "skillCooldown":" 60\/45\/30",
+    "skillMana":" 150\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+0",
+     "Cast Range: 2000\/2500\/3000",
+     "Max Travel Distance: 2000\/2500\/3000",
+     "Hook Latch Radius: 125",
+     "Stun & Damage Radius: 175",
+     "Damage: 75\/175\/275",
+     "Stun Duration: 1.5\/1.75\/2",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Overclocking",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/3f\/Overclocking_icon.png",
@@ -2267,24 +2334,6 @@
      "Turn Rate in Degrees per Second: 75°",
      "Move Speed Bonus: 20%",
      "Duration: 6"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Hookshot",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d9\/Hookshot_icon.png",
-    "skillDesc":"Fires a grappling device rapidly at the target location. If the hook hits a unit, Clockwerk launches himself into the target, stunning and dealing damage. Any enemies Clockwerk collides with along the way are damaged and stunned.",
-    "skillCooldown":" 60\/45\/30",
-    "skillMana":" 150\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+0",
-     "Cast Range: 2000\/2500\/3000",
-     "Max Travel Distance: 2000\/2500\/3000",
-     "Hook Latch Radius: 125",
-     "Stun & Damage Radius: 175",
-     "Damage: 75\/175\/275",
-     "Stun Duration: 1.5\/1.75\/2",
-     ""
     ]
    }
   ]
@@ -2390,7 +2439,9 @@
      "Self Move Speed Slow: 75%",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"shard",
     "skillName":"Stop Freezing Field",
@@ -2482,6 +2533,30 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Wall of Replica",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/c6\/Wall_of_Replica_icon.png",
+    "skillDesc":"Raises a wall of warping light that slows and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.",
+    "skillCooldown":" 100 ( 60)",
+    "skillMana":" 125\/250\/375\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.73",
+     "Cast Range: 1300",
+     "Number of Walls: 1 (2)",
+     "Wall Length: 1300",
+     "Wall Width: 50",
+     "Move Speed Slow: 50%\/60%\/70%",
+     "Illusion Damage Dealt: 70%\/85%\/100% (90%\/105%\/120%)",
+     "Illusion Damage Taken: 200%",
+     "Duration: 30",
+     "Slow Duration: 1",
+     "Parallel Wall Distance: 600",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Normal Punch\n",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/6c\/Normal_Punch_icon.png",
@@ -2502,28 +2577,6 @@
      "Illusion Damage Taken: 200%",
      "Illusion Spawn Delay: 0.7",
      "Illusion Duration: 8",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Wall of Replica",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/c6\/Wall_of_Replica_icon.png",
-    "skillDesc":"Raises a wall of warping light that slows and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.",
-    "skillCooldown":" 100 ( 60)",
-    "skillMana":" 125\/250\/375\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.73",
-     "Cast Range: 1300",
-     "Number of Walls: 1 (2)",
-     "Wall Length: 1300",
-     "Wall Width: 50",
-     "Move Speed Slow: 50%\/60%\/70%",
-     "Illusion Damage Dealt: 70%\/85%\/100% (90%\/105%\/120%)",
-     "Illusion Damage Taken: 200%",
-     "Duration: 30",
-     "Slow Duration: 1",
-     "Parallel Wall Distance: 600",
      ""
     ]
    }
@@ -2641,6 +2694,9 @@
      "Duration: 3.5\/3.75\/4 (5\/5.25\/5.5)"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -2770,7 +2826,9 @@
      "Evasion Duration: 1.5",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"aghs",
     "skillName":"Solar Guardian Land",
@@ -2880,6 +2938,9 @@
      "Duration: 8"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -2987,6 +3048,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -3089,6 +3153,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -3184,6 +3251,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -3261,23 +3331,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Fireball",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/4e\/Fireball_icon.png",
-    "skillDesc":"Ignites a 450 AoE area for 10 seconds, dealing 65 damage per second that lingers for 2 seconds to enemies in it. Has reduced cast range when melee.",
-    "skillCooldown":" 20",
-    "skillMana":" 100\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.53",
-     "Cast Range: 600",
-     "Radius: 450",
-     "Damage per Second: 65",
-     "Duration: 10",
-     "Aura Linger Duration: 2",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Elder Dragon Form",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/33\/Elder_Dragon_Form_icon.png",
@@ -3301,6 +3354,25 @@
      "Frost Breath Debuff Duration: 3",
      "Dragon Tail Radius: 375",
      "Fireball Cast Range Bonus: 800",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Fireball",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/4e\/Fireball_icon.png",
+    "skillDesc":"Ignites a 450 AoE area for 10 seconds, dealing 65 damage per second that lingers for 2 seconds to enemies in it. Has reduced cast range when melee.",
+    "skillCooldown":" 20",
+    "skillMana":" 100\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.53",
+     "Cast Range: 600",
+     "Radius: 450",
+     "Damage per Second: 65",
+     "Duration: 10",
+     "Aura Linger Duration: 2",
      ""
     ]
    }
@@ -3416,6 +3488,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -3523,22 +3598,6 @@
     ]
    },
    {
-    "skillType":"aghs",
-    "skillName":"Enchant Remnant",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/74\/Enchant_Remnant_icon.png",
-    "skillDesc":"Earth Spirit temporarily enchants a hero, granting them the properties of a Stone Remnant. After 3 seconds the remnant shatters, releasing the hero and damaging nearby enemies.Can be used on Earth Remnants. Has a 5 second cooldown when used that way.",
-    "skillCooldown":" 45\/5",
-    "skillMana":" 150\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.57",
-     "Cast Range: 125",
-     "Damage Radius: 450",
-     "Damage: 450",
-     "Duration: 3",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Magnetize",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/82\/Magnetize_icon.png",
@@ -3552,6 +3611,24 @@
      "Stone Refresh Radius: 600",
      "Damage per Second: 40\/80\/120",
      "Duration: 6 (8)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"aghs",
+    "skillName":"Enchant Remnant",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/74\/Enchant_Remnant_icon.png",
+    "skillDesc":"Earth Spirit temporarily enchants a hero, granting them the properties of a Stone Remnant. After 3 seconds the remnant shatters, releasing the hero and damaging nearby enemies.Can be used on Earth Remnants. Has a 5 second cooldown when used that way.",
+    "skillCooldown":" 45\/5",
+    "skillMana":" 150\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.57",
+     "Cast Range: 125",
+     "Damage Radius: 450",
+     "Damage: 450",
+     "Duration: 3",
      ""
     ]
    }
@@ -3656,6 +3733,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -3775,6 +3855,9 @@
      "Slow Duration: 3\/4\/5"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -3889,6 +3972,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -3968,6 +4054,20 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Untouchable",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/0d\/Untouchable_icon.png",
+    "skillDesc":"Enchantress beguiles her enemies, slowing their attacks when she is attacked.",
+    "skillCooldown":null,
+    "skillMana":null,
+    "skillInfo":[
+     "Attack Speed Slow: 120\/160\/200 (185\/225\/265)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Sproink",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/42\/Sproink_icon.png",
@@ -3982,18 +4082,6 @@
      "Number of Impetus Attacks: 3",
      "",
      "Requires drafting  Untouchable to be unlocked."
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Untouchable",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/0d\/Untouchable_icon.png",
-    "skillDesc":"Enchantress beguiles her enemies, slowing their attacks when she is attacked.",
-    "skillCooldown":null,
-    "skillMana":null,
-    "skillInfo":[
-     "Attack Speed Slow: 120\/160\/200 (185\/225\/265)",
-     ""
     ]
    }
   ]
@@ -4094,6 +4182,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -4172,18 +4263,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Reverse Time Walk",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/e\/e1\/Reverse_Time_Walk_icon.png",
-    "skillDesc":"Replaces Time Walk with Reverse Time Walk for 1.5 seconds after landing. If used in this time period, you will reverse your time walk back to your previous cast location. Does not affect health or proc scepter hits.",
-    "skillCooldown":" 0.5",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Reversal Time Window: 1.5"
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Chronosphere",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/bf\/Chronosphere_icon.png",
@@ -4198,6 +4277,20 @@
      "Duration: 4\/4.5\/5",
      "Attack Speed Bonus: 120",
      ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Reverse Time Walk",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/e\/e1\/Reverse_Time_Walk_icon.png",
+    "skillDesc":"Replaces Time Walk with Reverse Time Walk for 1.5 seconds after landing. If used in this time period, you will reverse your time walk back to your previous cast location. Does not affect health or proc scepter hits.",
+    "skillCooldown":" 0.5",
+    "skillMana":" 0\n",
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     "Reversal Time Window: 1.5"
     ]
    },
    {
@@ -4299,6 +4392,24 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Soulbind",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f9\/Soulbind_icon.png",
+    "skillDesc":"Binds a targeted enemy hero to its nearest allied hero within the bind radius, preventing both from moving away from each other. Any unit-targeted ability that either bound hero receives also gets cast on the other hero. If the bind is broken before the duration expires, the initial target will be bound to its nearest allied hero in the radius.",
+    "skillCooldown":" 100\/75\/50",
+    "skillMana":" 150\/200\/250\n",
+    "skillInfo":[
+     "Cast Animation: 0.15+0.5",
+     "Cast Range: 700\/800\/900",
+     "Latch Radius: 600",
+     "Break Distance: 700",
+     "Duration: 6\/7\/8",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Dark Portrait",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/4d\/Dark_Portrait_icon.png",
@@ -4313,22 +4424,6 @@
      "Illusion Damage Taken: 350%",
      "Illusion Move Speed Bonus: 30%",
      "Illusion Duration: 25"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Soulbind",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f9\/Soulbind_icon.png",
-    "skillDesc":"Binds a targeted enemy hero to its nearest allied hero within the bind radius, preventing both from moving away from each other. Any unit-targeted ability that either bound hero receives also gets cast on the other hero. If the bind is broken before the duration expires, the initial target will be bound to its nearest allied hero in the radius.",
-    "skillCooldown":" 100\/75\/50",
-    "skillMana":" 150\/200\/250\n",
-    "skillInfo":[
-     "Cast Animation: 0.15+0.5",
-     "Cast Range: 700\/800\/900",
-     "Latch Radius: 600",
-     "Break Distance: 700",
-     "Duration: 6\/7\/8",
-     ""
     ]
    }
   ]
@@ -4439,6 +4534,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -4525,6 +4623,43 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Sharpshooter",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d1\/Sharpshooter_icon.png",
+    "skillDesc":"Hoodwink charges up and fires a deadly bolt from her crossbow, dealing heavy damage, break and slow to an enemy Hero. The damage and debuff duration scale up to max after 3 seconds, and the bolt is fired automatically after 5 seconds.Hoodwink is knocked backwards for a distance of 350 from the force of the shot.",
+    "skillCooldown":" 45",
+    "skillMana":" 125\/175\/225\n",
+    "skillInfo":[
+     "Cast Animation: 0+9.5",
+     "Cast Range: 3000",
+     "Max Travel Distance: 3000",
+     "Bolt Collision Radius: 125",
+     "Turn Rate in Degrees per Second: 60°",
+     "Max Charge Time: 3 (2.25)",
+     "Max Aim Time: 5",
+     "Self Knockback Distance: 350",
+     "Starting Power: 20%",
+     "Max Damage: 550\/900\/1250",
+     "Move Speed Slow: 30%\/40%\/50%",
+     "Max Slow Duration: 5",
+     "Self Knockback Duration: 0.4",
+     ""
+    ]
+   },
+   {
+    "skillType":"ultimate",
+    "skillName":"End Sharpshooter",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/45\/End_Sharpshooter_icon.png",
+    "skillDesc":"Release the charged shot, regain ability to move and attack.",
+    "skillCooldown":" 0",
+    "skillMana":" 0\n",
+    "skillInfo":[
+     "Cast Animation: 0+0"
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Decoy",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d9\/Decoy_icon.png",
@@ -4564,41 +4699,6 @@
      "Status Resistance Reduction: 25%",
      "Debuff Duration: 7",
      ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Sharpshooter",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d1\/Sharpshooter_icon.png",
-    "skillDesc":"Hoodwink charges up and fires a deadly bolt from her crossbow, dealing heavy damage, break and slow to an enemy Hero. The damage and debuff duration scale up to max after 3 seconds, and the bolt is fired automatically after 5 seconds.Hoodwink is knocked backwards for a distance of 350 from the force of the shot.",
-    "skillCooldown":" 45",
-    "skillMana":" 125\/175\/225\n",
-    "skillInfo":[
-     "Cast Animation: 0+9.5",
-     "Cast Range: 3000",
-     "Max Travel Distance: 3000",
-     "Bolt Collision Radius: 125",
-     "Turn Rate in Degrees per Second: 60°",
-     "Max Charge Time: 3 (2.25)",
-     "Max Aim Time: 5",
-     "Self Knockback Distance: 350",
-     "Starting Power: 20%",
-     "Max Damage: 550\/900\/1250",
-     "Move Speed Slow: 30%\/40%\/50%",
-     "Max Slow Duration: 5",
-     "Self Knockback Duration: 0.4",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"End Sharpshooter",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/45\/End_Sharpshooter_icon.png",
-    "skillDesc":"Release the charged shot, regain ability to move and attack.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0"
     ]
    }
   ]
@@ -4698,6 +4798,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -4971,7 +5074,9 @@
      "Deafening Blast Angle:  (30°)",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"minion",
     "skillName":"Melting Strike  \n",
@@ -5124,6 +5229,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -5207,24 +5315,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Liquid Frost",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/88\/Liquid_Frost_icon.png",
-    "skillDesc":"Stuns enemies for 0.4 seconds and applies a frost debuff that slows enemy movement speed by 20% and take 20 plus 2.5% of their max health per second as damage for 4 seconds.",
-    "skillCooldown":" 12",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Range: 600 (925)",
-     "Radius: 300",
-     "Move Speed Slow: 20%",
-     "Base Damage per Second: 20",
-     "Max Health as Damage per Second: 2.5%",
-     "Debuff Duration: 4",
-     "Stun Duration: 0.4",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Macropyre",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/bd\/Macropyre_icon.png",
@@ -5239,6 +5329,26 @@
      "Damage per Second: 110\/155\/200 (140\/185\/230)",
      "Damage Linger Duration: 2",
      "Path Duration: 10 (30)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Liquid Frost",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/88\/Liquid_Frost_icon.png",
+    "skillDesc":"Stuns enemies for 0.4 seconds and applies a frost debuff that slows enemy movement speed by 20% and take 20 plus 2.5% of their max health per second as damage for 4 seconds.",
+    "skillCooldown":" 12",
+    "skillMana":" 0\n",
+    "skillInfo":[
+     "Cast Range: 600 (925)",
+     "Radius: 300",
+     "Move Speed Slow: 20%",
+     "Base Damage per Second: 20",
+     "Max Health as Damage per Second: 2.5%",
+     "Debuff Duration: 4",
+     "Stun Duration: 0.4",
      ""
     ]
    }
@@ -5319,20 +5429,6 @@
     ]
    },
    {
-    "skillType":"aghs",
-    "skillName":"Swiftslash",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/9\/96\/Swiftslash_icon.png",
-    "skillDesc":"Performs a quick Omnislash.",
-    "skillCooldown":" 20",
-    "skillMana":" 125\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+0",
-     "Cast Range: 550",
-     "Duration: 0.8",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Omnislash",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/39\/Omnislash_icon.png",
@@ -5347,6 +5443,22 @@
      "Attack Damage Bonus: 30\/40\/50",
      "Attack Speed Bonus: 40",
      "Duration: 3\/3.25\/3.5 (4\/4.25\/4.5)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"aghs",
+    "skillName":"Swiftslash",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/9\/96\/Swiftslash_icon.png",
+    "skillDesc":"Performs a quick Omnislash.",
+    "skillCooldown":" 20",
+    "skillMana":" 125\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+0",
+     "Cast Range: 550",
+     "Duration: 0.8",
      ""
     ]
    }
@@ -5490,6 +5602,24 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Spirit Form",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/a3\/Spirit_Form_icon.png",
+    "skillDesc":"Ezalor temporarily turns his body luminescent, gaining bonus movement speed, cast range, grants the Blinding Light ability, and allows Illuminate to be channeled by a separate spirit and heal allies.",
+    "skillCooldown":" 70",
+    "skillMana":" 75\/125\/175\n",
+    "skillInfo":[
+     "Cast Animation: 0+1.46",
+     "Move Speed Bonus: 15%\/20%\/25%",
+     "Cast Range Bonus: 125\/250\/375",
+     "Illuminate Damage as Heal: 40%\/50%\/60%",
+     "Duration: 40 (55)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Will-O-Wisp",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d9\/Will-O-Wisp_icon.png",
@@ -5520,22 +5650,6 @@
      "Cast Animation: 0.3+1.17",
      "Cast Range: Global",
      "Teleport Delay: 3"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Spirit Form",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/a3\/Spirit_Form_icon.png",
-    "skillDesc":"Ezalor temporarily turns his body luminescent, gaining bonus movement speed, cast range, grants the Blinding Light ability, and allows Illuminate to be channeled by a separate spirit and heal allies.",
-    "skillCooldown":" 70",
-    "skillMana":" 75\/125\/175\n",
-    "skillInfo":[
-     "Cast Animation: 0+1.46",
-     "Move Speed Bonus: 15%\/20%\/25%",
-     "Cast Range Bonus: 125\/250\/375",
-     "Illuminate Damage as Heal: 40%\/50%\/60%",
-     "Duration: 40 (55)",
-     ""
     ]
    }
   ]
@@ -5634,6 +5748,31 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Ghostship",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/12\/Ghostship_icon.png",
+    "skillDesc":"Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage.",
+    "skillCooldown":" 80\/70\/60",
+    "skillMana":" 125\/175\/225\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+0",
+     "Cast Range: 1000",
+     "Ship Radius: 425",
+     "Travel Distance: 2000",
+     "Number of Ships: 1 (3)",
+     "Ship Spawn Interval: 3.5",
+     "Impact Damage: 400\/500\/600",
+     "Rum Move Speed Bonus: 12%",
+     "Rum Damage Reduction: 40%",
+     "Rum Duration: 10",
+     "Rum Hangover Duration: 10",
+     "Stun Duration: 1.4",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Torrent Storm",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/ad\/Torrent_Storm_icon.png",
@@ -5664,29 +5803,6 @@
      "Damage: 250",
      "Knockback Distance: 600",
      "Knockback Duration: 1.25"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Ghostship",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/12\/Ghostship_icon.png",
-    "skillDesc":"Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage.",
-    "skillCooldown":" 80\/70\/60",
-    "skillMana":" 125\/175\/225\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+0",
-     "Cast Range: 1000",
-     "Ship Radius: 425",
-     "Travel Distance: 2000",
-     "Number of Ships: 1 (3)",
-     "Ship Spawn Interval: 3.5",
-     "Impact Damage: 400\/500\/600",
-     "Rum Move Speed Bonus: 12%",
-     "Rum Damage Reduction: 40%",
-     "Rum Duration: 10",
-     "Rum Hangover Duration: 10",
-     "Stun Duration: 1.4",
-     ""
     ]
    }
   ]
@@ -5786,6 +5902,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -5871,6 +5990,23 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Pulse Nova",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/ca\/Pulse_Nova_icon.png",
+    "skillDesc":"Creates waves of damaging energy around Leshrac, one per second, to damage nearby enemy units. Drains Leshrac's mana with each pulse.",
+    "skillCooldown":" 1",
+    "skillMana":" 70\n",
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     "Damage Radius: 525",
+     "Mana Cost per Second: 20\/40\/60",
+     "Damage per Second: 100\/150\/200 (140\/190\/240)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Nihilism",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/3a\/Nihilism_icon.png",
@@ -5884,21 +6020,6 @@
      "Move Speed Change: 30%",
      "Aura Linger Duration: 0.5",
      "Duration: 4",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Pulse Nova",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/ca\/Pulse_Nova_icon.png",
-    "skillDesc":"Creates waves of damaging energy around Leshrac, one per second, to damage nearby enemy units. Drains Leshrac's mana with each pulse.",
-    "skillCooldown":" 1",
-    "skillMana":" 70\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Damage Radius: 525",
-     "Mana Cost per Second: 20\/40\/60",
-     "Damage per Second: 100\/150\/200 (140\/190\/240)",
      ""
     ]
    }
@@ -5989,23 +6110,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Ice Spire",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/7b\/Ice_Spire_icon.png",
-    "skillDesc":"Creates an icicle at the target spot for 15 seconds, slowing enemies within 750 range by 30%. Has 800 health.Chain Frost can bounce to the Icicle if there are no other enemies in range.Can cast Frost Shield on it.",
-    "skillCooldown":" 25",
-    "skillMana":" 150\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+0",
-     "Cast Range: 750",
-     "Radius: 750",
-     "Move Speed Slow: 30%",
-     "Aura Linger Duration: 0.5",
-     "Duration: 15",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Chain Frost",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/77\/Chain_Frost_icon.png",
@@ -6023,6 +6127,25 @@
      "Move Speed Slow: 65%",
      "Attack Speed Slow: 65",
      "Slow Duration: 2.5",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Ice Spire",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/7b\/Ice_Spire_icon.png",
+    "skillDesc":"Creates an icicle at the target spot for 15 seconds, slowing enemies within 750 range by 30%. Has 800 health.Chain Frost can bounce to the Icicle if there are no other enemies in range.Can cast Frost Shield on it.",
+    "skillCooldown":" 25",
+    "skillMana":" 150\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+0",
+     "Cast Range: 750",
+     "Radius: 750",
+     "Move Speed Slow: 30%",
+     "Aura Linger Duration: 0.5",
+     "Duration: 15",
      ""
     ]
    }
@@ -6095,23 +6218,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Open Wounds",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/69\/Open_Wounds_icon.png",
-    "skillDesc":"Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration. Deals 2% of the target's max health per attack on the target from real heroes.",
-    "skillCooldown":" 15",
-    "skillMana":" 75\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.4",
-     "Cast Range: 800",
-     "Lifesteal: 50%",
-     "Enemy Max Health as Damage: 2%",
-     "Max Move Speed Slow: 50%",
-     "Slow Duration: 8",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Infest",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/06\/Infest_icon.png",
@@ -6140,6 +6246,25 @@
      "Cast Animation: 0+0",
      "Damage Radius: 700",
      "Damage: 150\/275\/400",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Open Wounds",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/69\/Open_Wounds_icon.png",
+    "skillDesc":"Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration. Deals 2% of the target's max health per attack on the target from real heroes.",
+    "skillCooldown":" 15",
+    "skillMana":" 75\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.4",
+     "Cast Range: 800",
+     "Lifesteal: 50%",
+     "Enemy Max Health as Damage: 2%",
+     "Max Move Speed Slow: 50%",
+     "Slow Duration: 8",
      ""
     ]
    }
@@ -6236,6 +6361,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -6336,6 +6464,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -6457,7 +6588,9 @@
      "Duration: 40",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"minion",
     "skillName":"Return",
@@ -6611,6 +6744,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -6685,21 +6821,6 @@
     ]
    },
    {
-    "skillType":"aghs",
-    "skillName":"Wolf Bite",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/8b\/Wolf_Bite_icon.png",
-    "skillDesc":"Lycan bites an ally, granting them Shapeshift properties. Lycan and the bitten target gain 30% Lifesteal and share the healing effect of Lifesteal with each other as long as they are within 1200 range of each other.",
-    "skillCooldown":" 125\/110\/95 ( 110\/95\/80)",
-    "skillMana":" 150\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+0.73",
-     "Lifesteal Radius: 1200",
-     "Lifesteal: 30%",
-     "Shared Lifesteal: 30%",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Shapeshift",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/c0\/Shapeshift_icon.png",
@@ -6718,6 +6839,23 @@
      "Critical Damage: 150%\/175%\/200%",
      "Aura Linger Duration: 0.1",
      "Duration: 28 (34)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"aghs",
+    "skillName":"Wolf Bite",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/8b\/Wolf_Bite_icon.png",
+    "skillDesc":"Lycan bites an ally, granting them Shapeshift properties. Lycan and the bitten target gain 30% Lifesteal and share the healing effect of Lifesteal with each other as long as they are within 1200 range of each other.",
+    "skillCooldown":" 125\/110\/95 ( 110\/95\/80)",
+    "skillMana":" 150\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+0.73",
+     "Lifesteal Radius: 1200",
+     "Lifesteal: 30%",
+     "Shared Lifesteal: 30%",
      ""
     ]
    },
@@ -6838,6 +6976,23 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Reverse Polarity",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/ff\/Reverse_Polarity_icon.png",
+    "skillDesc":"Magnus changes properties of matter, sucking all nearby enemies in front of him and stunning them with a powerful slam and dealing damage.",
+    "skillCooldown":" 130",
+    "skillMana":" 150\/225\/300\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+1.3",
+     "Radius: 410",
+     "Damage: 75\/150\/225",
+     "Stun Duration: 2.75\/3.25\/3.75 (3.75\/4.25\/4.75)",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Horn Toss",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/23\/Horn_Toss_icon.png",
@@ -6854,21 +7009,6 @@
      "Attack Speed Slow: 100",
      "Toss Duration: 0.6",
      "Landing Slow Duration: 1.25"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Reverse Polarity",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/ff\/Reverse_Polarity_icon.png",
-    "skillDesc":"Magnus changes properties of matter, sucking all nearby enemies in front of him and stunning them with a powerful slam and dealing damage.",
-    "skillCooldown":" 130",
-    "skillMana":" 150\/225\/300\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+1.3",
-     "Radius: 410",
-     "Damage: 75\/150\/225",
-     "Stun Duration: 2.75\/3.25\/3.75 (3.75\/4.25\/4.75)",
-     ""
     ]
    }
   ]
@@ -6981,6 +7121,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -7105,6 +7248,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -7189,19 +7335,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Cold Blooded\n",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/45\/Cold_Blooded_icon.png",
-    "skillDesc":"When Medusa is targeted with a spell, a single-target Mystic Snake is sent back towards the enemy. Cooldown: 12.",
-    "skillCooldown":" 12",
-    "skillMana":null,
-    "skillInfo":[
-     "Number of Bounces: 1",
-     "",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Stone Gaze",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/6c\/Stone_Gaze_icon.png",
@@ -7219,6 +7352,21 @@
      "Physical Attack Damage Amplification: 40%\/45%\/50%",
      "Gaze Duration: 5\/5.5\/6 (7\/7.5\/8)",
      "Petrify Duration: 3"
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Cold Blooded\n",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/45\/Cold_Blooded_icon.png",
+    "skillDesc":"When Medusa is targeted with a spell, a single-target Mystic Snake is sent back towards the enemy. Cooldown: 12.",
+    "skillCooldown":" 12",
+    "skillMana":null,
+    "skillInfo":[
+     "Number of Bounces: 1",
+     "",
+     ""
     ]
    }
   ]
@@ -7293,21 +7441,6 @@
     ]
    },
    {
-    "skillType":"aghs",
-    "skillName":"Dig",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/9\/9d\/Dig_icon.png",
-    "skillDesc":"Channels for 0.75 seconds and digs into the ground for 4 seconds, dispelling Meepo and causing him to be come invulnerable and untargetable for 4. Restores 40% of his max health over that duration. Can't be cast while rooted.",
-    "skillCooldown":" 40",
-    "skillMana":" 150\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Channel Time: 0.75",
-     "Max Health Restored: 40%",
-     "Duration: 4",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Divided We Stand",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/07\/Divided_We_Stand_icon.png",
@@ -7323,6 +7456,23 @@
      "Fling Damage: 100",
      "Fling Move Speed Slow: 50%",
      "Fling Slow Duration: 3",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"aghs",
+    "skillName":"Dig",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/9\/9d\/Dig_icon.png",
+    "skillDesc":"Channels for 0.75 seconds and digs into the ground for 4 seconds, dispelling Meepo and causing him to be come invulnerable and untargetable for 4. Restores 40% of his max health over that duration. Can't be cast while rooted.",
+    "skillCooldown":" 40",
+    "skillMana":" 150\n",
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     "Channel Time: 0.75",
+     "Max Health Restored: 40%",
+     "Duration: 4",
      ""
     ]
    }
@@ -7430,7 +7580,9 @@
      "Evasion: 20%",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"talent",
     "skillName":"Mana Break   \n",
@@ -7607,6 +7759,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -7752,6 +7907,9 @@
      "Cast Animation: 0+0"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -7855,6 +8013,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -7951,6 +8112,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -8036,21 +8200,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Death Seeker",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/cb\/Death_Seeker_icon.png",
-    "skillDesc":"Spawns a fast moving large Death Pulse towards the target enemy or ally, causing the target to become ethereal for 2.5 seconds. Reduces enemy magic resistance by 25%. Spreads towards nearby enemies and allies after impact.",
-    "skillCooldown":" 14",
-    "skillMana":" 100\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.67",
-     "Cast Range: 900",
-     "Enemy Magic Resistance Reduction: 25%",
-     "Duration: 2.5",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Reaper's Scythe",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/de\/Reaper%27s_Scythe_icon.png",
@@ -8063,6 +8212,23 @@
      "Damage per Missing Health: 0.7\/0.8\/0.9",
      "Respawn Time Increase: 15\/25\/35",
      "Stun Duration: 1.5",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Death Seeker",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/cb\/Death_Seeker_icon.png",
+    "skillDesc":"Spawns a fast moving large Death Pulse towards the target enemy or ally, causing the target to become ethereal for 2.5 seconds. Reduces enemy magic resistance by 25%. Spreads towards nearby enemies and allies after impact.",
+    "skillCooldown":" 14",
+    "skillMana":" 100\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.67",
+     "Cast Range: 900",
+     "Enemy Magic Resistance Reduction: 25%",
+     "Duration: 2.5",
      ""
     ]
    }
@@ -8162,6 +8328,9 @@
      "Duration: 30 (40)"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -8238,6 +8407,27 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Vendetta",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/40\/Vendetta_icon.png",
+    "skillDesc":"Allows Nyx Assassin to become invisible and gain a speed bonus. If Nyx Assassin attacks to break the invisibility, massive bonus damage is dealt with the attack.",
+    "skillCooldown":" 90\/75\/60",
+    "skillMana":" 180\/240\/300\n",
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     "Fade Time: 0",
+     "Damage: 300\/450\/600",
+     "Self Move Speed Bonus: 16%\/18%\/20% (41%\/43%\/45%)",
+     "Self Attack Animation Speed Bonus: 50%",
+     "Vendetta Duration: 40\/50\/60",
+     "Enemy Magic Resistance Reduction: 20%",
+     "Magic Resistance Reduction Duration: 4",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Burrow",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b8\/Burrow_icon.png",
@@ -8265,25 +8455,6 @@
     "skillMana":null,
     "skillInfo":[
      "Cast Animation: 0+0",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Vendetta",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/40\/Vendetta_icon.png",
-    "skillDesc":"Allows Nyx Assassin to become invisible and gain a speed bonus. If Nyx Assassin attacks to break the invisibility, massive bonus damage is dealt with the attack.",
-    "skillCooldown":" 90\/75\/60",
-    "skillMana":" 180\/240\/300\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Fade Time: 0",
-     "Damage: 300\/450\/600",
-     "Self Move Speed Bonus: 16%\/18%\/20% (41%\/43%\/45%)",
-     "Self Attack Animation Speed Bonus: 50%",
-     "Vendetta Duration: 40\/50\/60",
-     "Enemy Magic Resistance Reduction: 20%",
-     "Magic Resistance Reduction Duration: 4",
      ""
     ]
    }
@@ -8370,6 +8541,26 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Multicast",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/87\/Multicast_icon.png",
+    "skillDesc":"Enables Ogre Magi to cast his abilities and items multiple times with each use.",
+    "skillCooldown":null,
+    "skillMana":null,
+    "skillInfo":[
+     "Ignite Multicast Range: 1600",
+     "Bloodlust Multicast Radius: 700",
+     "Fire Shield Multicast Radius: 1000",
+     "Item Multicast Buffer Range: 600",
+     "2x Multicast Chance: 75%\/75%\/75%",
+     "3x Multicast Chance: 0%\/30%\/30%",
+     "4x Multicast Chance: 0%\/0%\/15%",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Unrefined Fireblast",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/64\/Unrefined_Fireblast_icon.png",
@@ -8400,24 +8591,6 @@
      "Incoming Attack Damage Reduction: 85%",
      "Fireball Damage: 125",
      "Shield Duration: 25",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Multicast",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/87\/Multicast_icon.png",
-    "skillDesc":"Enables Ogre Magi to cast his abilities and items multiple times with each use.",
-    "skillCooldown":null,
-    "skillMana":null,
-    "skillInfo":[
-     "Ignite Multicast Range: 1600",
-     "Bloodlust Multicast Radius: 700",
-     "Fire Shield Multicast Radius: 1000",
-     "Item Multicast Buffer Range: 600",
-     "2x Multicast Chance: 75%\/75%\/75%",
-     "3x Multicast Chance: 0%\/30%\/30%",
-     "4x Multicast Chance: 0%\/0%\/15%",
      ""
     ]
    }
@@ -8496,20 +8669,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Hammer of Purity",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f5\/Hammer_of_Purity_icon.png",
-    "skillDesc":"Causes Omniknight's next attack to deal bonus pure damage based on 60 plus 115% of his base damage and reduces all outgoing damage from the target by 60% for the next 4 seconds. Cooldown: 10",
-    "skillCooldown":" 10",
-    "skillMana":" 40\n",
-    "skillInfo":[
-     "Base Damage: 60",
-     "Main Attack Damage as Damage: 115%",
-     "Outgoing Damage Reduction: 60%",
-     "Duration: 4"
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Guardian Angel",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/5d\/Guardian_Angel_icon.png",
@@ -8522,6 +8681,22 @@
      "Duration: 5\/6.5\/8 (8\/9\/10)",
      "Health Regen Bonus: 40",
      ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Hammer of Purity",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f5\/Hammer_of_Purity_icon.png",
+    "skillDesc":"Causes Omniknight's next attack to deal bonus pure damage based on 60 plus 115% of his base damage and reduces all outgoing damage from the target by 60% for the next 4 seconds. Cooldown: 10",
+    "skillCooldown":" 10",
+    "skillMana":" 40\n",
+    "skillInfo":[
+     "Base Damage: 60",
+     "Main Attack Damage as Damage: 115%",
+     "Outgoing Damage Reduction: 60%",
+     "Duration: 4"
     ]
    }
   ]
@@ -8621,6 +8796,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -8710,6 +8888,9 @@
      "Mana Difference Damage Multiplier: 0.4 (0.55)"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -8793,31 +8974,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Roll Up",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/51\/Roll_Up_icon.png",
-    "skillDesc":"Pangolier curls into an immobile protective ball for up to  seconds, gaining magic immunity and allowing him to turn. Can be cast during Rolling Thunder to temporarily hit the brakes. Can cast Rolling Thunder and Shield Crash during Roll Up. If enemies attack Pangolier during this, he will roll away from the attacker for up to 0.75 seconds, applying Rolling Thunder damage\/stun if there are enemies in the way. Cooldown: 30",
-    "skillCooldown":" 30",
-    "skillMana":" 50\n",
-    "skillInfo":[
-     "Cast Animation: 0.1+1.03",
-     "Turn Rate in Degrees per Second: 175°",
-     "Roll Duration On Attack: 0.75",
-     "Roll Up Duration: 4"
-    ]
-   },
-   {
-    "skillType":"shard",
-    "skillName":"End Roll Up",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/8d\/End_Roll_Up_icon.png",
-    "skillDesc":"Ends Pangolier's Roll Up early.",
-    "skillCooldown":null,
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0"
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Rolling Thunder",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/17\/Rolling_Thunder_icon.png",
@@ -8843,6 +8999,33 @@
     "skillName":"Stop Rolling",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/dd\/Stop_Rolling_icon.png",
     "skillDesc":"Halt!",
+    "skillCooldown":null,
+    "skillMana":null,
+    "skillInfo":[
+     "Cast Animation: 0+0"
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Roll Up",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/51\/Roll_Up_icon.png",
+    "skillDesc":"Pangolier curls into an immobile protective ball for up to  seconds, gaining magic immunity and allowing him to turn. Can be cast during Rolling Thunder to temporarily hit the brakes. Can cast Rolling Thunder and Shield Crash during Roll Up. If enemies attack Pangolier during this, he will roll away from the attacker for up to 0.75 seconds, applying Rolling Thunder damage\/stun if there are enemies in the way. Cooldown: 30",
+    "skillCooldown":" 30",
+    "skillMana":" 50\n",
+    "skillInfo":[
+     "Cast Animation: 0.1+1.03",
+     "Turn Rate in Degrees per Second: 175°",
+     "Roll Duration On Attack: 0.75",
+     "Roll Up Duration: 4"
+    ]
+   },
+   {
+    "skillType":"shard",
+    "skillName":"End Roll Up",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/8d\/End_Roll_Up_icon.png",
+    "skillDesc":"Ends Pangolier's Roll Up early.",
     "skillCooldown":null,
     "skillMana":null,
     "skillInfo":[
@@ -8929,6 +9112,21 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Coup de Grace",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/0f\/Coup_de_Grace_icon.png",
+    "skillDesc":"Phantom Assassin refines her combat abilities, gaining a chance of delivering a devastating critical strike to enemy units. Stifling Dagger shares the same critical strike chance.",
+    "skillCooldown":null,
+    "skillMana":null,
+    "skillInfo":[
+     "Proc Chance: 15% (22%)",
+     "Critical Damage: 200%\/325%\/450%",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Fan of Knives",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d9\/Fan_of_Knives_icon.png",
@@ -8940,19 +9138,6 @@
      "Radius: 550",
      "Max Health as Damage: 16%",
      "Debuff Duration: 3"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Coup de Grace",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/0f\/Coup_de_Grace_icon.png",
-    "skillDesc":"Phantom Assassin refines her combat abilities, gaining a chance of delivering a devastating critical strike to enemy units. Stifling Dagger shares the same critical strike chance.",
-    "skillCooldown":null,
-    "skillMana":null,
-    "skillInfo":[
-     "Proc Chance: 15% (22%)",
-     "Critical Damage: 200%\/325%\/450%",
-     ""
     ]
    }
   ]
@@ -9065,6 +9250,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -9225,6 +9413,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -9335,6 +9526,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -9412,17 +9606,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Eject",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/16\/Eject_%28Pudge%29_icon.png",
-    "skillDesc":"Ejects the swallowed allied hero inside of you.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0"
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Dismember",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/87\/Dismember_icon.png",
@@ -9443,6 +9626,19 @@
      "Ally Max Health as Health Regen: 5%",
      "Ally Order Lock Duration: 3",
      ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Eject",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/16\/Eject_%28Pudge%29_icon.png",
+    "skillDesc":"Ejects the swallowed allied hero inside of you.",
+    "skillCooldown":" 0",
+    "skillMana":" 0\n",
+    "skillInfo":[
+     "Cast Animation: 0+0"
     ]
    }
   ]
@@ -9545,6 +9741,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -9642,7 +9841,9 @@
      "Knockback Duration: 1.4",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"talent",
     "skillName":"Spell Block\n",
@@ -9754,6 +9955,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -9836,6 +10040,23 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Cloak and Dagger",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f0\/Cloak_and_Dagger_icon.png",
+    "skillDesc":"Riki fades into the shadows, becoming invisible. Every time Riki strikes his enemy from behind, he deals bonus damage based on his Agility. When Riki attacks, he becomes visible.",
+    "skillCooldown":null,
+    "skillMana":null,
+    "skillInfo":[
+     "Fade Delay: 4\/3\/2",
+     "Back Angle: 105°",
+     "Backstab Damage per Agility: 1.4\/1.8\/2.2 (1.9\/2.3\/2.7)",
+     "Move Speed Bonus: 8%",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Sleeping Dart",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/9\/91\/Sleeping_Dart_icon.png",
@@ -9850,21 +10071,6 @@
      "Move Speed Slow: 30%",
      "Slow Duration: 4",
      "Sleep Duration: 4",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Cloak and Dagger",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f0\/Cloak_and_Dagger_icon.png",
-    "skillDesc":"Riki fades into the shadows, becoming invisible. Every time Riki strikes his enemy from behind, he deals bonus damage based on his Agility. When Riki attacks, he becomes visible.",
-    "skillCooldown":null,
-    "skillMana":null,
-    "skillInfo":[
-     "Fade Delay: 4\/3\/2",
-     "Back Angle: 105°",
-     "Backstab Damage per Agility: 1.4\/1.8\/2.2 (1.9\/2.3\/2.7)",
-     "Move Speed Bonus: 8%",
      ""
     ]
    }
@@ -9931,23 +10137,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Telekinesis Land (Aghanim's Shard)",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/15\/Telekinesis_Land_icon.png",
-    "skillDesc":"Chooses the location you will land when Telekinesis finishes.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Cast Range: Global",
-     "Max Throw Distance: 693.75 (1137.75)",
-     "Stun Radius: 325",
-     "Throw Delay: 0.5",
-     "Stun Duration: 1.2\/1.4\/1.6\/1.8",
-     "Landing Damage: 175"
-    ]
-   },
-   {
     "skillType":"basic",
     "skillName":"Fade Bolt",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/35\/Fade_Bolt_icon.png",
@@ -9994,6 +10183,25 @@
      "Stolen Spell Cooldown Reduction: 25%",
      "Stolen Spell Damage Amplification: 40%",
      ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Telekinesis Land (Aghanim's Shard)",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/15\/Telekinesis_Land_icon.png",
+    "skillDesc":"Chooses the location you will land when Telekinesis finishes.",
+    "skillCooldown":" 0",
+    "skillMana":" 0\n",
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     "Cast Range: Global",
+     "Max Throw Distance: 693.75 (1137.75)",
+     "Stun Radius: 325",
+     "Throw Delay: 0.5",
+     "Stun Duration: 1.2\/1.4\/1.6\/1.8",
+     "Landing Damage: 175"
     ]
    }
   ]
@@ -10096,6 +10304,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -10215,6 +10426,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -10348,6 +10562,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -10446,6 +10663,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -10545,6 +10765,9 @@
      "Duration: 4.5\/5.25\/6"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -10644,7 +10867,9 @@
      "Secondary Target Search Radius: 700",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"shard",
     "skillName":"Hero Shard Upgrade  \n",
@@ -10755,6 +10980,9 @@
      "Duration: 18"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -10835,21 +11063,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Depth Shroud",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d4\/Depth_Shroud_icon.png",
-    "skillDesc":"Creates a 300 AoE cloud at the target location for 3 seconds. All allies inside the radius are hidden and affected by Shadow Dance. Cast Range: 800. Cooldown: 75",
-    "skillCooldown":" 75",
-    "skillMana":" 75\n",
-    "skillInfo":[
-     "Cast Animation: 0.1+0.8",
-     "Cast Range: 800",
-     "Radius: 300",
-     "Duration: 3",
-     "Aura Linger Duration: 0.5"
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Shadow Dance",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/2c\/Shadow_Dance_icon.png",
@@ -10867,6 +11080,23 @@
      "Active Duration: 4\/4.25\/4.5 (5\/5.25\/5.5)",
      "Active Attack Speed Bonus: 50",
      ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Depth Shroud",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d4\/Depth_Shroud_icon.png",
+    "skillDesc":"Creates a 300 AoE cloud at the target location for 3 seconds. All allies inside the radius are hidden and affected by Shadow Dance. Cast Range: 800. Cooldown: 75",
+    "skillCooldown":" 75",
+    "skillMana":" 75\n",
+    "skillInfo":[
+     "Cast Animation: 0.1+0.8",
+     "Cast Range: 800",
+     "Radius: 300",
+     "Duration: 3",
+     "Aura Linger Duration: 0.5"
     ]
    }
   ]
@@ -10966,6 +11196,32 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Mortimer Kisses",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/0c\/Mortimer_Kisses_icon.png",
+    "skillDesc":"Snapfire's friend launches a barrage of firespit globs over 5.5 seconds. Globs cause impact damage and create pools of firespit, which slow and apply damage over time. Snapfire has a reduced turn rate for the duration and a minimum launch range of 600. Each glob can be targeted with a right click.",
+    "skillCooldown":" 120\/110\/100",
+    "skillMana":" 125\/150\/175\n",
+    "skillInfo":[
+     "Cast Animation: 0.5+0.73",
+     "Cast Range: 3000",
+     "Min Distance: 600",
+     "Max Distance: 3000",
+     "Impact Radius: 275",
+     "Turn Rate in Degrees per Second: 75°",
+     "Number of Projectiles: 8 (14)",
+     "Impact Damage: 160\/240\/320",
+     "Debuff Damage per Second: 60\/80\/100",
+     "Move Speed Slow: 15%\/20%\/25% (35%\/40%\/45%)",
+     "Launch Duration: 5.5",
+     "Puddle Duration: 3",
+     "Debuff Duration: 1",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Gobble Up",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/4e\/Gobble_Up_icon.png",
@@ -10994,30 +11250,6 @@
      "Puddle Duration: 3",
      "Debuff Duration: 1",
      "Stun Duration: 1.5",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Mortimer Kisses",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/0c\/Mortimer_Kisses_icon.png",
-    "skillDesc":"Snapfire's friend launches a barrage of firespit globs over 5.5 seconds. Globs cause impact damage and create pools of firespit, which slow and apply damage over time. Snapfire has a reduced turn rate for the duration and a minimum launch range of 600. Each glob can be targeted with a right click.",
-    "skillCooldown":" 120\/110\/100",
-    "skillMana":" 125\/150\/175\n",
-    "skillInfo":[
-     "Cast Animation: 0.5+0.73",
-     "Cast Range: 3000",
-     "Min Distance: 600",
-     "Max Distance: 3000",
-     "Impact Radius: 275",
-     "Turn Rate in Degrees per Second: 75°",
-     "Number of Projectiles: 8 (14)",
-     "Impact Damage: 160\/240\/320",
-     "Debuff Damage per Second: 60\/80\/100",
-     "Move Speed Slow: 15%\/20%\/25% (35%\/40%\/45%)",
-     "Launch Duration: 5.5",
-     "Puddle Duration: 3",
-     "Debuff Duration: 1",
      ""
     ]
    }
@@ -11105,6 +11337,24 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Assassinate",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/16\/Assassinate_icon.png",
+    "skillDesc":"Sniper locks onto a target enemy unit and, after a short aiming duration, fires a devastating shot that deals damage at long range and mini-stuns the target.",
+    "skillCooldown":" 20\/15\/10",
+    "skillMana":" 175\/225\/275\n",
+    "skillInfo":[
+     "Cast Animation: 2+1.37 (0.5+3.04)",
+     "Cast Range: 3000",
+     "Damage: 320\/485\/650",
+     "Stun Duration: 0.01 (1\/1.25\/1.5)",
+     "Vision Buff Max Duration: 4",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Concussive Grenade",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/53\/Concussive_Grenade_icon.png",
@@ -11121,22 +11371,6 @@
      "Knockback Duration: 0.4",
      "Move Speed Slow: 50%",
      "Debuff Duration: 3"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Assassinate",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/16\/Assassinate_icon.png",
-    "skillDesc":"Sniper locks onto a target enemy unit and, after a short aiming duration, fires a devastating shot that deals damage at long range and mini-stuns the target.",
-    "skillCooldown":" 20\/15\/10",
-    "skillMana":" 175\/225\/275\n",
-    "skillInfo":[
-     "Cast Animation: 2+1.37 (0.5+3.04)",
-     "Cast Range: 3000",
-     "Damage: 320\/485\/650",
-     "Stun Duration: 0.01 (1\/1.25\/1.5)",
-     "Vision Buff Max Duration: 4",
-     ""
     ]
    }
   ]
@@ -11231,6 +11465,24 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Haunt",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b4\/Haunt_icon.png",
+    "skillDesc":"Creates a spectral nemesis to attack each enemy hero. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt.Haunt illusions are uncontrollable, take extra damage, and deal less damage than Spectre herself. They ignore terrain.",
+    "skillCooldown":" 180\/160\/140",
+    "skillMana":" 150\/200\/250\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+0.5",
+     "Radius: Global",
+     "Illusion Damage Dealt: 40%\/60%\/80% (72%\/92%\/112%)",
+     "Illusion Damage Taken: 200%",
+     "Haunt Duration: 5\/6\/7",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Shadow Step",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/e\/ee\/Shadow_Step_icon.png",
@@ -11245,22 +11497,6 @@
      "Haunt Duration: 5\/6\/7",
      "",
      "Requires drafting  Haunt to be unlocked."
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Haunt",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b4\/Haunt_icon.png",
-    "skillDesc":"Creates a spectral nemesis to attack each enemy hero. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt.Haunt illusions are uncontrollable, take extra damage, and deal less damage than Spectre herself. They ignore terrain.",
-    "skillCooldown":" 180\/160\/140",
-    "skillMana":" 150\/200\/250\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+0.5",
-     "Radius: Global",
-     "Illusion Damage Dealt: 40%\/60%\/80% (72%\/92%\/112%)",
-     "Illusion Damage Taken: 200%",
-     "Haunt Duration: 5\/6\/7",
-     ""
     ]
    }
   ]
@@ -11356,6 +11592,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -11460,6 +11699,9 @@
      "Auto Static Remnant Drop Distance: 550"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -11547,6 +11789,9 @@
      "Duration: 35"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -11684,7 +11929,9 @@
      "Mine Duration: 600",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"minion",
     "skillName":"Pinpoint Detonate",
@@ -11796,6 +12043,24 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Psionic Trap",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/a7\/Psionic_Trap_icon.png",
+    "skillDesc":"Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30% in the area. Traps charge up to slow 60% after 4 seconds. Deals bonus damage when fully charged.",
+    "skillCooldown":" 11\/8\/5",
+    "skillMana":" 15\n",
+    "skillInfo":[
+     "Cast Animation: 0.3+0",
+     "Cast Range: 1800",
+     "Max Traps: 5\/8\/11 (9\/12\/15)",
+     "Trap Fade Time: 2",
+     "Trap Duration: Permanent",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Psionic Projection",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d1\/Psionic_Projection_icon.png",
@@ -11814,22 +12079,6 @@
      "Slow Duration: 5",
      "Min Silence Duration: 1.5",
      "Max Silence Duration: 3.5",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Psionic Trap",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/a7\/Psionic_Trap_icon.png",
-    "skillDesc":"Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30% in the area. Traps charge up to slow 60% after 4 seconds. Deals bonus damage when fully charged.",
-    "skillCooldown":" 11\/8\/5",
-    "skillMana":" 15\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+0",
-     "Cast Range: 1800",
-     "Max Traps: 5\/8\/11 (9\/12\/15)",
-     "Trap Fade Time: 2",
-     "Trap Duration: Permanent",
      ""
     ]
    },
@@ -11933,6 +12182,22 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Sunder",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/15\/Sunder_icon.png",
+    "skillDesc":"Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain.",
+    "skillCooldown":" 120\/80\/40 ( 86\/46\/6)",
+    "skillMana":" 150\/100\/50\n",
+    "skillInfo":[
+     "Cast Animation: 0.35+0.83",
+     "Cast Range: 475",
+     "Min Health: 35%\/30%\/25%",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Demon Zeal",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/be\/Demon_Zeal_icon.png",
@@ -11961,20 +12226,6 @@
      "Effect Delay: 0.6",
      "Metamorphosis Duration: 10",
      "Fear Duration: 2.5"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Sunder",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/15\/Sunder_icon.png",
-    "skillDesc":"Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain.",
-    "skillCooldown":" 120\/80\/40 ( 86\/46\/6)",
-    "skillMana":" 150\/100\/50\n",
-    "skillInfo":[
-     "Cast Animation: 0.35+0.83",
-     "Cast Range: 475",
-     "Min Health: 35%\/30%\/25%",
-     ""
     ]
    }
   ]
@@ -12073,6 +12324,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -12152,6 +12406,40 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Chakram",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/c3\/Chakram_icon.png",
+    "skillDesc":"Fires your main saw blade at the target location where it will spin in place, dealing damage in an area around it. Enemies caught in the saw blade will move more slowly for every 5% of health missing. The blade deals damage and cuts down trees in its path when fired and retracted. While active the ability costs mana, and you lose the ability to attack.",
+    "skillCooldown":" 8",
+    "skillMana":" 80\/140\/200\n",
+    "skillInfo":[
+     "Cast Animation: 0.15+0",
+     "Cast Range: 1200",
+     "Effect Radius: 200",
+     "Pass Damage: 110\/155\/200",
+     "Damage per Second: 50\/75\/100 (70\/95\/120)",
+     "Move Speed Slow per 5% Max Health Missing: 5% (9%)",
+     "Mana Cost per Second: 16\/23\/30",
+     "Aura Linger Duration: 0.5",
+     "Passing Slow Duration: 0.5",
+     ""
+    ]
+   },
+   {
+    "skillType":"ultimate",
+    "skillName":"Return Chakram",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b2\/Return_Chakram_icon.png",
+    "skillDesc":"Returns the Chakram to Timbersaw.",
+    "skillCooldown":" 0",
+    "skillMana":null,
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Second Chakram",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/ba\/Chakram_2_icon.png",
@@ -12201,38 +12489,6 @@
      "Tree Destruction Delay: 5",
      "Debuff Duration: 2",
      "Flamethrower Duration: 7"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Chakram",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/c3\/Chakram_icon.png",
-    "skillDesc":"Fires your main saw blade at the target location where it will spin in place, dealing damage in an area around it. Enemies caught in the saw blade will move more slowly for every 5% of health missing. The blade deals damage and cuts down trees in its path when fired and retracted. While active the ability costs mana, and you lose the ability to attack.",
-    "skillCooldown":" 8",
-    "skillMana":" 80\/140\/200\n",
-    "skillInfo":[
-     "Cast Animation: 0.15+0",
-     "Cast Range: 1200",
-     "Effect Radius: 200",
-     "Pass Damage: 110\/155\/200",
-     "Damage per Second: 50\/75\/100 (70\/95\/120)",
-     "Move Speed Slow per 5% Max Health Missing: 5% (9%)",
-     "Mana Cost per Second: 16\/23\/30",
-     "Aura Linger Duration: 0.5",
-     "Passing Slow Duration: 0.5",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Return Chakram",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b2\/Return_Chakram_icon.png",
-    "skillDesc":"Returns the Chakram to Timbersaw.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     ""
     ]
    }
   ]
@@ -12317,24 +12573,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"March of the Machines",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f5\/March_of_the_Machines_icon.png",
-    "skillDesc":"Enlists an army of robotic minions to destroy enemy units in an area around Tinker.",
-    "skillCooldown":" 35",
-    "skillMana":" 190 ( 174.8)\n",
-    "skillInfo":[
-     "Cast Animation: 0.53+0.63",
-     "Cast Range: 300",
-     "Robot Spawn Radius: 900",
-     "Robot Collision Radius: 50",
-     "Robot Explosion Radius: 150",
-     "Robot Explosion Damage: 30",
-     "Spawn Duration: 6",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Keen Conveyance",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f5\/Keen_Conveyance_icon.png",
@@ -12362,6 +12600,26 @@
     "skillInfo":[
      "Cast Animation: 0+0",
      "Channel Time: 3.5\/2\/1.25",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"March of the Machines",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/f5\/March_of_the_Machines_icon.png",
+    "skillDesc":"Enlists an army of robotic minions to destroy enemy units in an area around Tinker.",
+    "skillCooldown":" 35",
+    "skillMana":" 190 ( 174.8)\n",
+    "skillInfo":[
+     "Cast Animation: 0.53+0.63",
+     "Cast Range: 300",
+     "Robot Spawn Radius: 900",
+     "Robot Collision Radius: 50",
+     "Robot Explosion Radius: 150",
+     "Robot Explosion Damage: 30",
+     "Spawn Duration: 6",
      ""
     ]
    }
@@ -12472,6 +12730,21 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Grow",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/db\/Grow_icon.png",
+    "skillDesc":"Tiny gains craggy mass, increasing his attack damage, and armor, while slowing his attack speed.",
+    "skillCooldown":null,
+    "skillMana":null,
+    "skillInfo":[
+     "Attack Damage Bonus: 30\/70\/110",
+     "Attack Speed Loss: 20\/30\/40",
+     "Armor Bonus: 12\/18\/24"
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Tree Volley",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/10\/Tree_Volley_icon.png",
@@ -12486,19 +12759,6 @@
      "Max Channel Time: 2.4",
      "Tree Throw Interval: 0.4",
      "Attack damage as Damage: 100% (120%)"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Grow",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/db\/Grow_icon.png",
-    "skillDesc":"Tiny gains craggy mass, increasing his attack damage, and armor, while slowing his attack speed.",
-    "skillCooldown":null,
-    "skillMana":null,
-    "skillInfo":[
-     "Attack Damage Bonus: 30\/70\/110",
-     "Attack Speed Loss: 20\/30\/40",
-     "Armor Bonus: 12\/18\/24"
     ]
    }
   ]
@@ -12585,23 +12845,6 @@
     ]
    },
    {
-    "skillType":"aghs",
-    "skillName":"Eyes In The Forest",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d4\/Eyes_in_the_Forest_icon.png",
-    "skillDesc":"Treant Protector enchants a tree, which grants him unobstructed vision in that location. If Overgrowth is cast, units within a 800 radius of an enchanted tree will be entangled and damaged.",
-    "skillCooldown":null,
-    "skillMana":" 100\n",
-    "skillInfo":[
-     "Cast Animation: 0.2+0.83",
-     "Cast Range: 160",
-     "Vision\/Overgrowth Radius: 800",
-     "Global Tree Respawn Time: 10",
-     "Number of Charges: 3",
-     "Charge Replenish Time: 40",
-     ""
-    ]
-   },
-   {
     "skillType":"innate",
     "skillName":"Nature's Guise\n",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/69\/Nature%27s_Guise_icon.png",
@@ -12634,6 +12877,25 @@
      "Radius: 800",
      "Damage per Second: 75 (175)",
      "Duration: 3\/4\/5",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"aghs",
+    "skillName":"Eyes In The Forest",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d4\/Eyes_in_the_Forest_icon.png",
+    "skillDesc":"Treant Protector enchants a tree, which grants him unobstructed vision in that location. If Overgrowth is cast, units within a 800 radius of an enchanted tree will be entangled and damaged.",
+    "skillCooldown":null,
+    "skillMana":" 100\n",
+    "skillInfo":[
+     "Cast Animation: 0.2+0.83",
+     "Cast Range: 160",
+     "Vision\/Overgrowth Radius: 800",
+     "Global Tree Respawn Time: 10",
+     "Number of Charges: 3",
+     "Charge Replenish Time: 40",
      ""
     ]
    }
@@ -12735,21 +12997,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Rampage FN\/A\n",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/30\/Rampage_icon.png",
-    "skillDesc":"Global active. Grants all allied heroes 70 Attack Speed or 25% Status Resistance for 5 seconds based on whichever stance Troll is currently in. Ranged provides attack speed and melee provides status resistance.",
-    "skillCooldown":" 80",
-    "skillMana":" 75\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Radius: Global",
-     "Attack Speed Bonus (Ranged): 70",
-     "Status Resistance Bonus (Melee): 25%",
-     "Duration: 5"
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Battle Trance",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/70\/Battle_Trance_icon.png",
@@ -12764,6 +13011,23 @@
      "Self Attack Speed Bonus: 140\/170\/200",
      "Duration: 6.5 (8.5)",
      ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Rampage FN\/A\n",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/30\/Rampage_icon.png",
+    "skillDesc":"Global active. Grants all allied heroes 70 Attack Speed or 25% Status Resistance for 5 seconds based on whichever stance Troll is currently in. Ranged provides attack speed and melee provides status resistance.",
+    "skillCooldown":" 80",
+    "skillMana":" 75\n",
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     "Radius: Global",
+     "Attack Speed Bonus (Ranged): 70",
+     "Status Resistance Bonus (Melee): 25%",
+     "Duration: 5"
     ]
    }
   ]
@@ -12870,6 +13134,25 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Walrus PUNCH!",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/40\/Walrus_Punch_icon.png",
+    "skillDesc":"Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.",
+    "skillCooldown":" 36\/24\/12",
+    "skillMana":" 50\/75\/100\n",
+    "skillInfo":[
+     "Self Attack Animation Speed Bonus: 50%",
+     "Critical Damage: 350%\/375%\/400% (430%\/455%\/480%)",
+     "Move Speed Slow: 40%",
+     "Slow Duration: 3\/4\/5",
+     "Stun Duration: 1 (1.4)",
+     "Proc Chance: 12%",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Walrus Kick",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/63\/Walrus_Kick_icon.png",
@@ -12885,23 +13168,6 @@
      "Move Speed Slow: 40%",
      "Slow Duration: 5",
      "Stun Duration: 1"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Walrus PUNCH!",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/40\/Walrus_Punch_icon.png",
-    "skillDesc":"Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.",
-    "skillCooldown":" 36\/24\/12",
-    "skillMana":" 50\/75\/100\n",
-    "skillInfo":[
-     "Self Attack Animation Speed Bonus: 50%",
-     "Critical Damage: 350%\/375%\/400% (430%\/455%\/480%)",
-     "Move Speed Slow: 40%",
-     "Slow Duration: 3\/4\/5",
-     "Stun Duration: 1 (1.4)",
-     "Proc Chance: 12%",
-     ""
     ]
    }
   ]
@@ -12987,22 +13253,6 @@
     ]
    },
    {
-    "skillType":"aghs",
-    "skillName":"Fiend's Gate",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/85\/Fiend%27s_Gate_icon.png",
-    "skillDesc":"Opens 2 portals, one next to Underlord and one in the target location up to 4000 range. Allies can channel a portal for 2 seconds to teleport to the other side.",
-    "skillCooldown":" 110",
-    "skillMana":" 100\n",
-    "skillInfo":[
-     "Cast Animation: 0.45+0",
-     "Cast Range: 4000",
-     "Channel Distance: 400",
-     "Channel Time: 2",
-     "Portals Duration: 20",
-     ""
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Dark Rift",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/57\/Dark_Rift_icon.png",
@@ -13025,6 +13275,24 @@
     "skillMana":null,
     "skillInfo":[
      "Cast Animation: 0+1.07",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"aghs",
+    "skillName":"Fiend's Gate",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/85\/Fiend%27s_Gate_icon.png",
+    "skillDesc":"Opens 2 portals, one next to Underlord and one in the target location up to 4000 range. Allies can channel a portal for 2 seconds to teleport to the other side.",
+    "skillCooldown":" 110",
+    "skillMana":" 100\n",
+    "skillInfo":[
+     "Cast Animation: 0.45+0",
+     "Cast Range: 4000",
+     "Channel Distance: 400",
+     "Channel Time: 2",
+     "Portals Duration: 20",
      ""
     ]
    }
@@ -13130,7 +13398,9 @@
      "Zombie Duration: 15",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"talent",
     "skillName":"Reincarnation\n",
@@ -13260,6 +13530,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -13357,6 +13630,9 @@
      "Damage Reduction Duration: 3"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -13452,6 +13728,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -13552,6 +13831,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -13652,6 +13934,22 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Summon Familiars",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/39\/Summon_Familiars_icon.png",
+    "skillDesc":"Conjures two blind Familiars to fight for Visage. Familiars possess the Stone Form ability, that allows them to turn into stone, stunning enemies upon landing. While in Stone Form, Familiars are invulnerable, and rapidly regenerate their health. Familiars grant high bounty when killed.",
+    "skillCooldown":" 130\/120\/110",
+    "skillMana":" 150\n",
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     "Number of Familiars: 2 (3)",
+     "Familiar Duration: Permanent",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Silent as the Grave",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/03\/Silent_as_the_Grave_icon.png",
@@ -13667,20 +13965,6 @@
      "Invisibility Duration: 35",
      "",
      "Requires drafting  Summon Familiars to be unlocked."
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Summon Familiars",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/39\/Summon_Familiars_icon.png",
-    "skillDesc":"Conjures two blind Familiars to fight for Visage. Familiars possess the Stone Form ability, that allows them to turn into stone, stunning enemies upon landing. While in Stone Form, Familiars are invulnerable, and rapidly regenerate their health. Familiars grant high bounty when killed.",
-    "skillCooldown":" 130\/120\/110",
-    "skillMana":" 150\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Number of Familiars: 2 (3)",
-     "Familiar Duration: Permanent",
-     ""
     ]
    },
    {
@@ -13813,6 +14097,9 @@
      "Critical Damage: 160%"
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -13917,7 +14204,9 @@
      "Number of Golems on Death: 1",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"minion",
     "skillName":"Flaming Fists  \n",
@@ -14043,7 +14332,9 @@
      "Cast Range: 500",
      ""
     ]
-   },
+   }
+  ],
+  "subSkills":[
    {
     "skillType":"talent",
     "skillName":"Mana Break   \n",
@@ -14146,6 +14437,23 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Focus Fire",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/4d\/Focus_Fire_icon.png",
+    "skillDesc":"Windranger channels the wind to gain 475 additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage. Extra damage from secondary item effects is not reduced. Lasts 20 seconds.",
+    "skillCooldown":" 70\/50\/30",
+    "skillMana":" 75\/100\/125\n",
+    "skillInfo":[
+     "Cast Animation: 0+0",
+     "Attack Speed Bonus: 475",
+     "Attack Damage Reduction: 50%\/40%\/30% (34%\/24%\/14%)",
+     "Duration: 20",
+     "Cooldown Skip on Target Death: 20"
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"shard",
     "skillName":"Gale Force",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/53\/Gale_Force_icon.png",
@@ -14159,21 +14467,6 @@
      "Push Speed: 250",
      "Aura Linger Duration: 0.5",
      "Duration: 3"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Focus Fire",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/4d\/Focus_Fire_icon.png",
-    "skillDesc":"Windranger channels the wind to gain 475 additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage. Extra damage from secondary item effects is not reduced. Lasts 20 seconds.",
-    "skillCooldown":" 70\/50\/30",
-    "skillMana":" 75\/100\/125\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Attack Speed Bonus: 475",
-     "Attack Damage Reduction: 50%\/40%\/30% (34%\/24%\/14%)",
-     "Duration: 20",
-     "Cooldown Skip on Target Death: 20"
     ]
    }
   ]
@@ -14279,6 +14572,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -14363,19 +14659,6 @@
     ]
    },
    {
-    "skillType":"shard",
-    "skillName":"Voodoo Switcheroo",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/21\/Voodoo_Switcheroo_icon.png",
-    "skillDesc":"Turns Witch Doctor into a Death Ward for 2 seconds. Death Ward has -30 Attack Speed. He is hidden during this time.",
-    "skillCooldown":" 40",
-    "skillMana":" 150\n",
-    "skillInfo":[
-     "Cast Animation: 0.1+0.73",
-     "Death Ward Attack Speed Reduction: 30",
-     "Duration: 2"
-    ]
-   },
-   {
     "skillType":"ultimate",
     "skillName":"Death Ward",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/cf\/Death_Ward_icon.png",
@@ -14388,6 +14671,21 @@
      "Max Channel Time: 8",
      "Bounce Distance: 650",
      ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
+    "skillType":"shard",
+    "skillName":"Voodoo Switcheroo",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/21\/Voodoo_Switcheroo_icon.png",
+    "skillDesc":"Turns Witch Doctor into a Death Ward for 2 seconds. Death Ward has -30 Attack Speed. He is hidden during this time.",
+    "skillCooldown":" 40",
+    "skillMana":" 150\n",
+    "skillInfo":[
+     "Cast Animation: 0.1+0.73",
+     "Death Ward Attack Speed Reduction: 30",
+     "Duration: 2"
     ]
    }
   ]
@@ -14492,6 +14790,9 @@
      ""
     ]
    }
+  ],
+  "subSkills":[
+
   ]
  },
  {
@@ -14578,6 +14879,26 @@
     ]
    },
    {
+    "skillType":"ultimate",
+    "skillName":"Thundergod's Wrath",
+    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/1c\/Thundergod%27s_Wrath_icon.png",
+    "skillDesc":"Strikes all enemy heroes with a bolt of lightning, no matter where they may be. Thundergod's Wrath also provides True Sight around each hero struck. If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.",
+    "skillCooldown":" 130\/125\/120",
+    "skillMana":" 300\/400\/500\n",
+    "skillInfo":[
+     "Cast Animation: 0.4+0.43",
+     "Effect Radius: Global",
+     "Vision Radius: 500",
+     "True Sight Radius: 900",
+     "Damage: 300\/425\/550 (400\/525\/650)",
+     "Vision & True Sight Duration: 3",
+     "True Sight Aura Linger Duration: 0.5",
+     ""
+    ]
+   }
+  ],
+  "subSkills":[
+   {
     "skillType":"aghs",
     "skillName":"Nimbus",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/50\/Nimbus_icon.png",
@@ -14596,24 +14917,6 @@
      "",
      "",
      "Requires drafting  Thundergod's Wrath to be unlocked."
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Thundergod's Wrath",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/1c\/Thundergod%27s_Wrath_icon.png",
-    "skillDesc":"Strikes all enemy heroes with a bolt of lightning, no matter where they may be. Thundergod's Wrath also provides True Sight around each hero struck. If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.",
-    "skillCooldown":" 130\/125\/120",
-    "skillMana":" 300\/400\/500\n",
-    "skillInfo":[
-     "Cast Animation: 0.4+0.43",
-     "Effect Radius: Global",
-     "Vision Radius: 500",
-     "True Sight Radius: 900",
-     "Damage: 300\/425\/550 (400\/525\/650)",
-     "Vision & True Sight Duration: 3",
-     "True Sight Aura Linger Duration: 0.5",
-     ""
     ]
    }
   ]
