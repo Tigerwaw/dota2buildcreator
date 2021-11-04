@@ -178,9 +178,9 @@ function applyHeroData(data)
 {
 	document.getElementById("heroName").innerHTML = data.heroName;
 	document.getElementById("heroImage").src = data.heroIcon;
-	document.getElementById("strText").innerHTML = data.heroAttrBase[0] + data.heroAttrGrowth[0];
-	document.getElementById("agiText").innerHTML = data.heroAttrBase[1] + data.heroAttrGrowth[1];
-	document.getElementById("intText").innerHTML = data.heroAttrBase[2] + data.heroAttrGrowth[2];
+	document.getElementById("strText").innerHTML = data.heroAttr[0];
+	document.getElementById("agiText").innerHTML = data.heroAttr[1];
+	document.getElementById("intText").innerHTML = data.heroAttr[2];
 	document.getElementById("atkText").innerHTML = data.heroDamage;
 	document.getElementById("armorText").innerHTML = data.heroArmor;
 	document.getElementById("mSpeedText").innerHTML = data.heroSpeed;
