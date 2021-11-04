@@ -276,7 +276,7 @@ function isSubSkill(skill)
 	"Bedlam", 
 	"Adaptive Strike (Strength)", "Attribute Shift (Strength Gain)",
 	"Activate Fire Remnant", 
-	"Cold Snap", "Ghost Walk", "Tornado", "E.M.P.", "Alacrity", "Chaos Meteor", "Sun Strike", "Forge Spirit", "Ice Wall", "Deafening Blast",
+	"Cold Snap", "Ghost Walk", "Tornado", "EMP", "Alacrity", "Chaos Meteor", "Sun Strike", "Forge Spirit", "Ice Wall", "Deafening Blast",
 	"Consume",
 	"Demolish", "Entangling Claws",
 	"Focused Detonate",

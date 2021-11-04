@@ -6406,7 +6406,7 @@
    },
    {
     "skillType":"ultimate",
-    "skillName":"Demolish  \n",
+    "skillName":"Demolish",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/3a\/Demolish_%28Spirit_Bear%29_icon.png",
     "skillDesc":"Increases the power of the Spirit Bear, causing it to deal more damage to buildings and have additional spell resistance.",
     "skillCooldown":null,
@@ -6452,7 +6452,7 @@
   "subSkills":[
    {
     "skillType":"minion",
-    "skillName":"Demolish  \n",
+    "skillName":"Demolish",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/3a\/Demolish_%28Spirit_Bear%29_icon.png",
     "skillDesc":"Increases the power of the Spirit Bear, causing it to deal more damage to buildings and have additional spell resistance.",
     "skillCooldown":null,
