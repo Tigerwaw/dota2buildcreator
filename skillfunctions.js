@@ -277,10 +277,15 @@ function isSubSkill(skill)
 	"Adaptive Strike (Strength)", "Attribute Shift (Strength Gain)",
 	"Activate Fire Remnant", 
 	"Cold Snap", "Ghost Walk", "Tornado", "E.M.P.", "Alacrity", "Chaos Meteor", "Sun Strike", "Forge Spirit", "Ice Wall", "Deafening Blast",
+	"Consume",
+	"Demolish", "Entangling Claws",
 	"Focused Detonate",
 	"Keen Conveyance",
 	"Tree Throw",
-	"Whirling Axes (Melee)"]
+	"Whirling Axes (Melee)",
+	"Shadowraze (Medium)", "Shadowraze (Far)",
+	"Trap",
+	"Stone Form"]
 	
 	if (skill.skillType == "innate")
 	{

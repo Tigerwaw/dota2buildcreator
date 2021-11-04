@@ -212,7 +212,7 @@
    },
    {
     "skillType":"innate",
-    "skillName":"Aghanim's Scepter Synth\n",
+    "skillName":"Aghanim's Scepter Synth",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/60\/Aghanim%27s_Scepter_ability_icon.png",
     "skillDesc":"Alchemist melts down Aghanim's Scepter to grant an allied hero all Aghanim's Scepter upgrades. When you have a Scepter of your own, you will gain bonus damage and spell amplification for each gifted Scepter.",
     "skillCooldown":null,
@@ -342,20 +342,6 @@
      "Damage per Second: 12.5\/20\/32",
      "Percentage Health Kill Threshold: 12%\/13%\/14% (16%\/17%\/18%)",
      "Duration: 10\/11\/12"
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Release",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/ac\/Release_icon.png",
-    "skillDesc":"Releases the ice blast to explode at the tracer's current location.",
-    "skillCooldown":" 1",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0.01+1.1",
-     "Min Projectile Speed: 750",
-     "Max Travel Time: 1.75",
-     ""
     ]
    }
   ],
@@ -761,18 +747,6 @@
      "Damage per Second: 5\/15\/25\/35",
      "Sleep Duration: 4\/5\/6\/7",
      "Invulnerability Duration: 1",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Nightmare End",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d1\/Nightmare_End_icon.png",
-    "skillDesc":"Ends all ongoing Nightmares.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
      ""
     ]
    },
@@ -2558,7 +2532,7 @@
   "subSkills":[
    {
     "skillType":"shard",
-    "skillName":"Normal Punch\n",
+    "skillName":"Normal Punch",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/6c\/Normal_Punch_icon.png",
     "skillDesc":"Grants Normal Punch. Passive cooldown attack. Causes Dark Seer's next attack on a hero to have True Strike, knock an illusion out of the victim and stun them for up to 2.25 seconds, 350 distance and 300 magic damage based on how far Dark Seer has moved in the past 3 seconds. Max power is reached after 900 distance moved. Illusions lasts for 8 seconds. Cooldown: 14",
     "skillCooldown":" 14",
@@ -2773,17 +2747,6 @@
      "Fire Trail Move Speed Slow: 24%\/28%\/32%\/36% (39%\/43%\/47%\/51%)",
      "Fire Trail Duration: 2.5",
      "Fire Trail Debuff Linger Duration: 0.5"
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Converge",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/06\/Converge_icon.png",
-    "skillDesc":"Dawnbreaker recalls her hammer, pulling them together so they meet in the middle.",
-    "skillCooldown":" 0.25",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0"
     ]
    },
    {
@@ -3811,19 +3774,6 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Return Astral Spirit",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/45\/Return_Astral_Spirit_icon.png",
-    "skillDesc":"Returns the Astral Spirit to Elder Titan.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Return Speed: 900",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
     "skillName":"Natural Order",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/8a\/Natural_Order_icon.png",
     "skillDesc":"Reduces all elements to their basic levels, removing base armor and magic damage resistance from nearby enemy units. The armor reduction is centered around the hero, while the magic armor reduction is centered around Astral Spirit.",
@@ -4645,17 +4595,6 @@
      "Self Knockback Duration: 0.4",
      ""
     ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"End Sharpshooter",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/45\/End_Sharpshooter_icon.png",
-    "skillDesc":"Release the charged shot, regain ability to move and attack.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0"
-    ]
    }
   ],
   "subSkills":[
@@ -4893,7 +4832,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Cold SnapD\/",
+    "skillName":"Cold Snap",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/fb\/Cold_Snap_icon.png",
     "skillDesc":"Invoker draws the heat from an enemy, chilling them to their very core for a duration based on the level of Quas. The enemy will take damage and be briefly frozen. Further damage taken in this state will freeze the enemy again, dealing bonus damage. The enemy can only be frozen so often, but the freeze cooldown decreases based on the level of Quas.",
     "skillCooldown":" 20 ( 12)",
@@ -4910,7 +4849,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Ghost WalkD\/",
+    "skillName":"Ghost Walk",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/c8\/Ghost_Walk_icon.png",
     "skillDesc":"Invoker manipulates the ice and electrical energies around him, rendering his body invisible. The elemental imbalance created as a consequence slows nearby enemies based on the level of Quas, and slows Invoker as well based on the level of Wex.",
     "skillCooldown":" 45 ( 21)",
@@ -4928,7 +4867,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Ice WallD\/",
+    "skillName":"Ice Wall",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/2d\/Ice_Wall_icon.png",
     "skillDesc":"Generates a wall of solid ice directly in front of Invoker for a duration based on the level of Quas. The bitter cold emanating from it greatly slows nearby enemies based on the level of Quas and deals damage each second based on the level of Exort.",
     "skillCooldown":" 25",
@@ -4947,7 +4886,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"EMPD\/",
+    "skillName":"EMP",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/9\/97\/EMP_icon.png",
     "skillDesc":"Invoker builds up a charge of electromagnetic energy at a targeted location which automatically detonates after 2.9 seconds. The detonation covers an area, draining mana based on the level of Wex. Deals damage for each point of mana drained. If EMP drains mana from an enemy hero, Invoker gains 50% of the mana drained.",
     "skillCooldown":" 30",
@@ -4964,7 +4903,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"TornadoD\/",
+    "skillName":"Tornado",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/e\/e1\/Tornado_icon.png",
     "skillDesc":"Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. Travels further based on the level of Wex. Holds enemies in the air for a duration based on the level of Quas. Deals base damage plus added damage based on levels in Wex.",
     "skillCooldown":" 30 ( 20)",
@@ -4981,7 +4920,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"AlacrityD\/",
+    "skillName":"Alacrity",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/1b\/Alacrity_icon.png",
     "skillDesc":"Invoker infuses an ally with an immense surge of energy, increasing their attack speed based on the level of Wex and their damage based on the level of Exort.",
     "skillCooldown":" 17",
@@ -4996,7 +4935,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Sun StrikeD\/",
+    "skillName":"Sun Strike",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/83\/Sun_Strike_icon.png",
     "skillDesc":"Sends a catastrophic ray of fierce energy from the sun at any targeted location, incinerating all enemies standing beneath it once it reaches the earth. Deals damage based on the level of Exort, however this damage is spread evenly over all enemies hit.",
     "skillCooldown":" 25 ( 100)",
@@ -5014,7 +4953,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Forge SpiritD\/",
+    "skillName":"Forge Spirit",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/cb\/Forge_Spirit_icon.png",
     "skillDesc":"Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage and armor are based on the level of Exort while attack range, health, and duration are based on the level of Quas. The elemental's scorching attack is capable of melting the armor of enemy heroes. Spawns two spirits when Quas and Exort are at least level 4.",
     "skillCooldown":" 30",
@@ -5032,7 +4971,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Chaos MeteorD\/",
+    "skillName":"Chaos Meteor",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/76\/Chaos_Meteor_icon.png",
     "skillDesc":"Invoker pulls a flaming meteor from space onto the targeted location. Upon landing, the meteor rolls forward, constantly dealing damage based on the level of Exort, and rolling further based on the level of Wex. Units hit by the meteor will also be set on fire for a short time, receiving additional damage based on the level of Exort.",
     "skillCooldown":" 55 ( 40)",
@@ -5055,7 +4994,7 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Deafening BlastD\/",
+    "skillName":"Deafening Blast",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/dd\/Deafening_Blast_icon.png",
     "skillDesc":"Invoker unleashes a mighty sonic wave in front of him, dealing damage to any enemy unit it collides with based on the level of Exort. The sheer impact from the blast is enough to knock those enemy units back for a duration based on the level of Quas, then disarm their attacks for a duration based on the level of Wex.",
     "skillCooldown":" 40",
@@ -5146,18 +5085,6 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Break Tether",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/1f\/Break_Tether_icon.png",
-    "skillDesc":"Break the link to the tethered unit.",
-    "skillCooldown":" 1",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
     "skillName":"Spirits",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/af\/Spirits_icon.png",
     "skillDesc":"Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging all enemy units in an area around it. Creeps take minor damage from touching a particle spirit, but do not cause them to explode. When its duration ends, any remaining Spirits explode.",
@@ -5170,32 +5097,6 @@
      "Collision Damage: 10\/15\/20\/25",
      "Explosion Damage: 30\/50\/70\/90 (90\/110\/130\/150)",
      "Duration: 19 (Infinite)",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Spirits In",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/5\/59\/Spirits_Movement_icon.png",
-    "skillDesc":"Calls the spirits closer to you. Can be toggled on and off.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Min Distance: 200",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Spirits Out",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/1f\/Spirits_Out_icon.png",
-    "skillDesc":"Sends the spirits farther away from you. Can be toggled on and off.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Max Distance: 650 (950)",
      ""
     ]
    },
@@ -5521,35 +5422,6 @@
     ]
    },
    {
-    "skillType":"ultimate",
-    "skillName":"Illuminate (Spirit Form)",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/a4\/Illuminate_%28Spirit_Form%29_icon.png",
-    "skillDesc":"Channels light energy, building power the longer it's channeled. Once released, a wave is sent forth that deals damage and gives vision in its path. The longer it is channeled, the more damage is dealt.",
-    "skillCooldown":" 13",
-    "skillMana":" 100\/125\/150\/175\n",
-    "skillInfo":[
-     "Cast Animation: 0.3+5.53",
-     "Cast Range: 1800",
-     "Travel Distance: 1550",
-     "Wave Radius: 375",
-     "Max Charge Time: 3",
-     "Max Damage: 200\/300\/400\/500 (380\/480\/580\/680)",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Release Illuminate (Spirit Form)",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/8\/83\/Release_Illuminate_%28Spirit_Form%29_icon.png",
-    "skillDesc":"Release the channel early.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0.53",
-     ""
-    ]
-   },
-   {
     "skillType":"basic",
     "skillName":"Solar Bind",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/07\/Solar_Bind_icon.png",
@@ -5731,19 +5603,6 @@
      "Cast Range: 400\/600\/800\/1000",
      "Enemy Duration: 4",
      "Ally Duration: 8",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Return",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/ad\/Return_%28Kunkka%29_icon.png",
-    "skillDesc":"Returns the marked hero to the X.",
-    "skillCooldown":" 1",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0.4+0",
-     "",
      ""
     ]
    },
@@ -6237,7 +6096,7 @@
    },
    {
     "skillType":"ultimate",
-    "skillName":"ConsumeR\/?T\/?\n",
+    "skillName":"Consume",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/6c\/Consume_icon.png",
     "skillDesc":"Lifestealer eats the host body from the inside out, exploding from within.",
     "skillCooldown":" 0",
@@ -6559,7 +6418,7 @@
    },
    {
     "skillType":"ultimate",
-    "skillName":"Entangling Claws\n",
+    "skillName":"Entangling Claws",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/1f\/Entangling_Claws_%28Spirit_Bear%29_icon.png",
     "skillDesc":"Attacks have a chance to cause roots to burst from the ground, immobilizing the attacked enemy unit, and dealing damage per second.",
     "skillCooldown":" 5 ( 0)",
@@ -6593,20 +6452,6 @@
   "subSkills":[
    {
     "skillType":"minion",
-    "skillName":"Return",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b8\/Return_%28Spirit_Bear%29_icon.png",
-    "skillDesc":"Channels for 3 seconds and then teleports the Spirit Bear back to the Lone Druid.",
-    "skillCooldown":" 30",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Channel Time: 3",
-     "",
-     ""
-    ]
-   },
-   {
-    "skillType":"minion",
     "skillName":"Demolish  \n",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/3a\/Demolish_%28Spirit_Bear%29_icon.png",
     "skillDesc":"Increases the power of the Spirit Bear, causing it to deal more damage to buildings and have additional spell resistance.",
@@ -6638,7 +6483,7 @@
    },
    {
     "skillType":"minion",
-    "skillName":"Entangling Claws\n",
+    "skillName":"Entangling Claws",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/1f\/Entangling_Claws_%28Spirit_Bear%29_icon.png",
     "skillDesc":"Attacks have a chance to cause roots to burst from the ground, immobilizing the attacked enemy unit, and dealing damage per second.",
     "skillCooldown":" 5 ( 0)",
@@ -6872,7 +6717,7 @@
    },
    {
     "skillType":"minion",
-    "skillName":"Cripple\n",
+    "skillName":"Cripple",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/7f\/Cripple_%28Lycan_Wolf%29_icon.png",
     "skillDesc":"Gives 20% chance to cripple the target, causing 8 damage per second and lose 60 attack speed for 4 seconds.",
     "skillCooldown":null,
@@ -7358,7 +7203,7 @@
   "subSkills":[
    {
     "skillType":"shard",
-    "skillName":"Cold Blooded\n",
+    "skillName":"Cold Blooded",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/45\/Cold_Blooded_icon.png",
     "skillDesc":"When Medusa is targeted with a spell, a single-target Mystic Snake is sent back towards the enemy. Cooldown: 12.",
     "skillCooldown":" 12",
@@ -7681,17 +7526,6 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Spring Early",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/a7\/Spring_Early_icon.png",
-    "skillDesc":"There is no description for this ability.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0"
-    ]
-   },
-   {
-    "skillType":"basic",
     "skillName":"Jingu Mastery",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/7e\/Jingu_Mastery_icon.png",
     "skillDesc":"Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns four charged attacks that have bonus damage and lifesteal.",
@@ -7721,17 +7555,6 @@
      "Search Radius: 350",
      "Damage Immunity Duration: 0.2 (0.5)",
      ""
-    ]
-   },
-   {
-    "skillType":"innate",
-    "skillName":"Revert Form",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/7\/7c\/Revert_Form_icon.png",
-    "skillDesc":"Reverts Monkey King's shape to his original form.",
-    "skillCooldown":" 1",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0.53"
     ]
    },
    {
@@ -7895,17 +7718,6 @@
      "Cast Range Bonus: 300",
      ""
     ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Morph ReplicateR?\n",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/9\/9f\/Morph_Replicate_icon.png",
-    "skillDesc":"Toggles Morphling's form between his own and the replicated enemy.",
-    "skillCooldown":" 1",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0"
-    ]
    }
   ],
   "subSkills":[
@@ -7998,18 +7810,6 @@
      "Duration: 7",
      "Aura Linger Duration: 0.4",
      "Max Health as Health Regen Bonus: 5%",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Song of the Siren End",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/43\/Song_of_the_Siren_End_icon.png",
-    "skillDesc":"Release enemy units from your song so they can be targeted again.",
-    "skillCooldown":" 1",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0.97",
      ""
     ]
    }
@@ -8993,17 +8793,6 @@
      "Rolling Thunder Duration: 10 (13)",
      ""
     ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Stop Rolling",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/dd\/Stop_Rolling_icon.png",
-    "skillDesc":"Halt!",
-    "skillCooldown":null,
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0"
-    ]
    }
   ],
   "subSkills":[
@@ -9305,17 +9094,6 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Stop Icarus Dive",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/41\/Stop_Icarus_Dive_icon.png",
-    "skillDesc":"Immediately cancels the dive.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0"
-    ]
-   },
-   {
-    "skillType":"basic",
     "skillName":"Fire Spirits",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/c\/cf\/Fire_Spirits_icon.png",
     "skillDesc":"Summons 4 Fire Spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.",
@@ -9331,19 +9109,6 @@
      "Slow\/Damage Duration: 4",
      "Spirits Duration: 20",
      ""
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Launch Fire Spirit",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/0\/0d\/Launch_Fire_Spirit_icon.png",
-    "skillDesc":"Each fire spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Cast Range: 1400",
-     "Max Charges: 4"
     ]
    },
    {
@@ -9367,30 +9132,6 @@
      "Ray Duration: 6",
      "Move Speed Slow: 12%",
      "Slow Duration: 0.67",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Stop Sun Ray",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/f\/fd\/Stop_Sun_Ray_icon.png",
-    "skillDesc":"Immediately stops the Sun Ray.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0"
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Toggle Movement",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/62\/Toggle_Movement_icon.png",
-    "skillDesc":"Toggles slow forward movement during Sun Ray firing.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     "Set Move Speed: 250",
      ""
     ]
    },
@@ -9492,17 +9233,6 @@
      "Max Channel Time: 0.75\/1.5\/2.25\/3.25",
      "Instant Attack Range Bonus: 200",
      ""
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Ethereal Jaunt",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/a\/aa\/Ethereal_Jaunt_icon.png",
-    "skillDesc":"Teleports Puck to a flying Illusory Orb.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0+0.53"
     ]
    },
    {
@@ -9846,7 +9576,7 @@
   "subSkills":[
    {
     "skillType":"talent",
-    "skillName":"Spell Block\n",
+    "skillName":"Spell Block",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/bf\/Linken%27s_Sphere_ability_icon.png",
     "skillDesc":"There is no description for this ability.",
     "skillCooldown":" 18",
@@ -10122,22 +9852,6 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Telekinesis Land",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/1\/15\/Telekinesis_Land_icon.png",
-    "skillDesc":"Chooses the location the target will land when Telekinesis finishes.",
-    "skillCooldown":" 0",
-    "skillMana":" 0\n",
-    "skillInfo":[
-     "Cast Animation: 0.1+1.07",
-     "Cast Range: Global",
-     "Max Throw Distance: 375 (615)",
-     "Stun Radius: 325",
-     "Stun Duration: 1.2\/1.4\/1.6\/1.8",
-     "Landing Damage: 175"
-    ]
-   },
-   {
-    "skillType":"basic",
     "skillName":"Fade Bolt",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/35\/Fade_Bolt_icon.png",
     "skillDesc":"Rubick creates a powerful stream of arcane energy that travels between enemy units, dealing damage and reducing their attack damage. Each jump deals less damage.",
@@ -10389,18 +10103,6 @@
      "Multiplied Stack Damage: 24\/36\/48\/60 (27.6\/41.4\/55.2\/69)",
      "Non-Multiplied Stack Damage: 50 (57.5)",
      "Stack Duration: 10",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
-    "skillName":"Shadow Poison Release",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/d\/d2\/Shadow_Poison_Release_icon.png",
-    "skillDesc":"Releases the poison to do damage on all affected enemies. Units under the effect of Disruption can still be affected by Shadow Poison.",
-    "skillCooldown":" 1",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0.3+0",
      ""
     ]
    },
@@ -11453,19 +11155,6 @@
    },
    {
     "skillType":"ultimate",
-    "skillName":"Reality",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/2\/2d\/Reality_icon.png",
-    "skillDesc":"Spectre exchanges places with a chosen Haunt.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0.7",
-     "Cast Range: Global",
-     ""
-    ]
-   },
-   {
-    "skillType":"ultimate",
     "skillName":"Haunt",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b4\/Haunt_icon.png",
     "skillDesc":"Creates a spectral nemesis to attack each enemy hero. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt.Haunt illusions are uncontrollable, take extra damage, and deal less damage than Spectre herself. They ignore terrain.",
@@ -12424,18 +12113,6 @@
      "Passing Slow Duration: 0.5",
      ""
     ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Return Chakram",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/b\/b2\/Return_Chakram_icon.png",
-    "skillDesc":"Returns the Chakram to Timbersaw.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     ""
-    ]
    }
   ],
   "subSkills":[
@@ -12846,7 +12523,7 @@
    },
    {
     "skillType":"innate",
-    "skillName":"Nature's Guise\n",
+    "skillName":"Nature's Guise",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/6\/69\/Nature%27s_Guise_icon.png",
     "skillDesc":"Provides Treant with Tree Walking whenever he hasn't taken damage for 3 seconds. While active, Treant gains movement speed bonus and amplified healing and regeneration on himself.",
     "skillCooldown":"   10",
@@ -13105,18 +12782,6 @@
    },
    {
     "skillType":"basic",
-    "skillName":"Launch Snowball",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/3\/30\/Launch_Snowball_icon.png",
-    "skillDesc":"Launch the snowball toward the target.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+0",
-     ""
-    ]
-   },
-   {
-    "skillType":"basic",
     "skillName":"Tag Team",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/9\/9e\/Tag_Team_icon.png",
     "skillDesc":"Temporarily applies a negative debuff aura around you, causing enemies that are attacked under it to take bonus physical damage and reduced movement speed. Lasts 5 seconds.",
@@ -13265,18 +12930,6 @@
      "Radius: 600",
      "Teleport Delay: 6\/5\/4"
     ]
-   },
-   {
-    "skillType":"ultimate",
-    "skillName":"Cancel Dark Rift",
-    "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/4\/41\/Cancel_Dark_Rift_icon.png",
-    "skillDesc":"Stop the teleport.",
-    "skillCooldown":" 0",
-    "skillMana":null,
-    "skillInfo":[
-     "Cast Animation: 0+1.07",
-     ""
-    ]
    }
   ],
   "subSkills":[
@@ -13403,7 +13056,7 @@
   "subSkills":[
    {
     "skillType":"talent",
-    "skillName":"Reincarnation\n",
+    "skillName":"Reincarnation",
     "skillIcon":"https:\/\/static.wikia.nocookie.net\/dota2_gamepedia\/images\/e\/ed\/Aegis_of_the_Immortal_ability_icon.png",
     "skillDesc":"There is no description for this ability.",
     "skillCooldown":" 300",
