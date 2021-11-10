@@ -118,7 +118,7 @@ function calculateStartingGold(itemData, itemArray)
 function createSegment()
 {
 	$("<div class='buildSegment'> \
-			<h3>Early Game</h3><input type='text' style='display:none'><input type='button' class='editSegmentTitleButton ui-icon ui-icon-pencil'><input type='button' class='removeSegmentButton ui-icon ui-icon-closethick'> \
+			<h3>New Segment</h3><input type='text' style='display:none'><input type='button' class='editSegmentTitleButton ui-icon ui-icon-pencil'><input type='button' class='removeSegmentButton ui-icon ui-icon-closethick'> \
 			<div class='itemGrid'> \
 			</div> \
 		</div>").insertBefore("#newSegmentButton");
