@@ -35,7 +35,8 @@ $(document).ready(function()
 		connectWith: ".itemGrid",
 		update: function(event, ui)
 		{
-			calculateStartingGold(itemData, $(this).children());
+			// Calls the calculateStartingGold function with the itemData and the itemGrid of the first buildSegment of the buildColumn as arguments.
+			calculateStartingGold(itemData, $("#buildColumn .buildSegment:first-child .itemGrid").children());
 		}
 	});
 	
@@ -45,20 +46,31 @@ $(document).ready(function()
 		helper: "clone"
 	});
 	
+	$("#itemColumn, #buildColumn").on("click", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function()
+	{
+		updateTooltip(itemData[$(this).attr("alt")], tooltipSkillInfoArr, itemComponentsArr, itemBuildsIntoArr);
+		$("#skillTooltipItem").stop(true, true).delay(200).show("slide", 200, false);
+	});
+	
+	// Deletes an item from the build section when it is right clicked, and then calls CalculateStartingGold to update the gold counter.
+	$("#buildColumn").on("contextmenu", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function(e)
+	{
+		$(this).remove();
+		calculateStartingGold(itemData, $("#buildColumn .buildSegment:first-child .itemGrid").children());
+		return false;
+	});
+	
 	$("#itemColumn, #buildColumn").on("mouseenter", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function()
 	{
 		// Checks whether the current .itemDraggable is currently being dragged by the user. If not then the tooltip will be displayed.
 		if ($(this).is(".ui-draggable-dragging") == false)
 		{
-			updateTooltip(itemData[$(this).attr("alt")], tooltipSkillInfoArr, itemComponentsArr, itemBuildsIntoArr);
-			$("#skillTooltipItem").stop(true, true).delay(200).show("slide", 200, false);
 			$(this).css("filter", "brightness(130%)");
 		}
 	});
 	
 	$("#itemColumn, #buildColumn").on("mouseleave", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function()
 	{
-		$("#skillTooltipItem").stop(true, true).hide("slide", 100, false);
 		$(this).css("filter", "brightness(100%)");
 	});
 	
