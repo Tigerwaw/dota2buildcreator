@@ -373,7 +373,7 @@ input[type="button"]:active
 	padding: 5px;
 }
 
-#tooltipTopItem, #tooltipTopInfoItem, #tooltipSkillInfoItem, #tooltipBotItem, #tooltipItemActive, #tooltipItemPassives, #tooltipItemActiveInfo
+#tooltipTopItem, #tooltipTopInfoItem, #tooltipSkillInfoItem, #tooltipBotItem, #tooltipItemActive, #tooltipItemStats, #tooltipItemActiveInfo
 {
 	padding: 5px;
 }

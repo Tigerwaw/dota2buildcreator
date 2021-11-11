@@ -9,9 +9,6 @@ $(document).ready(function()
 	const url = new URL(window.location.href);
 	heroIndex = url.searchParams.get("hero");
 	
-	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
-	const tooltipSkillInfoArr = document.getElementById("tooltipSkillInfo").children;
-	
 	//Handles external json-data.
 	const xmlhttp = new XMLHttpRequest();
 	xmlhttp.onload = function()
@@ -76,7 +73,7 @@ $(document).ready(function()
 		if (skillID != "attributesID" && skillID != "talentsID")
 		{
 			var index = $(this).closest(".skill").index();
-			updateToolTip(heroData[heroIndex], index, tooltipSkillInfoArr);
+			updateToolTip(heroData[heroIndex], index);
 			$("#main #skillTooltip").stop(true, true).delay(200).show("slide", 200);
 			$(this).css("filter", "brightness(120%)");
 		}
@@ -195,25 +192,12 @@ function applyHeroData(data)
 	}
 }
 
-function updateToolTip(data, index, skillInfoArr)
+function updateToolTip(data, index)
 {
 	// Sets the name, icon, and description of the skill onto the tooltip.
 	document.getElementById("tooltipSkillName").innerHTML = data.skills[index].skillName;
 	document.getElementById("tooltipImageSkill").src = data.skills[index].skillIcon;
 	document.getElementById("tooltipDesc").innerHTML = data.skills[index].skillDesc;
-	
-	// Hides the elements in skillInfoArr.
-	for (let i = 0; i < skillInfoArr.length; i++)
-	{
-		$(skillInfoArr[i]).hide();
-	}
-	
-	// Toggles the elements in skillInfoArr based on how many items are in the skills skillInfo-array.
-	for (let i = 0; i < data.skills[index].skillInfo.length; i++)
-	{
-		$(skillInfoArr[i]).text(data.skills[index].skillInfo[i]);
-		$(skillInfoArr[i]).show();
-	}
 	
 	// Hides the skills cooldown element if the value is null.
 	if (data.skills[index].skillCooldown == null)
