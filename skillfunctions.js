@@ -198,6 +198,7 @@ function updateToolTip(data, index)
 	document.getElementById("tooltipSkillName").innerHTML = data.skills[index].skillName;
 	document.getElementById("tooltipImageSkill").src = data.skills[index].skillIcon;
 	document.getElementById("tooltipDesc").innerHTML = data.skills[index].skillDesc;
+	$("#tooltipSkillInfo > p").text(data.skills[index].skillInfo);
 	
 	// Hides the skills cooldown element if the value is null.
 	if (data.skills[index].skillCooldown == null)

@@ -373,20 +373,30 @@ input[type="button"]:active
 	padding: 5px;
 }
 
-#tooltipTopItem, #tooltipTopInfoItem, #tooltipSkillInfoItem, #tooltipBotItem, #tooltipItemActive, #tooltipItemStats, #tooltipItemActiveInfo
+#tooltipTopItem, #tooltipTopInfoItem, #tooltipSkillInfoItem, #tooltipBotItem, #tooltipItemActives > div, #tooltipItemStats
 {
 	padding: 5px;
 }
 
-#tooltipItemActive, #tooltipItemActiveInfo
+#tooltipItemActives > div
 {
 	border: 2px black solid;
 	margin: 5px;
 }
 
-#tooltipItemActive > h3
+#tooltipItemActives > div > h3
 {
 	margin: 0;
+}
+
+#tooltipItemActives > div > p:nth-child(2)
+{
+	padding: 10px 0 10px;
+}
+
+#tooltipItemActives > div > p:nth-child(4)
+{
+	padding-top: 10px;
 }
 
 #tooltipTop, #tooltipTopItem
@@ -414,7 +424,7 @@ tooltipTopItem > div > p, h1
 	white-space: pre-wrap;
 }
 
-#tooltipSkillInfo, #tooltipItemActive
+#tooltipSkillInfo, #tooltipItemActives > div
 {
 	font-size: 80%;
 }

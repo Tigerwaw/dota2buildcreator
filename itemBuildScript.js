@@ -1,10 +1,8 @@
 $(document).ready(function()
 {
 	let itemData;
-
-	// Creates an array holding references to all the elements inside the tooltip skillInfo-section.
-	const tooltipSkillInfoArr = document.getElementById("tooltipItemActiveInfo").children;
 	
+	const itemActivesArr = document.getElementById("tooltipItemActives").children;
 	const itemComponentsArr = document.getElementById("buildsFrom").children;
 	const itemBuildsIntoArr = document.getElementById("buildsInto").children;
 	
@@ -15,7 +13,7 @@ $(document).ready(function()
 		itemData = JSON.parse(this.responseText);
 		for (let i = 0; i < itemData.length; i++)
 		{
-			$("<div class='itemDraggable' alt=" + i + "><img class='itemImage' src=" + itemData[i].item_image + "></div>").appendTo('#itemColumn').draggable({connectToSortable: ".itemGrid", helper: "clone"});
+			$("<div class='itemDraggable' alt=" + i + "><img class='itemImage' src=" + itemData[i].itemIcon + "></div>").appendTo('#itemColumn').draggable({connectToSortable: ".itemGrid", helper: "clone"});
 		}
 		
 		setTimeout(() => {$("#loadingScreen").hide()}, 500);
@@ -48,7 +46,7 @@ $(document).ready(function()
 	
 	$("#itemColumn, #buildColumn").on("click", ".itemDraggable, .buildSegment .itemGrid .itemDraggable", function()
 	{
-		updateTooltip(itemData[$(this).attr("alt")], tooltipSkillInfoArr, itemComponentsArr, itemBuildsIntoArr);
+		updateTooltip(itemData[$(this).attr("alt")], itemActivesArr, itemComponentsArr, itemBuildsIntoArr);
 		$("#skillTooltipItem").stop(true, true).delay(200).show("slide", 200, false);
 	});
 	
@@ -126,26 +124,54 @@ function createSegment()
 	});
 }
 
-function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
+function updateTooltip(data, itemActivesArr, itemComponentsArr, itemBuildsIntoArr)
 {
 	// Sets the name, icon, and description of the skill onto the tooltip.
 	$("#tooltipImageItem").attr("src", data.itemIcon);
 	$("#tooltipSkillNameItem").text(data.itemName);
-	$("#tooltipDescItem").text(itemCost);
+	$("#tooltipDescItem").text(data.itemCost);
 	$("#tooltipItemStats").text(data.itemStats);
-	$("#tooltipItemActive > h3").text(data.itemSkills[0].skillName);
-	$("#tooltipItemActive > p:nth-child(1)").text(data.itemSkills[0].skillDesc);
-	$("#tooltipItemActive > p:nth-child(2)").text(data.itemSkills[0].skillCooldown);
-	$("#tooltipItemActive > p:nth-child(3)").text(data.itemSkills[0].skillManacost);
 	
-	// Hides the items active ability element if the value is empty.
-	if (data.itemSkills == "")
+	// Hides the elements in tooltipItemActives.
+	for (let i = 0; i < itemActivesArr.length; i++)
 	{
-		$("#tooltipItemActive").hide();
+		$(itemActivesArr[i]).hide();
 	}
-	else
+	
+	if (data.itemSkills.length > 0)
 	{
-		$("#tooltipItemActive").show();
+		for (let i = 0; i < data.itemSkills.length; i++)
+		{
+			$(itemActivesArr[i]).children("h3").text(data.itemSkills[i].skillName);
+			$(itemActivesArr[i]).children("p:nth-child(2)").text(data.itemSkills[i].skillDesc);
+			$(itemActivesArr[i]).children("p:nth-child(3)").text(data.itemSkills[i].skillInfo);
+			let cooldown = $(itemActivesArr[i]).children("p:nth-child(4)");
+			let manacost = $(itemActivesArr[i]).children("p:nth-child(5)");
+			
+			// Hides the skills cooldown element if the value is null.
+			if (data.itemSkills[i].skillCooldown == null)
+			{
+				cooldown.hide();
+			}
+			else
+			{
+				cooldown.show();
+				cooldown.text("Cooldown: " + data.itemSkills[i].skillCooldown);
+			}
+			
+			// Hides the skills mana element if the value is null.
+			if (data.itemSkills[i].skillMana == null)
+			{
+				manacost.hide();
+			}
+			else
+			{
+				manacost.show();
+				manacost.text("Mana: " + data.itemSkills[i].skillMana);
+			}
+			
+			$(itemActivesArr[i]).show();
+		}
 	}
 
 	
@@ -166,19 +192,4 @@ function updateTooltip(data, itemInfoArr, itemComponentsArr, itemBuildsIntoArr)
 		}
 	}
 	*/
-}
-
-function splitCostString(itemData)
-{
-	const regexGoldcostRecipe = new RegExp(/\w+ (\d+) \(\d+\)/);
-	const regexGoldcost = new RegExp(/\w+ (\d+)/);
-	
-	let cost = regexGoldcostRecipe.exec(itemData.item_cost);
-	
-	if (cost == null)
-	{
-		cost = regexGoldcost.exec(itemData.item_cost);
-	}
-	
-	return cost[1];
 }
