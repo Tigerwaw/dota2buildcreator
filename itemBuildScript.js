@@ -102,7 +102,8 @@ function calculateStartingGold(itemData, itemArray)
 	
 	for (let i = 0; i < itemArray.length; i++)
 	{
-		const cost = itemData[$(itemArray[i]).attr("alt")]
+		const itemID = $(itemArray[i]).attr("alt");
+		const cost = itemData[itemID].itemCost;
 		
 		itemCostSum += Number(cost);
 	}
@@ -175,21 +176,20 @@ function updateTooltip(data, itemActivesArr, itemComponentsArr, itemBuildsIntoAr
 	}
 
 	
-	/*
+	
 	// Hides the elements in itemComponentsArr.
 	for (let i = 0; i < itemComponentsArr.length; i++)
 	{
 		$(itemComponentsArr[i]).hide();
 	}
 	
-	if (data.item_components.length > 0)
+	if (data.itemComponents.length > 0)
 	{
-		for (let i = 0; i < data.item_components.length; i++)
+		for (let i = 0; i < data.itemComponents.length; i++)
 		{
-			$(itemComponentsArr[i]).text(data.item_components[i]['item_components-alt']);
+			$(itemComponentsArr[i]).text(data.itemComponents[i]);
 			$(itemComponentsArr[i]).show();
 			console.log(itemComponentsArr[i]);
 		}
 	}
-	*/
 }
